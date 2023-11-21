@@ -87,6 +87,8 @@ const Landing = (props) => {
       (l) => l.breathecode_location_slug === yml.meta_info.utm_location
     );
 
+      console.log("yml.form", yml.form)
+  // console.log("...JSON.parse(yml.form.styles)", ...JSON.parse(yml.form.styles || "{}"))
   return (
     <>
       <FollowBar
@@ -261,7 +263,7 @@ const Landing = (props) => {
               margin="0"
               formHandler={processFormEntry}
               heading={yml.form.heading}
-              style={{ minHeight: "350px" }}
+              style={{ minHeight: "350px", ...JSON.parse(yml.form.styles || "{}") }}
               motivation={yml.form.motivation}
               sendLabel={yml.form.button_label}
               redirect={yml.form.redirect}
@@ -347,6 +349,7 @@ export const query = graphql`
             heading
             motivation
             redirect
+            styles
             fields
             button_label
             margin_md
@@ -587,6 +590,7 @@ export const query = graphql`
             tagline
             sub_heading
             image_filter
+            show_form
             partner_logo_url {
               childImageSharp {
                 gatsbyImageData(
@@ -664,6 +668,7 @@ export const query = graphql`
           form {
             heading
             motivation
+            styles
             redirect
             fields
             button_label

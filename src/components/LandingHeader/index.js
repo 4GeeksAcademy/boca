@@ -243,68 +243,7 @@ const LandingHeader = (props) => {
             // gridColumn_md="8 / 14"
             // gridColumn_tablet="8 / 13"
           >
-            <Div
-              top="0"
-              position="absolute"
-              display="none"
-              display_tablet="block"
-              zIndex="0"
-            >
-              <Circle
-                color="lightBlue"
-                width="301px"
-                height="301px"
-                right="-100%"
-                top="-15%"
-                style={{}}
-              />
-              <Icon
-                style={{ marginTop: "150%" }}
-                icon="elderly-unfill"
-                width="135px"
-                height="184px"
-                color="#0097CD"
-              />
-            </Div>
-            <Div
-              position="absolute"
-              right="50%"
-              display_tablet="none"
-              zIndex="0"
-            >
-              <Circle
-                color="lightBlue"
-                width="301px"
-                height="301px"
-                position="unset"
-                left="10%"
-                top="-5%"
-              />
-              <Div display="flex" display_tablet="none" margin="100% auto">
-                <Icon
-                  style={{ marginTop: "90%" }}
-                  icon="slash-fill"
-                  width="41px"
-                  height="111px"
-                  color="#C7F3FD"
-                />
-                <Icon
-                  style={{ marginTop: "90%" }}
-                  icon="slash-fill"
-                  width="41px"
-                  height="111px"
-                  color="#020203"
-                />
-                <Icon
-                  style={{ marginTop: "90%" }}
-                  icon="elderly-fill"
-                  width="82px"
-                  height="112px"
-                  color="#FFB718"
-                />
-              </Div>
-            </Div>
-            <LeadForm
+            {yml.header_data.show_form && <LeadForm
               landingTemplate
               headerImage={
                 yml.header_data.badge &&
@@ -346,37 +285,7 @@ const LandingHeader = (props) => {
               width_tablet="84%"
               // marginButton_tablet="0 0 30px auto"
               boxShadow="9px 8px 0px 0px rgba(0,0,0,1)"
-            />
-            <Div
-              display="none"
-              display_tablet="block"
-              margin_lg="5% 0 0 20px"
-              // margin_md="40% 0 0 20px"
-              margin_tablet="20% 0 0 20px"
-              position="absolute"
-              bottom_lg="0px"
-              bottom_md="5%"
-              bottom_tablet="25%"
-            >
-              <Icon
-                icon="slash-fill"
-                width="41px"
-                height="111px"
-                color="#C7F3FD"
-              />
-              <Icon
-                icon="slash-fill"
-                width="41px"
-                height="111px"
-                color="#020203"
-              />
-              <Icon
-                icon="elderly-fill"
-                width="82px"
-                height="112px"
-                color="#FFB718"
-              />
-            </Div>
+            />}
           </Div>
         </Grid>
       </LandingContainer>
