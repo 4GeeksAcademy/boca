@@ -1,0 +1,17 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
+tasks:
+  - init: 
+      (cp -n .env.example .env.development || true) && 
+      nvm install v18 &&
+      nvm alias default v18 && 
+      nvm use v18 &&
+      npm install --legacy-peer-deps
+    command: nvm install v18 && npm run start

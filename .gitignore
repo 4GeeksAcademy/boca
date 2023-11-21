@@ -1,0 +1,23 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+build-log.log
+
+# Build directory
+/public
+/storybook
+.DS_Store
+
+# dotenv environment variables file
+.env*
+!.env.example
+*.log
+
+# gatsby files
+.cache/
+public
+.now
+.vercel
+cypress/videos
+cypress/screenshots
