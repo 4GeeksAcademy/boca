@@ -1,0 +1,128 @@
+## STAFF MEMEBERS INFO
+heading: "Staff"
+sub_heading: "Passionate, committed and experienced staff. They bring a glad-to-help attitude and provide all the support you need to learn how to learn how to code and gain confidence while you do it."
+staff:
+  - name: "Alejandro"
+    last_name: "Sanchez"
+    nick_name: "Alesanchezr"
+    slug: "alejandro-sanchez"
+    job_title: "Co-Founder & Technology Director"
+    bio: "22 yrs coding, Software Engineer."
+    github: "https://github.com/alesanchezr"
+    linkdin: "https://www.linkedin.com/in/alesanchezr/"
+    twitter: "https://twitter.com/alesanchezr"
+    website: "https://alesanchezr.com"
+    image: "../../../../static/images/staff/alejandrosanchez.jpg"
+    age: 34
+    interests:
+      - Soccer
+    coding_skills:
+      - Javascript
+    location: ["all"]
+  - name: "Marcelo"
+    last_name: "Ricigliano"
+    nick_name: "MRicigliano"
+    slug: marcelo-ricigliano
+    bio: "Named by Forbes and Newsweek for his Startup achievements. Tech Startup Mentor of Founder Institute, Startup Chile and Impaqto. Sold 2 companies. 4 startup fails. Law and Master degree from Stockholm Universitet."
+    job_title: "Co-founder & CEO"
+    github: ""
+    linkdin: "https://www.linkedin.com/in/marcelo-ricigliano-32440379/"
+    twitter: "https://twitter.com/MRiciglianoC"
+    website: ""
+    image: "../../../../static/images/staff/marceloricigliano.jpg"
+    age: 33
+    interests:
+      - Soccer
+      - Juventus
+    coding_skills:
+      - Javascript
+    location: ["all"]
+  - name: "Alissa"
+    last_name: "Landra"
+    nick_name: ""
+    slug: 
+    job_title: "Partnership & Program Manager"
+    github: ""
+    bio: "I graduated from the AACSB Accredited State University of New York at Plattsburgh School of Business and Economics with a BA in Marketing & Business Administration with honors."
+    linkdin: "https://www.linkedin.com/in/alissalandra/"
+    twitter: ""
+    website: ""
+    image: "../../../../static/images/staff/alissalandra.jpg"
+    age: 
+    interests:
+      - Education
+    coding_skills:
+      - 
+    location: ["all"]
+  - name: "Victor"
+    last_name: "Gomez"
+    nick_name: ""
+    slug: ""
+    job_title: "Regional Manager Europe"
+    bio: " Industrial Engineer, EAE Business School Master of Business Administration - MBA and Entrepreneur. Named as one of the 250 best references in education in Spain"
+    github: ""
+    linkdin: "https://www.linkedin.com/in/victormgomezp/"
+    twitter: ""
+    website: ""
+    image: "../../../../static/images/staff/victorgomez.jpg"
+    age: 
+    interests:
+      - 
+    coding_skills:
+      - 
+    location: ["all"]
+  - name: "Maria Fernanda"
+    last_name: "Castro"
+    nick_name: ""
+    slug: "mafe-castrp"
+    job_title: "CMO"
+    bio: "Leading the efforts of our Marketing Department for our HP operations."
+    github: ""
+    linkdin: "https://www.linkedin.com/in/mafecasvi/"
+    twitter: "https://twitter.com/mafecasvi"
+    website: ""
+    image: "../../../../static/images/staff/mariafernanda.jpg"
+    age: 35
+    interests:
+      - Fashion Design
+    coding_skills:
+      - Bootstrap
+    location: ["all"]
+  - name: "Pablo"
+    last_name: "Bullor"
+    nick_name: "Pablo"
+    slug: "pablo-bullor"
+    job_title: "Lead Mentor"
+    bio: "Systems Engineer with more than 10 years of experience in IT."
+    github: "https://github.com/pbullor"
+    linkdin: "https://www.linkedin.com/in/pablobullor/"
+    twitter: ""
+    website: ""
+    image: "../../../../static/images/staff/pablobullor2.jpg"
+    age: 42
+    interests:
+      - Board Games
+      - Soccer
+      - Music
+    coding_skills:
+      - Javascript and Python
+    location: ["all"]
+  - name: "Macarena"
+    last_name: "Rebolledo"
+    nick_name: "Macarena"
+    slug: "macarena-rebolledo"
+    job_title: "Lead Mentor"
+    bio: ""
+    github: "https://github.com/mojonapower"
+    linkdin: "https://www.linkedin.com/in/mrebolledovaldivia/"
+    twitter: ""
+    website: ""
+    image: "../../../../static/images/staff/macarenarebolledo.jpg"
+    age: 42
+    interests:
+      - Board Games
+      - Soccer
+      - Music
+    coding_skills:
+      - Javascript and Python
+    location: ["all"]    

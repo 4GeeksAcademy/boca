@@ -1,0 +1,239 @@
+meta_info:
+  slug: clark-scholarship # <--- URL 4geeksacademy.com/us/landing/example
+
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  # This will show on social media when shared
+  title: "Get a Scholarship and join our software development program now. It's LIVE, on-line (or in-person if you want as well). Learn to code and launch your career in Tech"
+  description: "Coding has become an essencial skills for every career, enroll in 4Geeks Academy coding program and learn to code to have a better life."
+  image: "/images/bg/main-bg.jpg"
+  keywords: "Scholarships for coding program, coding course, Financial aid Coding Classes, Learn to code with a scholarship"
+
+  template: "landing_a" # <--- choose your landing template
+  redirects:
+    [] # <--- URL redirections to avoid 404 errors
+
+
+    # Set a particular course or location to the landing page
+  # this UTM fields will be also included in the CRM contact
+  utm_course: ["full-stack"]
+  utm_location: ["downtown-miami"]
+  automation: soft # comma separated, "soft" is the default value
+  tag: request_more_info # comma separated, "request_more_info" is the default value
+
+navbar:
+  logoUrl: "#" # relative(/apply), absolute(https://google.com) or id(#componentName)
+  buttonText: "Get More Info"
+  buttonUrl: "#bottom" # url accepts: relative(/apply), absolute(https://google.com), id(#componentName) or position(#top #bottom)
+
+form:
+  # posible fields: "first_name", "last_name", "full_name", "phone", "email"
+  # always the first_name, email and phone will be mandatory if added.
+  fields: ["full_name", "phone", "email"]
+  heading: "Join our Award-winning Coding Program"
+  motivation: "Fill out the form and get started!"
+  button_label: Get more info Now
+  redirect: null #you can redirect to another url or entirely diffrent website
+
+apply_schollarship: # form that is displayed at the end of the landing
+  # title: "Get more info about this award-winning development course"
+  imageSide: "right"
+  image: "../../../static/images/landing/apply.png"
+
+# jumbotron on the top (cannot be commented out)
+header_data:
+  background: "#FFF1D1"
+  tagline: Get a $4,000 Scholarship and Learn to Code for Less than 6K!
+  badge: "../../../static/images/badges/Course-Report-Badge-2023.png"
+  image_filter: brightness(0.3)
+
+features:
+  marginTop: 0px #<-- separation between tagline and the bullets
+
+  #                                         up   left down  right
+  styles: '{ "fontSize": "20px", "margin": "10px 0px 10px 0px" }'
+  bullets:
+    - Available nationwide
+    - Fill out the contact form or call 786-416-6640
+    - Invest less than $6k and gain access to jobs paying more than 60k a year!
+    - Enjoy the full benefits of our bootcamp
+    - Rolling admission. Apply now!
+
+short_badges:
+  - name: "Premios Tecnologia Siglo XXI"
+    url: ""
+    image: "../../../static/images/awards/premios_tecnologia_sigloxxi.png"
+    alt: "Mejor centro de Coding Bootcamp"
+  - name: "Course Report"
+    url: ""
+    image: "../../../static/images/badges/Course-Report-Badge-2023.png"
+    alt: "Top Coding Bootcamps Course Report"
+  - name: "Switchup"
+    url: ""
+    image: "../../../static/images/badges/switchup-badge-2023.png"
+    alt: "Best coding bootcamp Switchup 2023"
+  - name: "Florida Department of Education"
+    url: ""
+    image: "../../../static/images/badges/licensed.png"
+    alt: "Florida Department of Education"
+
+follow_bar:
+  position: "top" # top, bottom, hidden
+  content:
+    text: "The avg. salary for a Full Stack Developer \n is $65K per year. Contact us and get more info."
+    text_mobile: "Contact us and get more info"
+    # devices:   XL      LG    MD      SM    XS
+    font_size: ["25px", "25px", "25px", "20px", "18px"]
+  button:
+    text: "Get $4k OFF tuition"
+    path: "#top"
+  phone:
+    text: "Call "
+
+#
+# ⬇ FROM HERE ON YOU CAN COMMENT ANYTHING TO HIDE IT ON THE LANDING ⬇
+#
+rating_reviews:
+  position: 4
+  heading: "Top rated on all available review sites"
+  rating_list:
+    - alt: "Career Karma"
+      image: "../../../static/images/badges/career-karma.png"
+      rating: 4.89
+      url: ""
+    - alt: "Switchup"
+      image: "../../../static/images/badges/switchup-img.png"
+      rating: 4.91
+      url: ""
+    - alt: "Course Report"
+      image: "../../../static/images/badges/course-report.png"
+      rating: 4.84
+      url: ""
+    - alt: "Google"
+      image: "../../../static/images/badges/google.png"
+      rating: 5
+      url: ""
+
+program_details:
+  position: 1
+  background: "#FFFFFF"
+  heading: "Program details"
+  sub_heading: "Real-life projects and exactly what companies are looking for"
+
+why_python:
+  position: 5
+  heading: "Why Python and React.js" # optional or set to white space to hide
+  sub_heading: "JavaScript has 26x's more job vacancies than Ruby On Rails. Python has 10x's more job vacancies than Node.js" # optional or set to white space to hide
+
+geeks_vs_others:
+  position: 3
+  heading: "Compare 4Geeks to other bootcamps"
+  # sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  total_rows: 5
+
+why_4geeks:
+  position: 8
+  heading: "Why 4Geeks Academy"
+  sub_heading: ""
+
+badges:
+  position: 7
+  heading: "4Geeks Academy has awards and recognitions that validate its excellence"
+
+who_is_hiring:
+  position: 9
+  limit: 4
+  heading: "Who is hiring our students?"
+  sub_heading: "550+ hiring partners, and 50+ job openings right now for software development"
+
+# alumni_projects:
+#  position: 10
+#  heading: "Projects you will be able to make"
+#  sub_heading: "Take a look at our previous student projects"
+
+components:
+  - name: Reserva tu plaza y ¡acelera tu carrera!
+    position: 2
+    background: "veryLightBlue2"
+    layout: iconogram
+    swipable: True
+    heading:
+      text: "How it works"
+      font_size: ["30px", "30px", "30px", "30px", "30px"]
+    sub_heading:
+      text: "Techboost is a national workforce development program funded by the Department of Labor that is run in alliance with Clark University and selected IT education providers. 4Geeks Academy has been chosen as a partner in the program, making it possible to offer a limited number of $4K scholarships to our bootcamp. We couldn't be prouder to be part of this important initiative!"
+      font_size: ["16px", "16px", "16px", "16px", "16px"]
+      style: '{ "textAlign": "center", "width": "60%" }'
+    text_link: "#"
+    icons:
+      - icon: "touch"
+        title: ""
+        content: 1. Apply and ask for the Clark Scholarship fund.
+      - icon: "receive_mail"
+        title: ""
+        content: 2. Show/provide proof of working permit in the US.
+      - icon: "talk"
+        title: ""
+        content: 3. If you are unemployed, that's good here. But if you are underpaid or need a new job or a new salary, you also are subject to receive the Scholarship
+      - icon: "talk"
+        title: ""
+        content: 4. Complete the program.
+      - icon: "talk"
+        title: ""
+        content: 5. Let's start together to find a job. Your success will open more doors to upcoming students.
+
+  - name: python_y_javascript
+    position: 1
+    layout: two_column_right
+    swipable: False
+    background: "veryLightBlue2"
+    image:
+      style: "{}"
+      src: "/images/why-4geeks/python-image.png"
+      link: "#top" # take uses somewhere when they click on the image
+      # shadow: true
+    heading:
+      text: "Python y Javascript"
+    sub_heading:
+      text: "Learn the highest paid and in demand technologies that enable you to create amazing software, apps and websites."
+    button:
+      text: "Hear What Our Students Have to Say"
+      color: white
+      hover_color: "white"
+      background: "black"
+      path: "#why_4geeks"
+    # content:
+    #   text: "text after bullets"
+    #   font_size: ["16px"]
+    #   path: ""
+    bullets:
+      items:
+        - heading: "Elevate Your Career Trajectory"
+          text: "Don't settle for mediocrity. Unleash your extraordinary potential with 4Geeks Academy. Transform from a novice to a proficient FullStack Developer in just 18 weeks."
+          icon: "circle" #string with icon for example ['check', 'cicle', etc]
+        - heading: "Job Placement Excellence"
+          text: "Over 81% of our graduates secure employment within three to six months of program completion, attesting to the effectiveness of our training."
+          icon: "circle" #string with icon for example ['check', 'cicle', etc]
+        - heading: "Access to a Network of Opportunities"
+          text: "Our support extends beyond graduation. Benefit from an extensive alumni network and a dedicated career services team, guiding you throughout your professional journey."
+          icon: "circle" #string with icon for example ['check', 'cicle', etc]
+
+  - name: some_id
+    position: 7
+    layout: two_column_right
+    image:
+      src: "/images/testimonials/allisa-testimonial.jpg"
+    video: "https://www.youtube.com/watch?v=TCHASxvkhpI"
+    heading:
+      text:
+        "Unlock Your Future: Exclusive Scholarships with Miami Dade College, Clark University, and United Way Miami for South Florida Applicants!"
+        #xl      lg     md     sm    xs
+      font_size: ["40px", "34px", "34px", "25px", "20px"]
+    content:
+      text: "Seize this chance to supercharge your education. Join the academy now and pave the way to your brightest future! Contact our admissions team to learn more and join our coding bootcamp today!"
+      font_size: ["16px"]
+    button:
+      text: "GET MORE INFO"
+      background: black
+      color: white
+      hover_color: "#white"
+      path: "#bottom"

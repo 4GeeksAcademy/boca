@@ -1,0 +1,362 @@
+## THE PARTNERS ARE DIVIDED IN 4 CATEGORIES:
+## PARTNERS - CODING - INFLUENCERS - FINANCIALS
+## THIS COMPONENT IS USED IN "/partners" and "/pricing"
+
+partners:
+  tagline: "WHO IS HIRING OUR STUDENTS"
+  sub_heading: |
+    Our network of partners is constantly growing, and we receive an impressive number of local
+    and international job offers for our students. With the dedicated effort of GeekFORCE, our
+    career support service, we proudly boast an employment rate of ~84% within 100 days of graduation.
+    And the best part? We keep hearing how our graduate’s skills amaze the companies that hired them. 
+    "I'm continually impressed by the depth of knowledge possessed by 4Geeks students. In fact,
+    one of my hires from the program ended up becoming a team leader." - CodeNinjas.
+    Join our community of successful graduates and kickstart your career too!
+  footer_tagline: "438 COMPANIES"
+  footer_button: "Review our latest hirings"
+  footer_link: "/partners"
+  images:
+    - name: "Microsoft"
+      #locations: ["miami-downtown"]
+      #courses: ["machine-learning"]
+      image: "../../../../static/images/partner/microsoft.png"
+      featured: true
+      link: "https://microsoft.com"
+    - name: "Google Developers"
+      image: "../../../../static/images/coding/google-developers.png"
+      featured: true
+    - name: "Boats Group"
+      locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/boats.jpg"
+      featured: false
+    - name: "Facebook"
+      #locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/facebook.png"
+      featured: true
+    - name: "Ebay"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/ebay.png"
+      featured: false
+    - name: "National Geographic"
+      #locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/natgeo.png"
+      featured: false
+    - name: "Evernote"
+      #locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/evernote.png"
+      featured: false
+    - name: "Telefonica"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/telefonica.png"
+      featured: false
+    - name: "Twilio"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/twilio.png"
+      featured: false
+    - name: "Uber"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/uber.png"
+      featured: false
+    - name: "Neo9"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/Neo9.png"
+      featured: false
+    - name: "Jooble"
+      locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/jooble.png"
+      featured: false
+      # avoid using "" for the value of follow and use only true or false
+      follow: true
+      link: "https://es.jooble.org"
+    - name: "KPMG"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/kpmg-logo1.png"
+      featured: false
+    - name: "Ultimate Software"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/ultimate.png"
+      featured: false
+    - name: "TCG Group"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/tcg.png"
+      featured: false
+    - name: "Razz"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/razz.png"
+      featured: false
+    - name: "Overseas"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/overseas.png"
+      featured: false
+    - name: "DS9"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/ds9.png"
+      featured: false
+    - name: "Coinet"
+      # locations: ["miami-downtown"]
+      course: ["machine-learning"]
+      image: "../../../../static/images/partner/coinet.jpg"
+      featured: false
+    - name: "Strata.ai"
+      # locations: ["miami-downtown"]
+      courses: ["machine-learning"]
+      image: "../../../../static/images/partner/strata.png"
+      featured: false
+    - name: "MDC"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/mdc_ce.png"
+      courses: ["machine-learning"]
+      featured: false
+    - name: "Beacon Council"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/beacon_council.jpg"
+      courses: ["machine-learning"]
+      featured: false
+    - name: "Blackstone"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/blackstone.png"
+      courses: ["machine-learning"]
+      featured: false
+    - name: "CEMEX"
+      # locations: ["miami-downtown"]
+      courses: ["machine-learning"]
+      image: "../../../../static/images/partner/cemex.png"
+      featured: false
+
+coding:
+  tagline: "Global Actors in the Coding World"
+  sub_heading: "We are immersed in the coding ecosystem partnering with global tech actors that helps us organize or participate in initiatives to further impact the coding industry"
+  images:
+    - name: "Google Developers"
+      image: "../../../../static/images/coding/google-developers.png"
+      featured: true
+      #locations: ["miami-downtown"]
+    - name: "Facebook Developer Circle"
+      image: "../../../../static/images/coding/developer-circles-2.png"
+      featured: true
+      #locations: ["miami-downtown"]
+    - name: "Bloktech"
+      image: "../../../../static/images/coding/blockchain-center.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Startup"
+      image: "../../../../static/images/coding/startup.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Shell Hacks"
+      image: "../../../../static/images/coding/shell-hacks.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Women Who Code"
+      image: "../../../../static/images/coding/woman-who-code.jpeg"
+      featured: true
+      #locations: ["miami-downtown"]
+    - name: "Worldcamp"
+      image: "../../../../static/images/coding/worldcamp.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Code/Art"
+      image: "../../../../static/images/coding/CodeArt.jpg"
+      featured: false
+      #locations: ["miami-downtown"]
+      follow: true
+      link: "https://www.code-art.com"
+    - name: "Data Science Salon"
+      image: "../../../../static/images/coding/DataScienceSalonDSS.png"
+      featured: false
+      link: "https://www.datascience.salon"
+      follow: true
+      #locations: ["miami-downtown"]
+    - name: "Grammerhub"
+      image: "../../../../static/images/coding/grammerhub.png"
+      featured: false
+      link: "https://www.grammerhub.org"
+      follow: true
+      #locations: ["miami-downtown"]
+      
+influencers:
+  tagline: "IN PARTNERSHIP WITH THE CITY'S BIGGEST INFLUENCERS"
+  sub_heading: "We actively organize and/or participate in the biggest coding initiatives."
+  images:
+    - name: "Google Developers"
+      image: "../../../../static/images/coding/google-developers.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Facebook Developer Circle"
+      image: "../../../../static/images/coding/developer-circles-2.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Startup"
+      image: "../../../../static/images/coding/startup.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Women Who Code"
+      image: "../../../../static/images/coding/woman-who-code.jpeg"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Carnet Joven"
+      image: "../../../../static/images/partner/carnet-joven.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Trivu"
+      image: "../../../../static/images/partner/logo_trivu.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "La Nave"
+      image: "../../../../static/images/partner/la-nave.png"
+      featured: false
+      #locations: ["miami-downtown"]
+
+financials:
+  tagline: "Partners making education possible"
+  sub_heading: "We are making a huge effort to make premium coding education accessible to everyone."
+  images:
+    - name: "ASOTTTECH"
+      image: "../../../../static/images/partner/assotech.png"
+      featured: false
+      locations: ["madrid-spain", "barcelona-spain", "malaga-spain", "valencia-spain"]
+    - name: "Quotanda"
+      image: "../../../../static/images/quotanda-logo.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Leif"
+      image: "../../../../static/images/leif_main.png"
+      featured: false
+    - name: "Flevo"
+      image: "../../../../static/images/flevo-new.png"
+      featured: false
+    - name: "Climb"
+      image: "../../../../static/images/climb-logo.png"
+      featured: false
+    - name: "Ascent"
+      image: "../../../../static/images/ascent_logo.jpg"
+      featured: false
+
+work_together:
+  title: "How to work together"
+  description: "4Geeks Academy is an awarded global coding academy that will allow you to focus in one or more of the following areas:"
+  image_list:
+    - alt: "4Geeks Academy Student"
+      image: "../../../../static/images/students/student1.jpg"
+    - alt: "4Geeks Academy Student"
+      image: "../../../../static/images/students/student2.jpg"
+    - alt: "4Geeks Academy Student"
+      image: "../../../../static/images/students/student3.jpg"
+    - alt: "4Geeks Academy Student"
+      image: "../../../../static/images/students/student4.jpg"
+    - alt: "4Geeks Academy Student"
+      image: "../../../../static/images/students/student5.jpg"
+  features:
+    - title: "Reskilling and Upskilling"
+      icon: "screen"
+      description: "Invest in your own talent. Grow together and make them part of your future."
+
+    - title: "Community Impact"
+      icon: "community"
+      description: "Make a meaningful impact on diversity, reduce the tech gap and empower people from all walks of life!"
+
+    - title: "Outreach"
+      icon: "chat-2"
+      description: "Join 4Geeks Academy's global community of expert speakers and be part of innovative events!"
+
+    - title: "Reclutamiento"
+      icon: "notes-2"
+      description: "Your go-to partner for tech candidates, have a constant flow of high- quality candidates with our amazing talent pipeline!"
+
+benefits_and_charts:
+  title: "BECOME A PARTNER"
+  description: "Collaborate with our mission and leverage yours!"
+  button_section:
+    button_text: "JOIN OUR PARTNERSHIP NETWORK"
+    button_link: ""
+  bullets:
+    - Elevate your brand's visibility and exposure.
+    - Establish your brand as a leading force in the tech industry.
+    - Foster a spirit of community and collaboration.
+    - Strengthen job retention through our impactful reskilling programs.
+    - Bridge the technology divide within your community.
+    - Fill vital tech roles within your organization with our highly skilled bootcamp graduates.
+    - Enhance brand recognition and add value by sponsoring significant events.
+
+  charts:
+    title: "Some Numbers worth Considering:"
+    list:
+      - icon: "chart-62"
+        description: |
+          According to a study by the Society for Human Resource Management, it costs an average of $4,129 to hire a new employee, with an average of 42 days to find a suitable candidate.
+      - icon: "job"
+        description: "62% of executives believe they will need to retrain or replace more than a quarter of their workforce between now and 2023 due to advancing automation and digitization (McKinsey report, 2018)."
+      - icon: "notes-2"
+        description: "Coding bootcamp graduates and college graduates exhibit strikingly similar employment rates."
+      - icon: "chart-72"
+        description: "72% of employers say that hiring bootcamp graduates is comparable to hiring a college graduate."
+
+partners_in_education:
+  title: "Partners in education"
+  description:
+    "At 4Geeks Academy we are committed to delivering a high-quality programming training program, supported with a system of unlimited mentorships, to help reduce the gap between job opportunities and talent with tools created to help take on those challenges.
+
+    To achieve this we have partnered with amazing educational institutions that help us reach these goals. Together we have managed to graduate over 300 students from all over the globe and continue to strive to graduate more students."
+  image_list:
+    - alt: "UTEC"
+      image: "../../../../static/images/education/UTEC.png"
+    - alt: "IESA"
+      image: "../../../../static/images/education/IESA.png"
+    - alt: "Miami Dade College"
+      image: "../../../../static/images/education/MDC_Blue.png"
+    - alt: "Inter-American Development Bank"
+      image: "../../../../static/images/education/IDB-logo.png"
+
+partners_carousel:
+  title: "What our partners say"
+  see_full: ""
+  partners:
+    - fist_name: "Enrique"
+      last_name: "Infanzon"
+      sub_header: "Dean Continuing Education @ Miami Dade College"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_enrique_infanzon.jpg"
+      paragraph: |
+        "4Geeks has been a great partner of us for the last 7 years. We have launched full-stack, web development, and AI programs successfully and we have helped more than 400 students already."
+      linkedin: "https://www.linkedin.com/in/enriqueinfanzon"
+    - fist_name: "Antonio"
+      last_name: "Delgado"
+      sub_header: "VP of Innovation and Technology @ Miami Dade College"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_antonio_delgado.jpg"
+      paragraph: |
+        "We have recently launched the Miami Tech Coalition and 4Geeks is again showing up with a program and dedication that allows everyone involved to rely on their experience and program quality."
+      linkedin: "https://www.linkedin.com/in/antoniodelgadofornaguera"
+    - fist_name: "Vanessa"
+      last_name: "Benavides"
+      sub_header: "Vice-President @ United Way Miami"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/united_way_mini.PNG"
+      paragraph: |
+        "Together with 4Geeks we have succesfully launched the Miami Workforce Project for the benefit of Miami-Dade County residents and we have created a great and positive impact."           
+      linkedin: "https://www.linkedin.com/in/vanessa-benavides-2a78849/"
+    - fist_name: "Dug"
+      last_name: "Jones"
+      sub_header: "Program Director for Workforce Grants @ Clark University"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_dug_jones.jpg"
+      paragraph: |
+        "We have a solid partnership focused on providing partial scholarships for students unemployed or underemployed, and we have exceeded by far the expectation we set at the beginning."
+      linkedin: "https://www.linkedin.com/in/dugjones/"
+    - fist_name: "Juan Carlos"
+      last_name: "Navarro"
+      sub_header: "Principal Leader of Science and Technology @ IDB"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_juancarlos_navarro.jpg"
+      paragraph: |
+        "4Geeks has been awarded by the IDB as the Coding School designated to carry on the responsibility of providing top-quality coding programs in Costa Rica and Uruguay."
+      linkedin: "https://www.linkedin.com/in/juan-carlos-navarro-08948a8/"
+    - fist_name: "Anahí"
+      last_name: "Lacava"
+      sub_header: "Líder de proyecto Bootcamps en Habilidades Digitales @ UTEC"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_anahi_lacava.jpg"
+      paragraph: |
+        "Desde 2021 venimos trabajando en programas de desarrollo de software full-stack y en el lanzamiento del primer programa de Inteligencia Artificial y Machine Learning de toda Latinoamérica."
+      linkedin: "https://www.linkedin.com/in/anah%C3%AD-lacava-melgratti/"
+    

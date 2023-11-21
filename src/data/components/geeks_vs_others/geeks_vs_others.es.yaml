@@ -1,0 +1,103 @@
+## GEEKS VS OTHERS COMPONENT
+## THIS COMPONENT IS USED IN "/home" AND "/course/..."
+## THE HEADINGS ALLOW YOU TO SET DIFFERENT HEADINGS IN "/home" AND "/the-academy" TEMPLATES.
+
+titles:
+  featured: "CARACTERÍSTICAS"
+  at_geeks: "EN 4GEEKS"
+  average: "PROMEDIO DE LA INDUSTRIA"
+globe_text: ¡Clic aquí!
+info:
+  - features: "Apoyo Profesional"
+    at4_Geeks: "Para Siempre"
+    industry_average: "Hasta que Consigas Trabajo"
+    why_important: "Desde el día de tu graduación invitamos a algunos de nuestros hiring partners, después asistirás a nuestro 'Career Week' donde construirás tu CV, LinkedIn, Github y perfil online, asistirás a una entrevista ficticia para diagnosticar tu nivel y luego empezará un seguimiento semanal mientras aplicas a los diferentes trabajos. El soporte nunca termina, incluso recibirás ayuda para desempeñarte mejor en tu trabajo."
+    icon: "teacher"
+
+  - features: "Proporción Profesor: Estudiante"
+    at4_Geeks: "1:7 avg"
+    industry_average: "1:10 avg"
+    why_important: "Es muy fácil sentirse estancado cuando estás aprendiendo a programar. Necesitas atención personal. Es por eso que encontrarás más profesores en 4Geeks que en cualquier otra escuela o coding bootcamp."
+    icon: "glasses"
+
+  - features: "Tiempo de Respuesta a Preguntas"
+    at4_Geeks: "15 min"
+    industry_average: "No está medido"
+    why_important: "Tener dudas y estar trancado es el principal factor desmotivante al aprender a programar, es por eso que hemos creado la 'Regla de los 15 minutos'; ese es el tiempo que nos tomará responderte una pregunta. Siempre habrá alguien listo para responderte."
+    icon: "clock"
+
+  - features: "Mentorías 1-1"
+    at4_Geeks: "ilimitadas"
+    industry_average: "limitadas"
+    why_important: "Utiliza nuestro sistema para agendar todas las sesiones uno-a-uno que necesites, por el resto de tu vida, incluso después de conseguir trabajo."
+    icon: "users"
+
+  - features: "Preparación a la Entrevista"
+    at4_Geeks: "Customizada para cada oportunidad"
+    industry_average: "General"
+    why_important: "No nos conformamos con un workshop sobre cómo hacer una buena entrevista de trabajo. ¡NO! Nosotros te preparamos personalmente con entrevistas de verdad. Además, te daremos consejos antes de la real, para que tu entrevista verdadera sea exitosa y tus probabilidades de conseguir trabajo sean altísimas "
+    icon: "comments"
+
+  - features: "Enfoque"
+    at4_Geeks: "Sólo enseñamos código"
+    industry_average: "Enseñan multiples disciplinas"
+    why_important: "Somos desarrolladores y nos encanta enseñar programación, ser una escuela y comunidad enfocada en una sola disciplina nos permite lograr la excelencia."
+    icon: ""
+
+  - features: "% Porcentaje de empleo"
+    at4_Geeks: "~90%"
+    industry_average: "~90%"
+    why_important: "Nuestros niveles de contratación cumplen con todos los estandares de la industria, pero en 4Geeks tienes acceso a muchos más beneficios."
+    icon: ""
+
+  - features: "Profesor Senior:Estudiante Ratio"
+    at4_Geeks: "1:12 avg"
+    industry_average: "1:20 avg"
+    why_important: "Recibir mentorías de programadores senior hace una gran diferencia. Una mejor explicación permitirá que aprendas más rapido, y un buen consejo te ahorrará muchos dolores de cabeza."
+    icon: ""
+
+  - features: "Comunidad"
+    at4_Geeks: "Apoyo fuerte en persona y remoto"
+    industry_average: "Depende de cada Bootcamp"
+    why_important: "La membresía de 4Geeks es de por vida, somos más de 1000 desarrolladores alrededor del mundo y tendrás acceso a nuestras oficinas, y eventos en 7 países y a los constantes eventos que organizamos online para la comunidad."
+    icon: ""
+
+  - features: "Soporte en el trabajo (Luego de contratado)"
+    at4_Geeks: "Ilimitado"
+    industry_average: "limitado o no existe"
+    why_important: "Una vez que nuestros miembros consiguen trabajo, la mentoría y el acompañamiento no se detienen. Todos tienen la posibilidad y están invitados a seguir siendo entrenados, ahora bajo el ambiente de trabajo real, junto a nosotros. "
+    icon: ""
+
+  - features: "Soporte Online/Offline"
+    at4_Geeks: "Para siempre"
+    industry_average: "Limitado"
+    why_important: "¿Quieres volver a ver la explicación de un profesor? En nuestro programa Part-Time grabamos todas las clases y siempre están disponibles en la plataforma. Además, tendrás acceso total a ejercicios, proyectos, mentorías, etc. tanto on-line como off-line ¡de por vida!."
+    icon: ""
+
+  - features: "Tipo de clases"
+    at4_Geeks: "Mixtas, online, presencial, customizadas y grabaciones"
+    industry_average: "Solo online, solo offline"
+    why_important: "Principalmente recibirás clases en vivo (Offline), con dos mentores al menos. Sin embargo, cada clase es transmitida en streaming online, en vivo. Además, tendrás las grabaciones para posterior revisión."
+    icon: ""
+
+  - features: "Lenguajes"
+    at4_Geeks: "Python + React + Javascript"
+    industry_average: "Ruby/Node + React + JS"
+    why_important: "Todo desarrollador debe saber programar en Python y en JavaScript. Es el lenguaje backend de más crecimiento del mundo, el que se utiliza en más industrias y el que mejores oportunidades ofrece. "
+    icon: ""
+
+  - features: "Actualización del programa"
+    at4_Geeks: "Diariamente"
+    industry_average: "Cada 6 o más meses"
+    why_important: "Todos los instructores y directores constantemente estamos aportando mejoras al Syllabus para mantenerlo al día y adaptarlo a las exigencias del mercado y de nuestros estudiantes. ¡No hay quien pueda igualar nuestro ritmo!"
+    icon: ""
+
+  - features: "Conocimiento previo"
+    at4_Geeks: "No requerido"
+    industry_average: "Muchas veces requerido"
+    why_important: "En 4Geeks Academy creemos que todo el mundo puede programar. Solo necesitas compromiso, constancia, estudiar, practicar y preguntar mucho. "
+    icon: ""
+
+button:
+  button_text: "Revisa la comparación completa"
+  button_link: "/es/geeks-vs-otros"

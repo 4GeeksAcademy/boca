@@ -1,0 +1,34 @@
+pricing_error: Prices are currently not available for
+pricing_error_contact: For more information please contact us at info@4geeksacademy.com
+get_notified: Additional promotions and scholarships are always available! Get in touch with one of our career advisors to find out more.
+top_label: location
+recomended: Recommended
+plans_title: Plans and prices
+plan_details: Plan details
+select: Select the location and payment option that best suits you
+job_guarantee:
+  title:  "Job Guarantee commitment:"
+  description:  "We both commit to your future career (money back if you don't make it)."
+
+apply_button: 
+  label: APPLY NOW
+  link: /us/apply
+not_available: '<p>No payment information has been found for this location and program.</p> Please apply for more information or <a class="faq-link" href="/us/contact" rel="noopener noreferrer nofollow">send us a message.</a>'
+not_available_job_guarantee: '<p>We have no plans available with the modality Job Guarantee on this program at this location.</p> Please apply for more information or <a class="faq-link" href="/us/contact" rel="noopener noreferrer nofollow">send us a message.</a>'
+chart_section:
+  title: '4Geeks: Breaking Down Barriers to Education'
+  data:
+    - percentage: '76%'
+      color: '#00A0DA'
+      description: 'of graduates benefited from our diverse financial assistance options that ensure education is accessible to all.'
+    - percentage: '28%'
+      color: '#FFB718'
+      description: 'of our students are women'
+    - percentage: '19%'
+      color: '#23C520'
+      description: 'of our students identify as African American'
+
+button:
+  button_text: See plans and prices
+  button_link: "/us/financials"
+loading: Loading Resources...

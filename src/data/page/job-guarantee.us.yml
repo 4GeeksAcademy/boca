@@ -1,0 +1,100 @@
+meta_info:
+  slug: job-guarantee
+  title: "Job Guarantee 4Geeks Academy"
+  description: "Job Guarantee 4Geeks Academy"
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  image: "/images/programs-heading.png"
+  keywords: "Job Guarantee at 4Geeks Academy"
+  redirects: ["/job-guarantee"]
+  utm_course: ["full-stack", "datascience-ml"]
+
+button:
+  btn_label: "REQUEST A SYLLABUS"
+  apply_button_link: "/us/apply"
+  syllabus_heading: "Download Syllabus"
+  syllabus_motivation: "Instant Download"
+
+seo_title: "Job Guarantee"
+header:
+  title: Get a job or your money back
+  paragraph: We are all in with you, every step of the way! Secure a job within 6 months of graduation or receive a full refund!
+
+two_column_left:
+  proportions: [6, 6]
+  image:
+    style: '{ "backgroundSize": "contain" }'
+    src: "/images/woman-glasses-laptop.png"
+  heading:
+    text: "Why are we offering a job guarantee?"
+    font_size: ["30px", "30px", "30px", "30px", "30px"]
+  content:
+    font_size: ["24px", "24px", "24px", "18px", "18px"]
+    #Using <p> tags gives <p> inside <p> bug
+    text: |
+      We’re here to challenge the traditional education model. Our bootcamps go beyond teaching relevant skills; they are designed to launch new, rewarding careers. Together, we’ll shape your future.
+      <br>
+      <br>
+      <span style="color: #0097CD;">✓</span> We <strong style="font-weight: bold;">trust</strong> the effectiveness of the program
+      <br>
+      <br>
+      <span style="color: #0097CD;">✓</span> We <strong style="font-weight: bold;">trust</strong> the industry
+      <br>
+      <br>
+      <span style="color: #0097CD;">✓</span> We <strong style="font-weight: bold;">trust</strong> the process
+      <br>
+      <br>
+      <span style="color: #0097CD;">✓</span> We <strong style="font-weight: bold;">trust</strong> you
+  button:
+      text: "APPLY"
+      color: "white"
+      background: "black"
+      hover_color: "white"
+      path: "#top"
+
+we_trust_section:
+  title: Why trust us?
+  text: |
+    A job guarantee seals our commitment to your success! With a proven track record of success, our program will continue to empower future graduates. 
+    <br>
+    <br>
+    The numbers speak for themselves
+  boxes:
+    - icon: briefcase-2
+      title: "81%"
+      text: Job placement rate
+    - icon: chart
+      title: "60K"
+      text: Avg. Income at a new job
+    - icon: graduation-2
+      title: "130"
+      text: Average days to get hired
+
+how_it_works:
+  title: How does it work?
+  text: Here's how you qualify for the job guarantee. If you follow every step and do not get hired within 6 months of graduation, you’ll get 100% of your tuition back.
+  steps:
+    - icon: rocket-2
+      title: Start the program
+    - icon: assignment
+      title: Comply with assignments and attendance
+    - icon: folder
+      title: Approve the final project
+    - icon: graduation-2
+      title: Graduate
+      highlight: True
+    - icon: handshake
+      title: Complete the career support process
+    - icon: briefcase-2
+      title: Get a job in 6 months
+
+successful_stories:
+  title: Success stories
+  text: "Our job guarantee program is yielding great results. Check out some of our graduates’ stories:"
+  testimonials: 
+    - "nai-kali"
+    - "azu-bota"
+    - "cha-fabr"
+
+form:
+  title: "Become a 4Geeks Partner"
+  paragraph: "Contact us today to join our network and start benefiting from the opportunities we offer.  Let us help you choose the right track to achieve your goals. Get in touch!"

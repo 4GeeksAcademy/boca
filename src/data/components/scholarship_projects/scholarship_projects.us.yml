@@ -1,0 +1,77 @@
+title: Funds in action
+description: Here's a sample of the projects we've been working on over the last few years! Together, we can turn more impactful projects into reality.
+project_name: Costa Rica-CINDE and 4Geeks Project
+project_details: Project details
+total_cost: Total Cost
+geeks_benefited: Geeks benefited
+institutions: Institutions that contibuted
+press: Press references
+see_project: See full project
+projects:
+  - name: Costa Rica-CINDE and 4Geeks Project
+    image:
+      alt: typing
+      src: "../../../../static/images/projects/costa-rica.png"
+    description: In collaboration with the Ministry for Science, Technology, Telecommunication and Innovation of Costa Rica, the IDB launched a program to invest in Costa Rica's talent. Together, we’re helping around 250 students become skilled software developers, opening doors to better job opportunities after graduation.
+    details:
+      cost: $1.5mm
+      geeks_benefited: 212
+    institutions:
+      - name: Interamerican Development Bank
+        logo: "../../../../static/images/idb-logo.png"
+      - name: MICITT
+        logo: "../../../../static/images/micitt-logo.jpg"
+      - name: 4Geeks Academy
+        logo: "../../../../static/images/4G_logo_negro.png"
+    press:
+      - name: Revista Summa
+        link: https://revistasumma.com/costa-rica-y-bid-lanzan-becas-para-aprender-programacion/
+      - name: IDB Press
+        link: https://blogs.iadb.org/innovacion/es/costa-rica-bootcamps-acelerar-la-creacion-de-talento-digital/
+      - name: Cultura Costa Rica
+        link: https://www.culturacr.net/4geeks-academy-ofrecera-becas-del-100-para-aprender-programacion/
+    pdf: https://storage.googleapis.com/4geeks-academy-website/PDF%20and%20Docs/Costa%20Rica%20CINDE%20and%204Geeks%20(1).pdf
+  - name: United Way Miami and 4Geeks Academy
+    image:
+      alt: typing
+      src: "../../../../static/images/projects/united-way.png"
+    description: United Way Miami has partnered with 4Geeks Academy to launch the Miami Workforce Project. This transformative program was created to provide top-quality education and training to Miami-Dade County residents and is made possible by a multi-million gift from philanthropist Mackenzie Scott. Admitted students will receive coding training with no upfront costs.
+    details:
+      cost: $1mm
+      geeks_benefited: 100
+    institutions:
+      - name: United Way Miami 
+        logo: "../../../../static/images/landing/header_united_way.png"  
+      - name: 4Geeks Academy
+        logo: "../../../../static/images/4G_logo_negro.png"
+    press:
+      - name: Miami Herald
+        link: https://www.miamiherald.com/news/business/article263937731.html
+      - name: Refresh Miami
+        link: https://refreshmiami.com/miami-based-coding-school-4geeks-is-breaking-down-the-barriers-to-becoming-a-software-developer/
+      - name: Social Finance
+        link: https://socialfinance.org/work/united-way-miami/
+    pdf: https://storage.googleapis.com/4geeks-academy-website/PDF%20and%20Docs/UWM%20facts%20.pdf
+  - name: UTEC and 4Geeks
+    image:
+      alt: typing
+      src: "../../../../static/images/projects/uruguay.png"
+    description: This project was possible thanks to a combined effort between UTEC, IDB, and 4Geeks. The goal was to train Uruguayans in Coding and leverage tech-driven growth in the country.
+    details:
+      cost: 175k
+      geeks_benefited: 60
+    institutions:
+      - name: Interamerican Development Bank
+        logo: "../../../../static/images/idb-logo.png"
+      - name: UTEC
+        logo: "../../../../static/images/partner/UTEC.png"
+      - name: 4Geeks Academy
+        logo: "../../../../static/images/4G_logo_negro.png"
+    press:
+      - name: El País
+        link: https://www.elpais.com.uy/vida-actual/utec-organiza-el-primer-bootcamp-para-formar-desarrolladores-en-diez-semanas
+      - name: San José Ahora
+        link: https://www.sanjoseahora.com.uy/2022/03/31/utec-san-jose-brindara-un-nuevo-bootcamp-sobre-machine-learning-e-inteligencia-artificial/
+      - name: Marca País
+        link: https://marcapaisuruguay.gub.uy/utec-organiza-el-primer-bootcamp-para-formar-desarrolladores-en-diez-semanas/
+    pdf: https://storage.googleapis.com/4geeks-academy-website/PDF%20and%20Docs/Uruguay%20Projects.pdf

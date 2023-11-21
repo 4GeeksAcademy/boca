@@ -1,0 +1,58 @@
+meta_info:
+  slug: aplica
+  title: "Aplica a 4Geeks Academy Bootcamp"
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  description: "Aplica a uno de los mejores bootcamps de código del mundo, online o en una de nuestras sedes: Miami, Santiago de Chile, Madrid, Costa Rica, Maracaibo y Caracas"
+  image: "https://4geeks-academy-main.s3-us-west-2.amazonaws.com/PresentacionBienvenidaEstudiante1.jpg"
+  keywords: "Aplica a 4Geeks Academy Bootcamp"
+  redirects: ["/aplica", "/es/apply"]
+
+## APPLY HEADING
+seo_title: "Coding Bootcamp"
+header:
+  title: "Aplica a 4Geeks"
+  image:
+  image_alt: ""
+  paragraph: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+  button:
+
+## APPLY LEFT SECTION
+left:
+  heading: "CUÉNTANOS SOBRE TI"
+  form_section:
+    first_name: Nombres
+    last_name: Apellidos
+    email: "Email"
+    phone: "Móvil"
+    phone_warning: "¡Oye! Notamos que tu número de teléfono no es del mismo campus que seleccionó. No hay problema. Solo queríamos avisarte."
+    modal:
+      title: "REVISA TU CAMPUS"
+      text: "El código de país de su número de teléfono es de un país diferente al del campus al que está solicitando ingreso, ¿está seguro de que desea continuar con la solicitud?"
+      left_button: "ESCOGER OTRO CAMPUS"
+      right_button: "ESTA BIEN, APLICAR A"
+  locations_title: "Selecciona una sede donde estudiar"
+  regions_title: "Selecciona una región"
+  course_title:
+    open: "¿Qué programa quisieras estudiar?"
+    close: "Selecciona un programa"
+  referral_section:
+    placeholder: "Código de invitación"
+    content: "Si tienes un códido, o te ha referido alguien que estudia o ha estudiado en 4Geeks, tendrás un beneficio adicional usando su código de invitación."
+  button:
+    button_text: "APLICA"
+    button_link: ""
+
+## APPLY RIGHT SECTION
+
+right:
+  heading: "UNA VEZ HAYAS APLICADO, TÚ RECIBIRÁS"
+  content_section:
+    - "1- Un correo electrónico de nuestro equipo local."
+    - "2- Info y detalles sobre cómo funciona el programa y datos sobre nuestras sedes."
+    - "3- Información sobre las opciones de financiación de tu matrícula."
+    - "4- El contenido del programa y la asistencia de nuestros asesores para ayudarte a tomar la mejor decisión para tu carrera."
+
+  ## TESTIMONIAL SECTION
+testimonial_header:
+  heading: "TESTIMONIAL"
+  sub_heading: ""

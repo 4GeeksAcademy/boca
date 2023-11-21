@@ -1,0 +1,56 @@
+title: "¿Why Java?"
+sub_title: |
+  ● Java is the main language to develop modern software applications in almost every company
+  
+  ● Java Software Engineers make 30% more money
+  
+  ● There are more job openings in Java than in any other language
+  
+  ● Java is the most used language in the world
+  
+  According to job postings on "Indeed" In September 2022 there are about 72,000 job openings for Java developers
+button:
+  label: Learn more about why we teach python at 4Geeks
+  url: "/why-we-teach-python-4geeks"
+image: "../../../../static/images/techs/java-tech.png"
+tech_list: 
+  - image: "../../../../static/images/techs/bootstrap.png"
+    alt: "bootstrap"
+  - image: "../../../../static/images/techs/html.png"
+    alt: "html"
+  - image: "../../../../static/images/techs/flask.png"
+    alt: "flask"
+  - image: "../../../../static/images/techs/git.png"
+    alt: "git"
+  - image: "../../../../static/images/techs/terminal.png"
+    alt: "terminal"
+  - image: "../../../../static/images/techs/github.png"
+    alt: "github"
+  - image: "../../../../static/images/techs/python.png"
+    alt: "python"
+  - image: "../../../../static/images/techs/css.png"
+    alt: "css"
+  - image: "../../../../static/images/techs/js.png"
+    alt: "js"
+  - image: "../../../../static/images/techs/node.png"
+    alt: "node"
+  - image: "../../../../static/images/techs/bootstrap.png"
+    alt: "bootstrap"
+  - image: "../../../../static/images/techs/html.png"
+    alt: "html"
+  - image: "../../../../static/images/techs/flask.png"
+    alt: "flask"
+  - image: "../../../../static/images/techs/git.png"
+    alt: "git"
+  - image: "../../../../static/images/techs/terminal.png"
+    alt: "terminal"
+  - image: "../../../../static/images/techs/github.png"
+    alt: "github"
+  - image: "../../../../static/images/techs/python.png"
+    alt: "python"
+  - image: "../../../../static/images/techs/css.png"
+    alt: "css"
+  - image: "../../../../static/images/techs/js.png"
+    alt: "js"
+  - image: "../../../../static/images/techs/node.png"
+    alt: "node"

@@ -1,0 +1,323 @@
+## THE PARTNERS ARE DIVIDED IN 4 CATEGORIES:
+## PARTNERS - CODING - INFLUENCERS - FINANCIALS
+## THIS COMPONENT IS USED IN "/partners" and "/pricing"
+
+partners:
+  tagline: "QUIÉN CONTRATA A NUESTROS ESTUDIANTES"
+  sub_heading: "Gracias a nuestra creciente lista de aliados, tenemos ofertas de trabajo locales e internacionales para nuestros estudiantes a diario.
+
+  Junto con nuestro servicio GeekFORCE (Career Support), nos complace tener ~ 86% de nuestros estudiantes contratados dentro de los 100 días o menos desde el día de graduación.
+  "
+  footer_tagline: 438 EMPRESAS
+  footer_button: Revisa nuestra lista de aliados
+  footer_link: "/es/aliados"
+  images:
+    - name: "Facebook"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/facebook.png"
+      featured: true
+    - name: "Microsoft"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/microsoft.png"
+      featured: true
+      link: "https://microsoft.com"
+    - name: "Apple"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/apple.png"
+      featured: false
+      #if follow is equal to false then it will add the nofollow attribute
+      follow: true
+      link: "https://www.apple.com"
+    - name: "Evernote"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/evernote.png"
+      featured: false
+      link: "https://evernote.com/intl/es"
+    - name: "Ebay"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/ebay.png"
+      featured: true
+    - name: "National Geographic"
+      #locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/natgeo.png"
+      featured: false
+    - name: "Telefonica"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/telefonica.png"
+      featured: false
+    - name: "Twilio"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/twilio.png"
+      featured: false
+    - name: "Uber"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/uber.png"
+      featured: false
+    - name: "Neo9"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/Neo9.png"
+      featured: false
+    - name: "KPMG"
+      # locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/kpmg-logo1.png"
+      featured: false                        
+    - name: "Ultimate Software"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/ultimate.png"
+      featured: false
+    - name: "TCG Group"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/tcg.png"
+      featured: false
+    - name: "Razz"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/razz.png"
+      featured: false
+    - name: "Overseas"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/overseas.png"
+      featured: false
+    - name: "DS9"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/ds9.png"
+      featured: false
+    - name: "Coinet"
+      # locations: ["miami-downtown"]
+      image: "../../../../static/images/partner/coinet.jpg"
+      featured: false
+    - name: "Jooble"
+      locations: ["madrid-spain"]
+      image: "../../../../static/images/partner/jooble.png"
+      featured: false
+      #if follow is equal to false then it will add the nofollow attribute
+      follow: true
+      link: "https://es.jooble.org"
+    
+      
+coding:
+  tagline: "Actores globales en el mundo de la codificación"
+  sub_heading: "Estamos inmersos en el ecosistema de codificación al asociarnos con actores tecnológicos globales que nos ayuda a organizar o participar en iniciativas para impactar aún más la industria de la codificación"
+  images:
+    - name: "Google Developers"
+      image: "../../../../static/images/coding/google-developers.png"
+      featured: true
+      #locations: ["madrid-spain"]
+    - name: "Facebook Developer Circle"
+      image: "../../../../static/images/coding/developer-circles-2.png"
+      featured: true
+      #locations: ["madrid-spain"]
+    - name: "Bloktech"
+      image: "../../../../static/images/coding/blockchain-center.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Startup"
+      image: "../../../../static/images/coding/startup.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Shell Hacks"
+      image: "../../../../static/images/coding/shell-hacks.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Womans Who Code"
+      image: "../../../../static/images/coding/woman-who-code.jpeg"
+      featured: true
+      #locations: ["madrid-spain"]
+    - name: "Worldcamp"
+      image: "../../../../static/images/coding/worldcamp.png"
+      featured: false
+      #locations: ["madrid-spain"]
+      
+influencers:
+  tagline: "ASOCIADOS CON ACTORES GLOBALES EN EL MUNDO DEL CÓDIGO"
+  sub_heading: "Organizamos y/o participamos activamente en las mayores iniciativas de programación."
+  images:
+    - name: "Google Developers"
+      image: "../../../../static/images/coding/google-developers.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Facebook Developer Circle"
+      image: "../../../../static/images/coding/developer-circles-2.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Startup"
+      image: "../../../../static/images/coding/startup.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Womans Who Code"
+      image: "../../../../static/images/coding/woman-who-code.jpeg"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Carnet Joven"
+      image: "../../../../static/images/partner/carnet-joven.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Trivu"
+      image: "../../../../static/images/partner/logo_trivu.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "La Nave"
+      image: "../../../../static/images/partner/la-nave.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Dda"
+      image: "../../../../static/images/influencers/dda.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Miami Dade"
+      image: "../../../../static/images/influencers/miami-dade.png"
+      featured: false
+      #locations: ["madrid-spain"]
+    - name: "Beacon Council"
+      image: "../../../../static/images/influencers/beacon.png"
+      featured: false
+      #locations: ["madrid-spain"]
+
+financials:
+  tagline: "Socios que hacen posible la educación"
+  sub_heading: "Organizamos y/o participamos activamente en las mayores iniciativas de programación."
+  images:
+    - name: "Quotanda"
+      image: "../../../../static/images/quotanda-logo.png"
+      featured: false
+      #locations: ["miami-downtown"]
+    - name: "Leif"
+      image: "../../../../static/images/leif_main.png"
+      featured: false
+    - name: "Flevo"
+      image: "../../../../static/images/flevo-new.png"
+      featured: false
+    - name: "Climb"
+      image: "../../../../static/images/climb-logo.png"
+      featured: false
+    - name: "Ascent"
+      image: "../../../../static/images/ascent_logo.jpg"
+      featured: false
+
+work_together:
+  title: "¿Cómo podemos trabajar juntos?"
+  description: "4Geeks Academy es una academia de programación premiada globalment lo cual te permitirá concentrarte en una o más de las siguientes áreas:"
+  image_list:
+    - alt: "Estudiante 4Geeks Academy"
+      image: "../../../../static/images/students/student1.jpg"
+    - alt: "Estudiante 4Geeks Academy"
+      image: "../../../../static/images/students/student2.jpg"
+    - alt: "Estudiante 4Geeks Academy"
+      image: "../../../../static/images/students/student3.jpg"
+    - alt: "Estudiante 4Geeks Academy"
+      image: "../../../../static/images/students/student4.jpg"
+    - alt: "Estudiante 4Geeks Academy"
+      image: "../../../../static/images/students/student5.jpg"
+  features:
+    - title: "Capacitación profesional"
+      icon: "screen"
+      description: "Invierte en tu propio talento. Crezcan juntos y convierte a tu equipo en el futuro de tu empresa."
+
+    - title: "Impacto en la comunidad"
+      icon: "community"
+      description: "¡Tengamos un impacto significativo en la diversidad, reduzcamos la brecha tecnológica y empoderemos a personas de todos los ámbitos de la vida!"
+   
+    - title: "Difusión"
+      icon: "chat-2"
+      description: "¡Únete a nuestra comunidad global de oradores expertos de 4Geeks Academy y se parte de eventos innovadores!"
+   
+    - title: "Reclutamiento"
+      icon: "notes-2"
+      description: "Somos tu partner de referencia  para candidatos, te ofrecemes un flujo constante de candidatos de alta calidad con nuestra increíble cartera de talentos."
+
+benefits_and_charts:
+  title: "Forma parte de nuestra red de socios"
+  description: "Estos son algunos de los beneficios:"
+  button_section:
+    button_text: "UNETE A NUESTROS ALIADOS"
+    button_link: ""
+  bullets:
+    - Acceso a una gran reserva de talento único y de alta calidad.
+    - Aumente la retención laboral con programas de reciclaje.
+    - Cerrar la brecha tecnológica dentro de la comunidad.
+    - Llenar las vacantes de trabajo de tecnología.
+    - Aumente el conocimiento y el valor de la marca con el taller patrocinios y oportunidades para hablar.
+    - Establezca su marca como un líder sólido en la industria de la tecnología.
+    - Construcción comunitaria.
+
+  charts:
+    title: "Los números"
+    list:
+      - icon: "chart-62"
+        description: |
+          El 62% de los ejecutivos "cree que necesitarán volver a capacitar o reemplazar a más de una cuarta parte de su fuerza laboral de aquí a 2023 debido al avance de la automatización y la digitalización" Un estudio de 2018 del informe McKinsey.
+      - icon: "job"
+        description: "Según un estudio de 2016 realizado por la Society for Human Resource Management, cuesta un promedio de $ 4,129 contratar a un nuevo empleado, y se tarda un promedio de 42 días en encontrar un nuevo empleado."
+      - icon: "notes-2"
+        description: "Los bootcamps de programación y las universidades  tienen un porcentaje casi idéntico de exalumnos empleados"
+      - icon: "chart-72"
+        description: "72% de los empleadores dicen que contratar a alguien egresado de un Bootcamp es más o menos lo mismo que un graduado universitario"
+
+partners_in_education:
+  title: "Aliados en educación"
+  description : "En 4Geeks Academy estamos comprometidos a brindar un programa de alta calidad, respaldado por un sistema de mentores ilimitados, para ayudar a reducir la brecha entre las oportunidades laborales y el talento con herramientas creadas para ayudar a enfrentar esos desafíos.
+
+    Para lograr esto, nos hemos asociado con increíbles instituciones educativas que nos ayudan a alcanzar estos objetivos. Juntos hemos logrado graduar a más de 300 estudiantes de todo el mundo y seguimos esforzándonos por graduar a más estudiantes."
+  image_list:
+    - alt: "UTEC"
+      image: "../../../../static/images/education/UTEC.png"
+    - alt: "IESA"
+      image: "../../../../static/images/education/IESA.png"
+    - alt: "Miami Dade College"
+      image: "../../../../static/images/education/MDC_Blue.png"
+    - alt: "Inter-American Development Bank"
+      image: "../../../../static/images/education/IDB-logo.png"
+
+partners_carousel:
+  title: "Lo que dicen nuestros socios"
+  see_full: ""
+  partners:
+    - fist_name: "Enrique"
+      last_name: "Infanzon"
+      sub_header: "Dean Continuing Education @ Miami Dade College"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_enrique_infanzon.jpg"
+      paragraph: |
+        "4Geeks has been a great partner of us for the last 7 years. We have launched full-stack, web development, and AI programs successfully and we have helped more than 400 students already."
+      linkedin: "https://www.linkedin.com/in/enriqueinfanzon"
+      pdf: ""
+    - fist_name: "Antonio"
+      last_name: "Delgado"
+      sub_header: "VP of Innovation and Technology @ Miami Dade College"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_antonio_delgado.jpg"
+      paragraph: |
+        "We have recently launched the Miami Tech Coalition and 4Geeks is again showing up with a program and dedication that allows everyone involved to rely on their experience and program quality."
+      linkedin: "https://www.linkedin.com/in/antoniodelgadofornaguera"
+    - fist_name: "Vanessa"
+      last_name: "Benavides"
+      sub_header: "Vice-President @ United Way Miami"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/united_way_mini.PNG"
+      paragraph: |
+        "Together with 4Geeks we have succesfully launched the Miami Workforce Project for the benefit of Miami-Dade County residents and we have created a great and positive impact."           
+      linkedin: "https://www.linkedin.com/in/vanessa-benavides-2a78849/"
+    - fist_name: "Dug"
+      last_name: "Jones"
+      sub_header: "Program Director for Workforce Grants @ Clark University"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_dug_jones.jpg"
+      paragraph: |
+        "We have a solid partnership focused on providing partial scholarships for students unemployed or underemployed, and we have exceeded by far the expectation we set at the beginning."
+      linkedin: "https://www.linkedin.com/in/dugjones/"
+    - fist_name: "Juan Carlos"
+      last_name: "Navarro"
+      sub_header: "Principal Leader of Science and Technology @ IDB"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_juancarlos_navarro.jpg"
+      paragraph: |
+        "4Geeks has been awarded by the IDB as the Coding School designated to carry on the responsibility of providing top-quality coding programs in Costa Rica and Uruguay."
+      linkedin: "https://www.linkedin.com/in/juan-carlos-navarro-08948a8/"
+    - fist_name: "Anahí"
+      last_name: "Lacava"
+      sub_header: "Líder de proyecto Bootcamps en Habilidades Digitales @ UTEC"
+      alt: "4Geeks Academy Partner"
+      image: "../../../../static/images/partner/partners_anahi_lacava.jpg"
+      paragraph: |
+        "Desde 2021 venimos trabajando en programas de desarrollo de software full-stack y en el lanzamiento del primer programa de Inteligencia Artificial y Machine Learning de toda Latinoamérica."
+      linkedin: "https://www.linkedin.com/in/anah%C3%AD-lacava-melgratti/"
+      

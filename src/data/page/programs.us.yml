@@ -1,0 +1,25 @@
+meta_info:
+  slug: programs
+  title: "Courses, programs, and bootcamps taught at 4Geeks Academy"
+  description: "If it's related to coding, 4Geeks Academy teaches it. Discover our course offerings; bootcamps and programs."
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  image: "/images/programs-heading.png"
+  keywords: "Programs at 4Geeks Academy"
+  redirects: ["/programs"]
+
+seo_title: "4geeks academy courses"
+header:
+  title: Pick one of 4Geeks Bootcamp's
+  paragraph: |
+    What do coding, data science, cybersecurity, and web3/blockchain have in common? The simple answer is: Code. 
+    As a coding-centric school, our learning framework will make you job-ready faster than any other school.
+  image: "../../../static/images/programs-heading.png"
+  alt: ""
+
+choose_program:
+  title: Pick one of our available bootcamps
+  paragraph: ""
+
+content:
+  title: "All programs are taught "
+  title_highlighted: "Online, Hybrid or In-person." 

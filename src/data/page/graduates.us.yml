@@ -1,0 +1,25 @@
+## CAREERS - JOBS TEMPLATE
+## YOU CAN CHANGE THE MAIN HEADER AND THE MORE ABOUT 4GEEKS SECTION
+
+meta_info:
+  slug: graduates
+  title: "4Geeks Academy graduates"
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  description: "Meet our 4Geeks Academy graduates"
+  image: null
+  keywords: "4Geeks Academy graduates"
+  redirects: []
+
+banner:
+  tagline: "MEET OUR GRADUATES"
+  sub_heading: ""
+
+about:
+  heading: "MORE ABOUT 4GEEKS ACADEMY"
+  sub_heading: ""
+  about_image:
+    image: ../../../static/images/our-story.png
+    alt: ""
+  content: "4Geeks Academy was founded in 2015. What started as an internal project to train more developers has now become our full-time passion. 4Geeks is today a USA based Coding Bootcamp pursuing to build a new framework for Coding Education, because coding is becoming an essentials part of our society. 4Geeks Academy has now Locations in 12 cities, 13 on-going campus, and more than 600 graduates."
+  button: "Read More >"
+  button_link: "/us/post/4geeks-academy-history"

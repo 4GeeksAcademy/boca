@@ -1,0 +1,186 @@
+# BEWARE!
+# These redirect are just the aditional ones, this file should not grow that much
+
+# 1. If you are planning to redirect to the page go to data/page/<page-name>.yml instead 
+#    and look for the meta_info.redirects array
+
+# 2. If you are planning to redirect to an entity like courses, locations, events, etc. 
+#    Go to data/<entity-type>/<file>.<lang>.yml instead and look for the meta_info.redirects
+
+# 3. If none of your redirects apply to entities or pages you can put them here:
+
+redirects:
+  - fromPath: "/talent"
+    toPath: "https://www.notion.so/4geeksacademy/Talent-Pipeline-4Geeks-Academy-ef91aba17f9c4964bf7972396d190bdf"
+    #redirectInBrowser: true
+    isPermanent: false # if permanent google will erase the original url from its results
+    
+  - fromPath: "/us/blog/aprender-a-programar"
+    toPath: "/es/blog-en-espanol/aprender-a-programar"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results
+    
+  - fromPath: "/us/trends-and-tech/truth-behind-part-time-education"
+    toPath: "/us/coding-bootcamp/truth-behind-part-time-education"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results
+
+  - fromPath: "/us/learn-to-code/turnaround-education-traditions-4geeks-academy"
+    toPath: "/us/trends-and-tech/turnaround-education-traditions-4geeks-academy"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results
+    
+  - fromPath: "/us/coding-bootcamps/pay-tuition-4geeks"
+    toPath: "/us/trends-and-tech/pay-tuition-4geeks"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/coding-bootcamps/choosing-coding-bootcamp"
+    toPath: "/us/trends-and-tech/choosing-coding-bootcamp"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results  
+    
+  - fromPath: "/us/coding-bootcamps/web-salaries-2017-coding-bootcamp"
+    toPath: "/us/full-stack-developer/web-salaries-2017-coding-bootcamp"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/coding-bootcamps/part-time-bootcamps"
+    toPath: "/us/coding-bootcamp/part-time-bootcamps"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/coding-bootcamps/coding-bootcamp-syllabus-matters"
+    toPath: "/us/trends-and-tech/coding-bootcamp-syllabus-matters"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/coding-bootcamps/wyncode-ironhack-and-4geeks-academy-comparison"
+    toPath: "/us/trends-and-tech/wyncode-ironhack-and-4geeks-academy-comparison"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/software-engineer-salary/todo-lo-que-necesitas-saber-sobre-inteligencia-artificial"
+    toPath: "/es/software-engineer-salary/todo-lo-que-necesitas-saber-sobre-inteligencia-artificial"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/coding-bootcamps/why-we-teach-python-4geeks"
+    toPath: "/us/python-bootcamp/why-we-teach-python-4geeks"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/learn-to-code/rip-ruby-on-rails"
+    toPath: "/us/trends-and-tech/rip-ruby-on-rails"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/learn-to-code/feelings-learning-coding"
+    toPath: "/us/trends-and-tech/feelings-learning-coding"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/trends-and-tech/4geeks-academy-history"
+    toPath: "/"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/facilidades-y-dificultades-para-aprender-a-programar"
+    toPath: "/es/aprender-a-programar/facilidades-y-dificultades-para-aprender-a-programar"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/python-uno-de-los-lenguajes-de-programacion-mas-demandados"
+    toPath: "/es/aprender-a-programar/python-uno-de-los-lenguajes-de-programacion-mas-demandados"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/ventajas-de-trabajar-en-tecnologia"
+    toPath: "/es/aprender-a-programar/ventajas-de-trabajar-en-tecnologia"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/juegos-gratis-para-practicar-tus-habilidades-de-programacion"
+    toPath: "/es/aprender-a-programar/juegos-gratis-para-practicar-tus-habilidades-de-programacion"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/nodejs-el-camino-hacia-el-exito-de-la-programacion-back-end"
+    toPath: "/es/aprender-a-programar/nodejs-el-camino-hacia-el-exito-de-la-programacion-back-end"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/us/aprender-a-programar/los-5-frameworks-fundamentales-para-frontend"
+    toPath: "/es/aprender-a-programar/los-5-frameworks-fundamentales-para-frontend"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/es/software-engineer-salary/software-engineer-salary"
+    toPath: "/us/software-engineer-salary/software-engineer-salary"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/es/full-stack/que-es-full-stack"
+    toPath: "/es/tendencias-y-tecnologia/que-es-full-stack"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/es/full-stack/cuanto-gana-un-desarrollador-full-stack"
+    toPath: "/es/desarrollador-full-stack/cuanto-gana-un-desarrollador-full-stack"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/aprender-a-programar/de-que-trata-la-careera-de-programacion"
+    toPath: "/es/aprender-a-programar/de-que-trata-la-careera-de-programacion"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/aprender-a-programar/disyuntiva-para-futuros-programadores-universidad-o-bootcamp"
+    toPath: "/es/aprender-a-programar/disyuntiva-para-futuros-programadores-universidad-o-bootcamp"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/aprender-a-programar/aprender-a-programar-desde-cero"
+    toPath: "/es/aprender-a-programar/aprender-a-programar-desde-cero"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/es/desarrollo-profesional/sindrome-del-impostor"
+    toPath: "/es/tendencias-y-tecnologia/sindrome-del-impostor"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/learn-to-code/hacks-learn-to-code"
+    toPath: "/us/trends-and-tech/hacks-learn-to-code"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/career-growth/wages-report-2018-1"
+    toPath: "/us/full-stack-developer/wages-report-2018-1"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/coding-bootcamps/internships-bootcamps-2021"
+    toPath: "/us/full-stack-developer/internships-bootcamps-2021"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/career-growth/7-hacks-to-land-a-job"
+    toPath: "/us/trends-and-tech/7-hacks-to-land-a-job"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/coding-bootcamp/how-to-pay-a-bootcamp-2022"
+    toPath: "/us/coding-bootcamp/how-to-pay-for-a-coding-bootcamp-2022"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+
+  - fromPath: "/us/coding-campus/coding-bootcamp-argentina"
+    toPath: "/us/coding-campus/coding-bootcamp-argentina-buenos-aires/"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 
+    
+  - fromPath: "/es/full-stack-developer/desarrollador-full-stack"
+    toPath: "/es/desarrollador-full-stack/desarrollador-full-stack"
+    #redirectInBrowser: true
+    isPermanent: true # if permanent google will erase the original url from its results 

@@ -1,0 +1,185 @@
+meta_info:
+  slug: aprende-a-programar # <--- URL 4geeksacademy.com/us/landing/example
+
+  # This will show on social media when shared
+  title: "Desarrolla tu carrera con 4geeks!"
+  description: "La programación se ha convertido en un conocimiento escencial para tu éxito profesional, aprende a programar con 4Geeks Academy."
+  image: "/images/bg/remote.jpeg"
+  keywords: "Aprende a programar, 4Geeks academy, aprende programacion, aprende ingenieria informatica"
+
+  template: "landing_a" # <--- choose your landing template
+  redirects: [] # <--- URL redirections to avoid 404 errors
+
+  # Set a particular course or location to the landing page
+  # this UTM fields will be also included in the CRM contact
+  utm_course: ["full-stack"]
+  utm_location: ["madrid-spain"]
+  automation: soft # comma separated, "soft" is the default value
+  tag: request_more_info # comma separated, "request_more_info" is the default value
+
+form:
+  # posible fields: "first_name", "last_name", "full_name", "phone", "email"
+  # always the first_name, email and phone will be mandatory if added.
+  fields: ["full_name", "phone", "email"]
+  heading: "Solicita tu Beca"
+  button_label: Enviar
+  redirect: null #you can redirect to another url or entirely diffrent website
+
+# jumbotron on the top (cannot be commented out)
+header_data:
+  tagline: ¡Aprende a Programar y Desarrolla en Madrid!
+  sub_heading: " "
+  badge: "../../../static/images/badges/Course-Report-Badge-2023.png"
+  background_image: "../../../static/images/Happy-People-Landing-4Geeks-ES.jpg"
+  image_filter: brightness(0.2)
+
+features:
+  marginTop: 20px #<-- separation between tagline and the bullets
+
+  #                                         up   left down  right
+  styles: '{ "fontSize": "20px", "margin": "10px 0px 10px 0px" }'
+  bullets:
+    - Empieza a Ganar 24.000€ al Año Como Desarrollador en Madrid
+    - La Industria de la Programación Tiene un 30%
+    - No necesitas experiencia previa para comenzar.
+  text: Te animamos a inscribirse en nuestro curso de programación para dar el primer paso hacia un futuro lleno de oportunidades emocionantes en la industria tecnológica🚀 Estamos aquí para apoyarte <br>en cada etapa de tu aprendizaje. 😎
+
+follow_bar:
+  position: "top" # top, bottom, hidden
+  content:
+    text: "Solicita una beca de hasta 1.800€. \n Planes de pago de hasta 24 meses."
+    text_mobile: "Becas de 1.800€ . \n Plan de pago de 24 m. \n ¡Últimas plazas!"
+    # devices:   XL      LG    MD      SM    XS
+    font_size: ["25px", "25px", "25px", "18px", "4.3vw"]
+  button:
+    text: "Más información"
+    path: "#top"
+  phone:
+    text: "Llama "
+
+short_badges:
+  - name: "Premios Tecnologia Siglo XXI"
+    url: ""
+    image: "../../../static/images/awards/premios_tecnologia_sigloxxi.png"
+    alt: "Mejor centro de Coding Bootcamp"
+  - name: "Course Report"
+    url: ""
+    image: "../../../static/images/badges/Course-Report-Badge-2023.png"
+    alt: "Top Coding Bootcamps Course Report"
+  - name: "Switchup"
+    url: ""
+    image: "../../../static/images/badges/switchup-badge-2023.png"
+    alt: "Best coding bootcamp Switchup 2023"
+  - name: "Florida Department of Education"
+    url: ""
+    image: "../../../static/images/badges/licensed-inverted.png"
+    alt: "Florida Department of Education"
+
+apply_schollarship: # form that is displayed at the end of the landing
+  # title: "Get more info about this award-winning development course"
+  imageSide: "left"
+  image: "../../../static/images/landing/apply.png"
+
+#
+# ⬇ FROM HERE ON YOU CAN COMMENT ANYTHING TO HIDE IT ON THE LANDING ⬇
+#
+
+badges:
+  position: 5
+  heading: "Premios y reconocimientos que validan nuestra excelencia"
+
+program_details:
+  position: 1
+  heading: "Lo que aprenderás"
+  sub_heading: "Python, Javascript y React son las tecnologías más usadas del mundo"
+
+geeks_vs_others:
+  position: 4
+  heading: "¿Qué hace a 4Geeks Academy tan exitoso?"
+  paragraph: ""
+  total_rows: 5
+
+why_4geeks:
+  position: 5
+  heading: "¿Por qué 4Geeks?"
+  sub_heading: ""
+
+who_is_hiring:
+  position: 6
+  limit: 4
+  heading: "¿Quién contrata a nuestros alumnos?"
+  sub_heading: "Nuestros partners de contratación crecen todos los días, con más de 150 aliados a nivel global y decenas de vacantes activas en nuestras bolsas de empleo."
+
+#alumni_projects:
+# position: 7
+#heading: "Así podría ser tu proyecto final"
+#sub_heading: "Proyectos de antiguos estudiantes"
+
+# Possible layours: [two_column_left_image, two_column_right_image]
+components:
+  - name: top_coding_bootcamp
+    position: 2
+    layout: two_column_left
+    proportions: [4, 8]
+    background: "#f1f1f1"
+    image:
+      style: '{ "backgroundSize": "contain" }'
+      src: "/images/badges/Course-Report-Badge-2023.png"
+      link: "https://www.coursereport.com/schools/4geeks-academy"
+    heading:
+      text:
+        "Llevamos 3 años consecutivos siendo seleccionados como uno de los mejores coding bootcamps del mundo"
+        #xl      lg     md     sm    xs
+      font_size: ["36px", "32px", "30px", "26px", "26px"]
+  - name: some_id
+    position: 7
+    layout: two_column_right
+    image:
+      style: '{ "border" : "3px solid black" }'
+      shadow: true
+      src: "../../../static/images/testimonials/Mattia-Tozzi-testimonial.jpg"
+    video: "B01-eTfgqqc"
+    heading:
+      text:
+        "El viaje de Mattia Tozzi en 4geeks Academy y como cambió su vida profesional."
+        #xl      lg     md     sm    xs
+      font_size: ["40px", "34px", "34px", "25px", "20px"]
+    content:
+      text: "Descubre la cautivadora historia de Mattia Tozzi, quien, en busca de un cambio en su trayectoria profesional, se unió a 4Geeks Academy. Su experiencia es un testimonio vivo de cómo la dedicación y el aprendizaje en este bootcamp lo llevaron a convertirse en un profesional altamente capacitado."
+      font_size: ["16px"]
+    button:
+      text: "¡Únete a la Academia!"
+      path: "#bottom"
+      color: "white"
+      background: "black"
+      hover: "lightBlue"
+
+  - name: more_testimonials
+    position: 9
+    layout: two_column_left
+    image:
+      shadow: true
+      src: "https://storage.googleapis.com/4geeks-academy-website/landing-pictures/testimonials.webp"
+    heading:
+      text: "Escúchalo de nuestros alumnos"
+      #xl      lg     md     sm    xs
+      font_size: ["40px", "34px", "34px", "25px", "20px"]
+    button:
+      text: "Más testimoniales"
+      path: "#why_4geeks"
+      color: "white"
+      background: "black"
+      hover: "lightBlue"
+    content:
+      text: "'Mi experiencia con 4Geeks ha sido magnífica, me ha encantado. Tengo unos profesores maravillosos y tengo unos compañeros súper geniales. He aprendido bastante sobre HTML, CSS, JavaScript, React y Python. Mis profesores siempre estuvieron atentos a lo que necesitaba. Igual hay una plataforma donde podemos hablar todos los estudiantes de 4Geeks y nos ayudamos entre todos.... ¡Ha sido genial tomar esta decisión!' Beatriz Hernández"
+      font_size: ["16px"]
+  
+  - name: divider_one
+    position: 9
+    layout: divider
+    height: ["50px", "50px", "50px", "0px", "0px"]
+
+# why_python:
+#   position: 7
+#   heading: "¿Porqué enseñamos Python?" # optional or set to white space to hide
+#   sub_heading: " " # optional or set to white space to hide

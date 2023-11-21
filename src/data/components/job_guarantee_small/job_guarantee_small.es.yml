@@ -1,0 +1,41 @@
+title: Compromiso de garantía de empleo
+locations:
+- "atlanta-usa"
+- "berlin-germany"
+- "bogota-colombia"
+- "buenosaires-argentina"
+- "caracas-venezuela"
+- "chicago-usa"
+- "costa-rica"
+- "downtown-miami"
+- "dublin-ireland"
+- "europe"
+- "hamburg-germany"
+- "houston-usa"
+- "lapaz-bolivia"
+- "lima-peru"
+- "lisbon-portugal"
+- "losangeles-usa"
+- "mexicocity-mexico"
+- "milan-italy"
+- "montevideo-uruguay"
+- "munich-germany"
+- "newyork-usa"
+- "online"
+- "orlando"
+- "panamacity-panama"
+- "quito-ecuador"
+- "rome-italy"
+- "toronto-canada"
+icons:
+  - icon: "graduation-2"
+    title: Obtenga un trabajo dentro de los 180 días posteriores a la graduación o recupere su dinero.
+  - icon: "receive_mail"
+    title: Completa las etapas de nuestro proceso de apoyo a la carrera.
+  - icon: "talk"
+    title: Acceda a una red de contratacion de 5000 socios.
+  - icon: "handshake"
+    title: Ambos nos comprometemos con tu futura carrera.
+link:
+  url: https://storage.googleapis.com/4geeks-academy-website/PDF%20and%20Docs/Condiciones%20y%20Requerimientos%20Job%20Guaranteed%20Program.pdf
+  label: Condiciones que aplican

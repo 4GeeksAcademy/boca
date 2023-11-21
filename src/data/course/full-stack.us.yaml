@@ -1,0 +1,237 @@
+meta_info:
+  slug: part-time-full-stack-developer
+  title: "Full Stack Developer Course by 4 Geeks Academy, master the Skills and Technologies"
+  bc_slug: "full-stack"
+  description: "Enroll in our Full Stack Developer Course and become a web development expert. Learn how to build applications from scratch. Join us today!"
+  image: "/images/og-preview/full-stack.us.png"
+  visibility: "visible"
+  keywords: ""
+  show_in_apply: true
+  related_clusters: ["full-stack-developer"]
+  redirects:
+    [
+      "/part-time",
+      "/program",
+      "/the-program",
+      "/us/part-time",
+      "/us/course/part-time",
+      "/us/full-stack",
+      "/en/course/full-stack-web-development/",
+      "/en/coding-bootcamps/full-stack-web-development",
+      "/landing/coding-classes-part-time",
+      "/course/web-development-parttime",
+      "/coding-introduction-programming",
+      "/us/course/coding-introduction",
+      "/course/coding-introduction",
+      "/us/coding-bootcamps/full-stack-web-development-bootcamp-part-time",
+      "/course/full-stack-web-development-bootcamp-part-time",
+      "/us/course/full-stack-web-development-bootcamp-part-time",
+    ]
+apply_form:
+  label: Full Stack Developer
+seo_title: "Full Stack Developer Course"
+header:
+  title: "Full Stack Developer"
+  image: "../../../static/images/bg/program-bg.png"
+  image_alt: "how-to-become-a-full-stack-developer-"
+  paragraph: "Go from zero to getting paid as a Full-Stack Developer in just 18 weeks! Master the most sought-after skills, get hired in tech, and give your life a boost!"
+
+button:
+  syllabus_heading: "Download Syllabus"
+  syllabus_btn_label: "Instant Download"
+  syllabus_motivation: "Get it in just a few seconds"
+  apply_button_link: "/us/apply"
+  
+course_instructors: 
+  header:
+    title: "Meet our instructors"
+    paragraph: ""
+
+  instructors:
+    - name: "Roldolfo Campos"
+      sub_title: "Co fundador de 4geeks y director de educación"
+      image: "../../../static/images/instructors/example.png"
+      bio: "Currently working as a Senior Solutions Architect at VMware, Rodolfo Campos is a Software Engineer with 17 years of experience in Linux, Java, SQL, Blockchain, etc. Master in Computer Science and passionate about Big Data and Entrepreneurship."
+      github: ""
+      linkedin: "https://www.linkedin.com/"
+
+    - name: "Gabriel Salinas"
+      sub_title: "Sophisticated Software Systems Engineer"
+      image: "../../../static/images/instructors/example.png"
+      bio: "Currently working as a Senior Solutions Architect at VMware"
+      github: ""
+      linkedin: "https://www.linkedin.com/"
+
+badges:
+  paragraph: "Kickstart your career at 4Geeks Academy, where developers grow and thrive. Named best <a href='/us/coding-bootcamp'>coding bootcamp</a> 2023 by Course Report, best center for coding bootcamps 2023 by Premios de Excelencia Educativa in Spain, listed among the top 10 in the US by Newsweek, and rated 4.92/5 on Switchup. Licensed by the Florida Department of Education, USA."
+upcoming:
+  no_dates_message: "There are currently no upcoming dates for this program"
+  actionMessage: "Let me know when dates are available"
+
+credentials:
+  heading: "This Program By The Numbers"
+  paragraph: "Our results speak for themselves"
+
+## PROGRAM DETAILS
+details:
+  about:
+      title: "About the program"
+      sub_title: "Learn the most sought-after and highest-paid technologies and become a pro at building websites. Python and JavaScript developers are consistently in demand, making them the top programming languages to master in 2023. 
+      
+      Code in a web development language, learn algorithm scripting and build awesome apps using front-end libraries. Utilize APIs to consume data and enhance your app's functionality. 
+      
+      Finalize the program by developing and presenting your own project, gaining game-changing hands-on experience.
+      
+      Reshape your mindset and embrace the programming, logic, and research skills to succeed in the tech industry."
+      list:
+        - label: "Duration"
+          content:  "16+2 Weeks"
+          icon: "calendar"
+        - label: "Classes"
+          content: "3 classes weekly"
+          icon: "book"
+        - label: "Certificate"
+          content: "Full-Stack Developer"
+          link_text: "See example"
+          link: "https://certificate.breatheco.de/4ae7a46bba78dc19b823e124fea120c17b45e044"
+          icon: "certificate"
+        - label: "Requisites"
+          content: "No previous coding skills required, no advanced Math required, logical thinking recommended."
+          icon: "contract-checked"
+        - label: "Language"
+          content: "You can decide between English and Spanish to consume the syllabus and content. Live classes are taught in the language of your campus."
+          icon: "contract-checked"
+         
+  heading: Program Details Part-Time Full Stack Developer
+  weeks: 18
+  sub_heading: "Hands-on learning through real-life projects. /n Master the 3 most used languages in the world: Master Python, JS and React."
+  left_labels:
+    description: "DESCRIPTION:"
+    projects: "PROJECTS:"
+    duration: "DURATION:"
+    skills: "Skills / Weeks:"
+  details_modules:
+    - module_name: "PREWORK"
+      title: "Get Ready for the Prework"
+      description: "Starting with the basics: HTML5 + CSS3 + Javascript. We review the basics of coding and make sure we are all on the same page."
+      projects: "CSS Postcard, Minimal Instagram Version, etc."
+      slug: "prework"
+      duration: "~ 60 hours"
+      step: 0
+    - module_name: "FOUNDATIONS"
+      title: "Learn To Code"
+      description: "Think like a computer: Control the flow of your code, code algorithms, loop, use conditionals, webpack, the command line, GIT, etc."
+      projects: "Instagram Application, Memory Card Game, Tic Tac Toe, Flappy Bird, etc."
+      slug: "foundations"
+      duration: "2 wks"
+      step: 2
+    - module_name: "THE WEB"
+      title: "Web Development"
+      description: "Create your first React.js application, MVC Pattern, JS Modules, Bunding, Babel JS, The DOM, Events"
+      projects: "Coursera clone, Instagram clone, Youtube clone, etc."
+      slug: "web-development"
+      duration: "6 wks"
+      step: 5.9
+    - module_name: "API'S"
+      title: "API Development"
+      description: "Mainly focused on Python, get ready to build your own API and interact with 3rd party applications like Twillio, Stripe and many more."
+      projects: "Coursera clone, Instagram clone, Youtube clone, etc."
+      slug: "web-development"
+      duration: "2 wks"
+      step: 2
+    - module_name: "ADVANCED APPS"
+      title: "Advanced Application"
+      description: "Python, Flask, REST API's, Databases, SQL, MVC Pattern, Publishing your website, etc."
+      projects: "During this phase you will have to design, code, test, and publish your own entire web application."
+      slug: "advanced-application"
+      duration: "6 weeks"
+      step: 8
+    - module_name: "LIFELONG SUPPORT"
+      title: "Lifelong Support"
+      description: "Keep practicing with the academy's help - we will be coaching you for life.  Build your Resume, Github, LinkedIn.  We will help you apply for jobs and continue to support you once you have found a job"
+      projects: "Get paid to keep learning and raise your income gradually as you become a Senior Developer. Enjoy and build software for life."
+      slug: "lifelong-learning"
+      duration: "forever"
+      step: 0.1
+
+syllabus:
+  heading: Get all the information about the syllabus
+  button_label: Download
+
+## 4GEEKS VS OTHERS SECTION
+geeks_vs_others:
+  heading: "WHAT MAKES THIS PROGRAM STAND OUT?"
+  sub_heading: "Compare with other schools"
+  sub_heading_link: ""
+## GEEK PAL AND GEEK FORCE BOXES
+geek_data:
+  heading: "And enjoy Career Support... for Life!"
+  geek_pal:
+    - One teacher every seven students (1:7).
+    - Unlimited on-demand in-person or online mentoring sessions.
+    - Thousands of auto-graded exercises.
+    - Interactive and auto-graded tutorials.
+    - Video solutions for instant feedback.
+    - Online support chat 12 hours a day.
+    - Online streaming of classes.
+    - Recording of classes for later review.
+  geek_force:
+    - Resume building
+    - Github profile building
+    - Mock interview preparation
+    - Customized interview preparation session for targeted jobs
+    - Personal Branding coaching
+    - Post-graduation coding practices and exercises
+
+## PRICES AND PAYMENTS SECTION
+prices:
+  heading: "Prices and Payments"
+  sub_heading: "Select the bootcamp location to see the prices and payment plans"
+  selector:
+    top_label: Location
+    placeholder: Select a location
+  button:
+    text: Check Prices and Plans
+    link: ""
+
+typical:
+  heading: ""
+  sub_heading: ""
+  schedule:
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+
+## ALUMNI SECTION
+alumni:
+  heading: "Meet Our Alumni and Their Projects"
+  sub_heading: "The last phase of the course you must build a final project that you will choose yourself, it can be an undertaking or you will work directly on a real life project in collaboration with our hiring partners"
+
+## SIDEBAR
+sidebar:
+  membership: "MEMBERSHIPS"
+  program: "PROGRAM"
+  geeks_vs_other: "4GEEKS vs OTHERS"
+  pricing: "PRICING"
+  alumni: "THE ALUMNI"

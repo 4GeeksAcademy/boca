@@ -1,0 +1,249 @@
+meta_info:
+  slug: software-engineer-bootcamp
+  title: "Become a Software Engineer at 4Geeks Academy"
+  description: "Our new course: Software Engineering, will help you master advanced coding techniques and get hired by the biggest tech companies"
+  bc_slug: "software-engineering"
+  template: "course-engineering"
+  image: ""
+  visibility: "visible"
+  keywords: ""
+  show_in_apply: false
+  redirects: [
+    "/software-engineering", 
+    "/us/software-engineering",
+    "/us/course/software-engineering-coding-bootcamp", 
+    "/course/software-engineering-coding-bootcamp", 
+    "/us/coding-bootcamps/software-engineering-coding-bootcamp",
+    "/coding-bootcamps/software-engineer-bootcamp"
+  ]
+  related_clusters: ["trends-and-tech"]
+
+apply_form:
+  label: Senior Software Engineer
+
+seo_title: "Software Engineer Bootcamp"
+header:
+  title: "Senior Software Engineer"
+  image: "../../../static/images/bg/apple-building.jpg"
+  image_alt: "apple-building"
+  paragraph: |
+    Get the skills to meet the global demand for problem solvers and logical thinkers who drive the world to real change and impact. Learn "Modern Web Applications" or "Cloud Based Applications" used only by Fortune 500. Land yourself a real software engineering job or create the next tech unicorn.
+
+course_instructors: 
+  header:
+    title: "Meet our instructors"
+    paragraph: ""
+
+  instructors:
+    - name: "Roldolfo Campos"
+      sub_title: "Co fundador de 4geeks y director de educación"
+      image: "../../../static/images/instructors/example.png"
+      bio: "Currently working as a Senior Solutions Architect at VMware, Rodolfo Campos is a Software Engineer with 17 years of experience in Linux, Java, SQL, Blockchain, etc. Master in Computer Science and passionate about Big Data and Entrepreneurship."
+      github: ""
+      linkedin: "https://www.linkedin.com/"
+
+    - name: "Gabriel Salinas"
+      sub_title: "Sophisticated Software Systems Engineer"
+      image: "../../../static/images/instructors/example.png"
+      bio: "Currently working as a Senior Solutions Architect at VMware"
+      github: ""
+      linkedin: "https://www.linkedin.com/"
+
+badges:
+  paragraph: "4Geeks Academy is the place where developers grow and thrive. We are licensed by the USA F. Dep. of Education. Chosen as one of the top 35 bootcamps of the world and top coding bootcamp in Miami according to SwitchUp. Recognized as the top 10 coding bootcamps in the United States according to Newsweek."
+
+upcoming:
+  no_dates_message: "There are currently no upcoming dates for this program"
+  actionMessage: "Let me know when dates are available"
+
+button:
+  syllabus_heading: "Download Syllabus"
+  syllabus_btn_label: "Instant Download"
+  syllabus_motivation: "Get it in just a few seconds"
+  apply_button_link: "/us/apply"
+## PROGRAM DETAILS
+details:
+  about:
+      title: "About the Program"
+      sub_title: "Get the skills to meet the global demand for problem solvers and logical thinkers who drive the world to real change and impact.
+      Develop distributed highly scalable cloud applications used only by Fortune 500. Land yourself a real software engineering job or create the next tech unicorn."
+      list:
+        - label: "Duration"
+          content:  "18 Weeks"
+          icon: "calendar"
+        - label: "Classes"
+          content: "Online, 3 Classes weekly"
+          icon: "book"
+        - label: "Requisites"
+          content: "1-year experience as Software Developer"
+          icon: "contract-checked"
+        - label: "Language"
+          content: "You can decide between English and Spanish to consume the syllabus and content. Live classes are taught in the language of your campus."
+          icon: "contract-checked"
+          
+  heading: Software Engineering Syllabus
+  weeks: 18
+  sub_heading: "Master exactly what is required to be a real Software Engineer."
+  left_labels:
+    description: "DESCRIPTION:"
+    projects: "PROJECTS:"
+    duration: "DURATION:"
+    skills: "Skills / Weeks:"
+  details_modules:
+    - module_name: "FRONT"
+      title: "Advanced Front-End"
+      description: >
+        Assuming you already have knowledge in Component Frameworks (React.js, Angular, etc.), we are going to dive into JS and DOM optimization with Suspense, Code-spliting, Transpiling and front-end architectures like Redux and Flux. \n
+        This module also serves as a great complement for all the others as they will all require some kind of front-end interface.
+      projects: "Peer to Peer video chat application (using WebRTC no backend required for communication)"
+      slug: "advanced-front-end"
+      duration: "2 weeks"
+      step: 1
+    - module_name: "ALGORITHMS"
+      title: "Advanced Algorithms"
+      description: "Get ready to pass any coding interview: Big O, Meassuring Time and Space, Advanced Data-structures and design patterns, Binary and Sequential Search, DFS/BFS."
+      projects: "You will solve several real life optimization algorithm challenges"
+      slug: "advanced-algorithms"
+      duration: "2 wks"
+      step: 2
+    - module_name: "STORE"
+      title: "Information Storage and Retrieval"
+      description: >
+        Java is the most used programing language in the enterprise world. Here you will learn Java's best practices and design patterns to solve classic scaling, optimization infrastructure challenges: DAO, Maven, O.O.P, Singleton, Factory, Strategy, Observer, Builder, etc. \n
+        There are so many different ways and technologies to store and retrieve data - here you will learn to use the most used ones and solve classic Scaling, Big Data and data-mining challenges: Distributed Storage, Redis/Memcache, SQL, NoSQL, GraphQL, etc."
+      projects: "During this phase you will have to design, code, test, and publish your own entire web application."
+      slug: "info-retrival"
+      duration: "2.5 wks"
+      step: 3
+    - module_name: "SCALE"
+      title: "Distributed Applications"
+      description: "The number one challenge for enterprise software is building applications that can scale to millions of users.  You will learn and use the most important strategies for distributed apps like concurrency, sockets, data-compression, distributed storage, messaging, etc."
+      projects: "Build a chat application with multi threading, compression, microservices and many other perks"
+      slug: "scale"
+      duration: "3 wks"
+      step: 3
+    - module_name: "QUALITY"
+      title: "Quality Assurance"
+      description: "When enterprise software is built, you need to make sure your code is bulletproof.  Here you will learn to build a Continued Integration that guarantees software quality from conception to deployment, especially on legacy applications with lots of technical depth."
+      projects: "You will be given a real life application challenge with legacy code. You will need to understand the code and build a continued deployment in an integration system that guarantees quality."
+      slug: "quality-deploy"
+      duration: "2 wks"
+      step: 2
+    - module_name: "FINAL PROJECT"
+      title: "The Final Project"
+      description: "Pick your own idea or join other classmates in the creation of an entire app, work with the same tools methods and technologies that your future employers use."
+      projects: "Get a similar real-life experience publishing your application in the popular cloud vendors like AWS and setting up a quality and continuing deliver process. Pitch and demonstrate your project in front of an audience and save the project as the main part of your portfolio ready to start the job hunting process."
+      slug: "quality-deploy"
+      duration: "4 wks"
+      step: 3.9
+    - module_name: "LIFELONG"
+      title: "Lifelong Support"
+      description: "Keep practicing with the academy's help - we will be coaching you for life, help build your Resume, Github, LinkedIn.  We will help you apply for jobs and continue to support you once you find a job"
+      projects: "Get paid to keep learning and raise your income gradually as you become a Senior Developer.  Enjoy and build software for life."
+      slug: "lifelong-learning"
+      duration: "forever"
+      step: 0.1
+
+syllabus:
+  heading: Get all the information about the syllabus
+  button_label: Download
+
+potential_companies:
+  tagline: "Get Trained To Thrive at Major Companies"
+  sub_heading: "Get ready to apply to the best companies in the world: The next level in your career as Software Engineer"
+  companies:
+    - name: "Facebook"
+      image: "../../../static/images/partner/facebook.png"
+      alt: ""
+    - name: "Google"
+      image: "../../../static/images/partner/google.png"
+      alt: ""
+    - name: "Microsoft"
+      image: "../../../static/images/partner/microsoft.png"
+      alt: ""
+    - name: "Apple"
+      image: "../../../static/images/partner/apple.png"
+      alt: ""
+    - name: "Salesforce"
+      image: "../../../static/images/partner/salesforce.png"
+      alt: ""
+    - name: "Oracle"
+      image: "../../../static/images/partner/oracle.png"
+      alt: ""
+    - name: "AirBnB"
+      image: "../../../static/images/partner/airbnb.png"
+      alt: ""
+    - name: "Uber"
+      image: "../../../static/images/partner/uber.png"
+      alt: ""
+
+## 4GEEKS VS OTHERS SECTION
+geeks_vs_others:
+  heading: "WHAT MAKES US SO SUCCESSFULL?"
+  sub_heading: "Compare 4Geeks with other coding schools"
+  sub_heading_link: ""
+## GEEK PAL AND GEEK FORCE BOXES
+geek_data:
+  heading: And Fortune 500 companies will hire you!
+  geek_pal:
+    - Unlimited Senior mentorship.
+    - Lifetime access to the software community.
+    - Worldwide access and support.
+  geek_force:
+    - Helping you land a job in a 500 Fortune company.
+    - Profile, portfolio, interviews, workshops, talks, software community, network, active projects collaboration.
+    - It's about getting your career to the next level.
+
+## PRICES AND PAYMENTS SECTION
+prices:
+  heading: "PRICES AND PAYMENTS"
+  sub_heading: ""
+  selector:
+    top_label: Location
+    placeholder: Select a location
+  button:
+    text: Check Prices and Plans
+    link: ""
+
+## TYPICAL DAY SECTION
+typical:
+  heading: ""
+  sub_heading: ""
+  schedule:
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+    - title: ""
+      time: ""
+      icon: ""
+      content: ""
+
+## ALUMNI SECTION
+alumni:
+  heading: "MEET THE ALUMNI AND PROJECTS"
+  sub_heading: "Get to know our graduates and some of the projects you will be building during the program"
+
+## SIDEBAR
+sidebar:
+  membership: "MEMBERSHIPS"
+  program: "PROGRAM"
+  geeks_vs_other: "4GEEKS vs. OTHERS"
+  pricing: "PRICING"
+  alumni: "THE ALUMNI"

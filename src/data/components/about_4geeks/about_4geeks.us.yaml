@@ -1,0 +1,14 @@
+heading: Be part of a vibrant community
+sub_heading: "Join our international community of over 4000 students, teachers, partners, and alumni. Connect through various channels like Slack, GitHub, social media, and our exclusive platform 4Geeks.com. Where there’s a geek, there’s a way! What sets us apart:"
+paragraph: "Belong to a community of like-minded people who genuinely support each other. Gain lifetime access to our online learning platform and mentorship services. We’ll always be here for you, even after you graduate. 
+
+<a href='/us/geeks-vs-others'><span class='span-blue'>Compare 4Geeks</span></a> to other coding bootcamps."
+list:
+  - title: "Lifelong and readily available coding mentorship"
+  - title: "Unlimited and personalized career support"
+  - title: "Award-winning syllabus and methodology"
+  - title: "An extensive network of partners in tech"
+button_text: "More about 4Geeks"
+button_link: "/us/why-4geeks"
+image: "../../../../static/images/bg/community.png"
+image_mobile: "../../../../static/images/bg/community_mobile.png"

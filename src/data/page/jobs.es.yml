@@ -1,0 +1,18 @@
+## CAREERS - JOBS TEMPLATE
+## YOU CAN CHANGE THE MAIN HEADER AND THE MORE ABOUT 4GEEKS SECTION
+
+meta_info:
+  slug: empleo
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  title: "Empleos en 4Geeks Academy"
+  description: "Encuentra la oportunidad laboral que buscas, trabaja con nosotros en 4Geeks Academy"
+  image: null
+  keywords: "empleo, trabajo, 4geeks academy"
+  redirects: ["/empleo"]
+
+seo_title: Coding Bootcamp
+header:
+  title: "TRABAJA EN 4GEEKS ACADEMY"
+  paragraph: ""
+  image: "../../../static/images/bg/pricing-bg.jpg"
+  alt: ""

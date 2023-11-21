@@ -1,0 +1,58 @@
+meta_info:
+  slug: apply
+  title: "Apply to 4Geeks Academy Bootcamp"
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  description: "Apply to one of the top coding bootcamps in the world, online or in one of our locations: Miami, Santiago de Chile, Madrid, Costa Rica, Maracaibo and Caracas."
+  image: "https://4geeks-academy-main.s3-us-west-2.amazonaws.com/PresentacionBienvenidaEstudiante1.jpg"
+  keywords: "apply, 4geeks academy, apply to 4geeks academy, apply to coding bootcamp, coding bootcamp, coding school, apply to coding school, apply to coding institution"
+  redirects: ["/apply"]
+
+## APPLY HEADING
+seo_title: "coding bootcamp"
+header:
+  title: "Apply to 4Geeks"
+  image:
+  image_alt: ""
+  paragraph: "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
+  button:
+
+## APPLY LEFT SECTION
+left:
+  heading: "TELL US ABOUT YOU"
+  form_section:
+    first_name: "First Name"
+    last_name: "Last Name"
+    email: "Email"
+    phone: "Phone"
+    phone_warning: "Hey! We noticed that your phone number is not from the same campus you selected. No problem. We just wanted to let you know."
+    modal:
+      title: "CHECK YOUR CAMPUS"
+      text: "Your phone number country code is from a different country than the campus to which you are applying to, are you sure you want to continue applying?"
+      left_button: "PICK ANOTHER CAMPUS"
+      right_button: "IT'S OK, APPLY TO"
+  locations_title: "Select one of our campus"
+  regions_title: "Select one region"
+  course_title:
+    open: "Please select one program"
+    close: "What program would you like to attend?"
+  referral_section:
+    placeholder: "Referral Key"
+    content: "If you have a referral code or if you were referred by any student, use your referral code for promos and discounts."
+  button:
+    button_text: "APPLY"
+    button_link: ""
+
+## APPLY RIGHT SECTION
+
+right:
+  heading: "Once you click on apply, you will"
+  content_section:
+    - "1- Receive an email from your City Advisor"
+    - "2- Get Info and details about the programs, people, community, outcomes, campus and more."
+    - "3- Receive info related to the options you have for scholarships or financing your tuition."
+    - "4- A syllabus explanation of the program, our endless mentorship and unlimited support that will help you make the best decision for your career."
+
+  ## TESTIMONIAL SECTION
+testimonial_header:
+  heading: "TESTIMONIAL"
+  sub_heading: ""

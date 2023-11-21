@@ -1,0 +1,50 @@
+navbar:
+  - name: "Courses"
+    link: "/us/coding-bootcamps/part-time-full-stack-developer"
+    sub_menu:
+      icon: ""
+      title: "Courses"
+      paragraph: "Make the career change you've always wanted. From zero to coding in weeks and specialized in the most wanted technologies int he market."
+      width: "950px"
+      links:
+        - title: "Software Engineering"
+          level: " "
+          icon: "fullstack_2"
+          paragraph: "Learn to build full-stack web, mobile, and cloud-based applications in 10 weeks."
+          buttons:
+            - text: "View program"
+              link: "/us/coding-bootcamps/part-time-full-stack-developer"
+
+  - name: "Financing"
+    link: "us/finance"
+
+  - name: "Candidates"
+    link: "/us/candidates"
+    
+  - name: "Upcoming Dates"
+    link: "/us/next-dates"
+
+button:
+  button_link: "/get-started"
+  apply_button_text: "Get Started"
+  button_type: ""
+  button_color_text: ""
+  button_background_color: ""
+  next_cohort: "Next cohort starts on"
+  other_dates: "or review other dates"
+# link: "/us/the-academy"
+#   - name: "The Programs"
+#     link: "/us/coding-bootcamps/part-time-full-stack-developer"
+#     links:
+#       - name: "Full Stack Developer"
+#       - link: "/us/coding-bootcamps/part-time-full-stack-developer"
+#       - name: "Software Engineer"
+#       - link: "/us/coding-bootcamps/software-engineer-bootcamp"
+#   # - name: "Pricing"
+#   #   link: "/pricing"
+#   - name: "for companies"
+#     link: "/us/partners"
+#   - name: "Upcoming Dates"
+#     link: "/us/next-dates"
+# button:
+#   button_link: "/us/apply"

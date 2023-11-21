@@ -1,0 +1,175 @@
+meta_info:
+  slug: bootcamp-de-programacion-santiago # <--- URL 4geeksacademy.com/us/landing/example
+
+  # This will show on social media when shared
+  title: "Bootcamp de programación en Santiago de Chile"
+  description: "La programación es esencial para tu éxito profesional, únete a 4Geeks Academy, el bootcamp de programación número uno de Chile."
+  visibility: "visible" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
+  # This will show on social media when shared
+  image: "/images/bg/main-bg.jpg"
+  keywords: "Bootcamp de Programación, Bootcamp de Codigo, Bootcamp de python, Bootcamp de React y Javascript, Bootcamp de Full Stack, Coding Bootcamp, 4Geeks Academy"
+
+  template: "landing_a" # <--- choose your landing template
+  redirects: # <--- URL redirections to avoid 404 errors
+    ["/landing/bootcamp-de-programacion-santiago"]
+
+  # Set a particular course or location to the landing page
+  # this UTM fields will be also included in the CRM contact
+  utm_course: ["full-stack"]
+  utm_location: ["santiago-chile"]
+  automation: soft # comma separated, "soft" is the default value
+  tag: request_more_info # comma separated, "request_more_info" is the default value
+
+form:
+  # posible fields: "first_name", "last_name", "full_name", "phone", "email"
+  # always the first_name, email and phone will be mandatory if added.
+  fields: ["full_name", "phone", "email"]
+  heading: "Conoce más información"
+  motivation: "Completa el formulario y te enviaremos la información en menos de 5 min a tu correo electrónico."
+  button_label: Obtener más información
+  redirect: "/es/gracias/?lang=es"  #you can redirect to another url or entirely diffrent website
+
+apply_schollarship: # form that is displayed at the end of the landing
+  # title: "Apoyo Profesional Ilimitado"
+  imageSide: "left"
+  image: "../../../static/images/landing/apply.png"    
+
+navbar:
+  buttonText: "Postular"
+  buttonUrl: "#bottom" # url accepts: relative(/apply), absolute(https://google.com), id(#componentName) or position(#top #bottom)
+  logoUrl: "#"
+
+header_data:
+  background: "#FFF1D1"
+  tagline: Bootcamp de Programación Web 
+  tagline_color: "black"
+  sub_heading: ""
+  badge: "../../../static/images/badges/Course-Report-Badge-2023.png"
+  image_filter: brightness(0.3)
+
+features:
+  marginTop: 0px #<-- separation between tagline and the bullets
+  text: '<span style="margin-top: 10px; display: block; color: black;"> <strong style="font-weight: bold; color:black;">Conviértete en Full Stack Developer Junior</strong> trabajando en proyectos reales y con mentores profesionales</span>'
+  styles: '{ "fontSize": "20px", "margin": "10px 0px 10px 0px" }'
+  bullets:
+    - De cero a programador en 9 o 18 semanas
+    - Mentorías y Apoyo Laboral de por vida
+    - Modalidad Full Time y Part Time disponible
+    - Un desarrollador Jr puede ganar desde $700.000 CLP al mes
+
+short_badges:
+  - name: "Premios Tecnologia Siglo XXI"
+    url: ""
+    image: "../../../static/images/awards/premios_tecnologia_sigloxxi.png"
+    alt: "Mejor centro de Coding Bootcamp"
+  - name: "Course Report"
+    url: ""
+    image: "../../../static/images/badges/Course-Report-Badge-2023.png"
+    alt: "Top Coding Bootcamps Course Report"
+  - name: "Switchup"
+    url: ""
+    image: "../../../static/images/badges/switchup-badge-2023.png"
+    alt: "Best coding bootcamp Switchup 2023"   
+  - name: "Florida Department of Education"
+    url: ""
+    image: "../../../static/images/badges/licensed.png"
+    alt: "Florida Department of Education"
+
+follow_bar:
+  position: "top" # top, bottom, hidden
+  content:
+    text: "Puedes escribirnos un mensaje por WhatsApp y con gusto te ayudaremos"
+    text_mobile: "Puedes enviarnos un mensaje por WhatsApp"
+    # devices:    XL      LG      MD      SM       XS
+    font_size: ["25px", "25px", "25px", "18px", "4.3vw"]
+  button:
+    text: "Escribir por WhatsApp"
+    path: "https://api.whatsapp.com/send/?phone=56920065786&text&type=phone_number&app_absent=0&utm_source=GADS&utm_medium=GADS&utm_campaign=GADS&utm_id=GADS&utm_term=GADS&utm_content=GADS"
+  phone: 
+    text: ""
+
+#
+# ⬇ FROM HERE ON YOU CAN COMMENT ANYTHING TO HIDE IT ON THE LANDING ⬇
+#
+
+program_details:
+  position: 3
+  background: "#FFFFFF"
+  heading: "Domina Python, JS y React"
+  sub_heading: "Un curso de programación sobre las tecnologías más usadas del mundo"
+
+
+geeks_vs_others:
+  position: 6
+  heading: "¿Qué hace a este bootcamp tan exitoso?"
+  paragraph: "Top bootcamp en el mundo y #1 en Chile"
+  total_rows: 5
+
+why_4geeks:
+  position: 7
+  heading: "Por qué 4Geeks"
+  sub_heading: " "
+
+who_is_hiring:
+  position: 8
+  limit: 4
+  heading: "¿Quién contrata a nuestros alumnos?"
+  sub_heading: "Nos encanta ver crecer a nuestros estudiantes, es por eso que nos esforzamos cada día por tener más aliados, para que puedas trabajar en empresas que te ayuden a seguir creciendo profesionalmente."
+
+components:
+  - name: how-it-works
+    position: 4
+    layout: iconogram
+    swipable: True
+    heading:
+      text: ""
+      font_size: ["30px", "30px", "30px", "30px", "30px"]
+    sub_heading:
+      text: ""
+      font_size: ["16px", "16px", "16px", "16px", "16px"]
+      style: '{ "textAlign": "center", "width": "60%" }'
+    text_link: "#"
+    icons:
+    - icon: "touch" 
+      title: Solicita información
+    - icon: "receive_mail"
+      title: Recibe un correo electrónico con los detalles
+    - icon: "talk"
+      title: Haz una entrevista con nuestro equipo
+    - icon: "terminal"
+      title: Aprende a programar con nosotros
+
+  - name: python_y_javascript
+    position: 5
+    layout: two_column_right
+    background: "veryLightBlue2" # Name of the color(from components/Styling/index.js) or color code ex: #C9F9F9 .
+    image:
+      src: "/images/why-4geeks/python-image.png"
+    heading:
+      text:
+        "Python y JavaScript"
+        #           xl      lg      md      sm      xs
+      font_size: ["50px", "50px", "50px", "50px", "50px"]
+    content:
+      text: "Nuestro programa está basado en el uso de Python y JavaScript. ¿La razón? En el mercado laboral JavaScript tiene 26 veces más vacantes de trabajo que Ruby on Rails y Python te permite acceder a distintas áreas del mundo de la programación. Otras herramientas que también aprenderás a usar en nuestro programa son: HTML5, CSS3, React, Flask, etc."
+      font_size: ["16px"]
+
+  - name: more_testimonials
+    position: 9
+    layout: two_column_left
+    image:
+      src: "https://storage.googleapis.com/4geeks-academy-website/landing-pictures/testimonials.webp"
+      shadow: true
+    heading:
+      text: "Testimonios de Nuestros Alumnos"
+      #xl      lg     md     sm    xs
+      font_size: ["40px", "34px", "34px", "25px", "20px"]
+    button:
+      text: "Ver Testimoniales"
+      color: white
+      background: black
+      hover: white
+      path: "https://www.youtube.com/watch?v=rtpfwwfE0yY&ab_channel=4GeeksAcademy"
+    content:
+      text: "Mentorías ilimitadas, distintos instructores, todas las semanas. Te acompañaremos en este camino para que puedas convertirte en Full Stack Developer Junior y conseguir tu primer empleo en el área. Siempre te acompañaremos, aún cuando ya hayas conseguido trabajo, una vez eres parte de 4Geeks, siempre serás parte de la comunidad y sus beneficios."
+      font_size: ["16px"]

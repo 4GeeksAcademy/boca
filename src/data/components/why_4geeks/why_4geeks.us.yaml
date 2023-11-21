@@ -1,0 +1,54 @@
+## WHY 4GEEKS SECTION
+## THIS COMPONENT IS USED IN "/home"
+
+## IF THE video url IS SPECIFIED, THE IMAGE WILL HAVE A PLAY ICON TO PLAY THE VIDEO, OTHERWISE ONLY THE IMAGE IS SHOWN
+
+why:
+  - title: "Get a job in Tech"
+    description: "Join hundreds of graduates working at top tech companies: Profile Building, Personal Branding, Mock Interviews, etc."
+    image: ../../../../static/images/why3.jpg
+    alt: ""
+    video: "https://www.youtube.com/watch?v=ln3bQsV1BaQ" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
+    # video: "ln3bQsV1BaQ"
+    icon: address
+  - title: "We finance your career"
+    description: "Don't pay anything from day one until you finally get a coding job with our Income Sharing Agreement(ISA)."
+    image: "../../../../static/images/why2.jpg"
+    alt: ""
+    video: "https://www.youtube.com/watch?v=MBXqEnhodx0" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
+    # video: "MBXqEnhodx0"
+    icon: handmoney
+  - title: "Never code alone again"
+    description: "Limitless and forever: Mentorships, exercises, permanent chatroom, real classrooms, even after you get your job."
+    image: "../../../../static/images/why1.jpg"
+    alt: ""
+    video: "https://www.youtube.com/watch?v=PWkgaAT8pHg" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
+    # video: "PWkgaAT8pHg"
+    icon: laptop
+## ***************************
+## BELOW SOME AVAILABLE VIDEOS
+## ***************************
+
+# A mix of different students talking and recommending 4GA.
+# Here is the URL: https://www.youtube.com/watch?v=sJrH4f7Df8g      # CURRENT 2ST BOX
+
+# Jonathan Ferragut. 2018
+# Here is the URL: https://www.youtube.com/watch?v=oeX_ocy6zv4
+
+# Olson Dimanche
+# Here is the URL: https://www.youtube.com/watch?v=mYgJ6cOxgJs      # 3rd box
+
+# Carlos Ávila
+# Here is the URL: https://www.youtube.com/watch?v=plwPwyrxX84
+# Finding a Job after the Program
+
+# Guensie Grecy. 2019
+# Here is the URL: https://www.youtube.com/watch?v=_rtJgxuY4i4      # CURRENT 1ND BOX
+
+# Olson Dimanche
+# Here is the URL: https://www.youtube.com/watch?v=dQrMEb8iiyM
+
+# Switch Career
+
+# Guensie Grecy
+# Here is the URL: https://www.youtube.com/watch?v=z_YORvcJHqA

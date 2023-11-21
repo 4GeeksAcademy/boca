@@ -1,0 +1,28 @@
+meta_info:
+  slug: communications-and-public-relations
+  title: "Communications and Public Relations"
+  visibility: "hidden"
+  description: "We are very proud of our syllabus, methodology and outcomes. But we want more people talking about it, at the epicenter of the city's tech ecosystem."
+  image: null
+  open: false #if true, this job will be accepting candidates
+  keywords: ""
+  redirects: []
+
+## BANNER INFO
+banner_heading: "Communications and Public Relations"
+banner_sub_heading: ""
+banner_image: "/images/bg/pricing-bg.jpg"
+link_back: "/us/jobs"
+cities:
+  - Miami
+  - Santiago de Chile
+button_text: "APPLY NOW"
+## JOB MAIN SECTION INFO
+title: "Communications and Public Relations"
+description: "We are very proud of syllabus, teaching methodology and career outcomes, 87% of our students are getting a Job. We are really graduating devs! :) But we need more people talking about it, we need more partners helping us build better devs and hiring our devs, we need to help more private and public institutions. 4Geeks Academy needs to be at the epicenter of the city's tech ecosystem."
+
+content:
+  - label: "responsabilities"
+    list:
+      - "1. "
+      - "2. "

@@ -1,0 +1,61 @@
+---
+meta_info:
+  slug: 20-million
+  title: Coding Programs offered by 4Geeks Academy
+  description: If
+  visibility: visible
+  image: /images/programs-heading.png
+  keywords: Programs at 4Geeks Academy
+  redirects:
+    - "/20million"
+    - "/20-millions"
+    - "/20millions"
+seo_title: Level up as a developer
+header:
+  title: $20+ Million in Scholarships
+  paragraph: Fueling the Future of Tech Education, Making Coding Accessible to All.
+
+button:
+  btn_label: I want to Contribute
+  apply_button_link: /us/apply
+two_column_left:
+  proportions:
+    - 6
+    - 6
+  image:
+    style: '{ "backgroundSize": "contain" }'
+    src: /images/landing/20-million-column.png
+  heading:
+    text: Our mission is to make high-quality coding education affordable.
+    font_size:
+      - 40px
+      - 40px
+      - 40px
+      - 40px
+      - 40px
+  sub_heading:
+    text: In the past, 68% of the people applying to 4Geeks Academy could not enroll due to financial reasons. We concentrated our efforts on lowering the financial barriers by finding partners and sponsors who shared our vision. Today, thanks to our joint efforts, 80% of our students receive some form of financial support, making top-quality coding education accessible to a wider audience.
+    font_size:
+      - 16px
+      - 16px
+      - 16px
+      - 16px
+      - 16px
+  content:
+    font_size:
+      - 16px
+    text: |
+      Since our foundation in 2015,  these goals have been fundamental to our mission:
+        - To be a premier school for coding education, enriching the futures of our students.
+        - To secure job placement for our graduates immediately after program completion.
+        - To make high-quality education accessible to anyone eager to embark on a coding career.
+  button:
+    text: JOIN THE NETWORK
+    color: white
+    background: blue
+    hover_color: white
+    path: "#top"
+form:
+  title: "Become a Catalyst for Change: Join Our Network of Partners"
+  paragraph: >
+    Thanks to our dedicated partners, we are turning our goals into reality. As a community, hiring, or funding partner, you too can help shape the future of tech and tech education . Connect with us to explore how we can mutually leverage our capacities and  make a lasting impact.

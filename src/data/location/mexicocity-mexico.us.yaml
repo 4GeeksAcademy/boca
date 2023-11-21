@@ -1,0 +1,127 @@
+meta_info:
+  slug: "coding-bootcamp-mexico"
+  title: "4Geeks Academy in Mexico, Mexico City"
+  position: 32
+  description: "Get to know here all about our coding bootcamp campus in Mexico, Mexico City of 4Geeks Academy"
+  image: "/images/og-preview/mexicocity-mexico.us.png"
+  keywords: ""
+  # it will not show up on the applications forms
+  visibility: "visible"
+  redirects: []
+  region: "latam"
+  dialCode: "52"
+  related_clusters: ["trends-and-tech"]
+
+seo_title: "Coding Bootcamp Mexico"
+header:
+  tagline: "4Geeks Academy in Mexico"
+  sub_header: "All programs are taught "
+  sub_header_highlighted: "Online, Hybrid or In-person."
+  paragraph: "Lifetime Coding Mentorship, Career Support and a tech driven developer community. \\n The number one coding bootcamp in Mexico with over 1,000 graduates"
+  image: "../../../static/images/locations/mexico-header.png"
+  alt: ""
+button_header:
+  button_text: See Programs
+  button_link: "#programs"
+button:
+  syllabus_button_text: "DOWNLOAD SYLLABUS" # <-- this will show everywhere in the website
+  apply_button_text: "APPLY NOW" # <-- this will show everywhere in the website
+
+  syllabus_submit_text: "DOWNLOAD"
+  apply_button_link: "/apply"
+  cohort_more_details_text: "DETAILS"
+
+custom_bar:
+  active: true
+  message: Become a fullstack developer, and get lifetime mentoring starting at $150 per month
+#  button: 
+#    label: "Read More"
+#    path: "#" #string (can be inline path using #, relative path or absolute path)
+
+badges:
+  title: ""
+  paragraph: |
+    4Geeks Academy is the place where developers grow and thrive.
+ 
+    We are licensed by the USA F. Dep. of Education.
+  
+    Chosen as one of the top 35 coding bootcamps of the world and the top <a href="https://4geeksacademy.com/us/coding-bootcamp" rel="nofollow">coding bootcamp</a> in Miami according to SwitchUp.
+
+    4Geeks Academy has been recognized as one of the top 10 coding bootcamps in the United States according to Newsweek.
+
+    A community built for developers.
+news:
+  title: "4Geeks Academy Mexico in the news..."
+upcoming:
+  no_dates_message: "There are currently no upcoming dates for this campus"
+  actionMessage: "Let me know when dates are available"
+
+info_box:
+  heading: "Find us in Mexico"
+  address: "Only remotely in Mexico"
+  iframeMapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1126.521243034489!2d-80.20142868794088!3d25.759937884725943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b153865e526d%3A0xf884fb3f86a9c7db!2s4Geeks%20Academy!5e0!3m2!1ses-419!2scl!4v1621010581768!5m2!1ses-419!2scl"
+  contact_heading: "Contacts"
+  phone: Call +57 300 7282898
+  whatsapp: +57 300 7282898
+  whatsapp_link: "https://wa.me/+573007282898"
+  email: latam@4GeeksAcademy.com
+
+images_box:
+  heading: "What you should know about this location: "
+  content: "The country has seen a surge in tech companies and startups, particularly in major cities like Mexico City, Guadalajara, and Monterrey. Mexico City, in particular, has become a prominent hub for tech innovation and entrepreneurship. The tech sector in Mexico spans various industries, including fintech, e-commerce, healthtech, edtech, and agritech. Mexico has been working towards creating a supportive ecosystem for startups and entrepreneurs. The government has introduced initiatives to facilitate access to funding, provide resources for startup development, and foster innovation. Business incubators, accelerators, and co-working spaces have also emerged to support the growth of startups in the country. Additionally, events, workshops, and networking opportunities are available to connect entrepreneurs with investors and mentors."
+  images:
+    - path: "../../../static/images/locations/mexico-new.jpg"
+      alt: "Mexico city"
+    - path: "../../../static/images/ownpeoplecoding2.jpg"
+      alt: "4Geeks Own People Coding"
+    - path: "../../../static/images/ownmancoding.jpg"
+      alt: "Remote-Coding-Bootcamp"
+    - path: "../../../static/images/locations/miami-old.jpg"
+      alt: "4Geeeks location"
+    - path: "../../../static/images/locations/miami-people.jpeg"
+      alt: "4Geeeks lab"
+
+## START FROM HERE - DON'T CHANGE ANYTHING ABOVE
+## HEADING SECTION
+heading_section:
+  heading: "PRICING AND FINANCING"
+  sub_heading: ""
+
+active_campaign_location_slug: "mexicocity-mexico"
+breathecode_location_slug: "mexicocity-mexico"
+gdpr_compliant: false # do we need to ask for permision?
+in_person_available: false # important to accept in-person applicants
+
+city: "Mexico City"
+name: "Mexico"
+latitude: "19.428560" 
+longitude: "-99.159580"
+address: ""#Hamburgo 26, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX, Mexico
+zip_code: ""
+state: ""
+country: "Mexico"
+country_shortname: "mx"
+phone: "(571) 580-6848"
+socials:
+  - name: "Facebook"
+    icon: "facebook"
+    link: "https://www.facebook.com/4geeksacademy"
+  - name: "Twitter"
+    icon: "twitter"
+    link: "https://www.twitter.com/4geeksacademy"
+  - name: "Instagram"
+    icon: "instagram"
+    link: "https://www.instagram.com/4geeksacademy"
+courses:
+  - "Full-Time"
+  - "Part-Time"
+
+flag_icon: ""
+location_map: ""
+location_phone_number: ""
+location_office_image: ""
+location_office_image2: ""
+location_office_image3: ""
+should_know: ""
+value: "Mexico"
+defaultLanguage: "es" # All lead marketing communications will arrive on this language
