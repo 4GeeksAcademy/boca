@@ -24,6 +24,7 @@ form:
   # posible fields: "first_name", "last_name", "full_name", "phone", "email"
   # always the first_name, email and phone will be mandatory if added.
   fields: ["full_name", "phone", "email"]
+  styles: "{}"
   heading: "Request more info."
   motivation: "" # < -- subtitle ideal to movitate people on filling the form
   button_label: SEND

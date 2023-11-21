@@ -23,9 +23,9 @@ navbar:
   buttonUrl: "#bottom" #accepts: relative(/apply), absolute(https://google.com), id(#componentName) or position(#top #bottom)
 
 form:
+  styles: "{}"
   # posible fields: "first_name", "last_name", "full_name", "phone", "email"
   # always the first_name, email and phone will be mandatory if added.
-  styles: "{}"
   fields: []
   heading: ""
   motivation: "" # < -- subtitle ideal to movitate people on filling the form
@@ -33,10 +33,10 @@ form:
   redirect: "" #you can redirect to another url or entirely diffrent website
 
   # jumbotron on the top (cannot be commented out)
-  # apply_schollarship: # form that is displayed at the end of the landing
-  title: ""
-  imageSide: "right"
-  image: "static/images/landing/apply.png"
+# apply_schollarship: # form that is displayed at the end of the landing
+#   title: ""
+#   imageSide: "right"
+#   image: "static/images/landing/apply.png"
 
 header_data:
   background: "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%"
@@ -47,6 +47,7 @@ header_data:
   background_image: "../../../static/images/landing/Boca/c10g.jpg"
   badge: "" #Tmage on the right side of the form
   image_filter: brightness(1) #0 is dark, 1 is bright
+  show_form: false # hide the form on the header
   button:
     text: ""
 
@@ -103,6 +104,8 @@ components:
           text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
+        content:
+          text: "some text a little lengthy asdasd"
         section_heading:
           text: Find Your Career Path
 
@@ -280,22 +283,21 @@ components:
   - name: how-it-works
     position: 8
     layout: iconogram
-    style: '{ "background": "#312E81", "textAlign": "center"}'
     swipable: True
     heading:
       text: ""
     sub_heading:
       text: ""
     icons:
-      - icon: "nodes-squares"
+      - icon: "nodes-square"
         title: |
           1.3M+
           TECH JOBS IN US
-      - icon: ""
+      - icon: "table"
         title: |
           47k+
           NEW JOBS PER YEAR
-      - icon: ""
+      - icon: "programmer-guy"
         title: |
           $108k+
           AVG. SALARY FOR SOFTWARE ENGINEER

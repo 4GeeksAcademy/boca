@@ -670,7 +670,7 @@ const getMetaFromPath = ({ url, meta_info, frontmatter }) => {
   //   type === "page"
   //     ? `/${lang}/${slug}`
   //     : `/${lang}/${slugigy(template)}/${slug}`;
-  const pagePath = `/${lang}/${slug}`;
+  const pagePath = `/${slug}`;
 
   const meta = {
     lang,

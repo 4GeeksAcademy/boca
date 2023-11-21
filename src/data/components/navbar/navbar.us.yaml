@@ -1,6 +1,6 @@
 navbar:
   - name: "Courses"
-    link: "/us/coding-bootcamps/part-time-full-stack-developer"
+    link: "/courses"
     sub_menu:
       icon: ""
       title: "Courses"
@@ -13,16 +13,16 @@ navbar:
           paragraph: "Learn to build full-stack web, mobile, and cloud-based applications in 10 weeks."
           buttons:
             - text: "View program"
-              link: "/us/coding-bootcamps/part-time-full-stack-developer"
+              link: "/courses"
 
   - name: "Financing"
-    link: "us/finance"
+    link: "/finance"
 
   - name: "Candidates"
-    link: "/us/candidates"
+    link: "/candidates"
     
   - name: "Upcoming Dates"
-    link: "/us/next-dates"
+    link: "/next-dates"
 
 button:
   button_link: "/get-started"
