@@ -244,7 +244,7 @@ export const RightNav = ({
           }
         }
       }
-      file(relativePath: { eq: "images/4G_logo_negro.png" }) {
+      file(relativePath: { eq: "images/logo-boca.png" }) {
         childImageSharp {
           gatsbyImageData(
             layout: FIXED # --> CONSTRAINED || FIXED || FULL_WIDTH
@@ -279,7 +279,7 @@ export const RightNav = ({
           loading="eager"
           fixed={data.file.childImageSharp.fixed}
           image={getImage(data.file.childImageSharp.gatsbyImageData)}
-          alt="4Geeks Logo"
+          alt="4Geeks & Boca Code Logo"
         />
       </Link>
       <Ul open={open}>

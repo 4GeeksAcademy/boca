@@ -504,6 +504,7 @@ export const query = graphql`
             icons {
               icon
               title
+              style
               content
             }
             image {

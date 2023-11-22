@@ -152,7 +152,7 @@ export const NavbarMobile = ({
 
   const data = useStaticQuery(graphql`
     query {
-      file(relativePath: { eq: "images/4geeksacademy-logo.png" }) {
+      file(relativePath: { eq: "images/logo-boca.png" }) {
         childImageSharp {
           gatsbyImageData(
             layout: FIXED # --> CONSTRAINED || FIXED || FULL_WIDTH
