@@ -27,7 +27,7 @@ form:
   # always the first_name, email and phone will be mandatory if added.
   styles: "{}"
   fields: ["full_name", "phone", "email"]
-  heading: "Ready to Enroll?"
+  heading: "Enroll Now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
   button_label: Talk to an Advisor
   redirect: "" #you can redirect to another url or entirely diffrent website
@@ -103,18 +103,18 @@ components:
       text: ""
     icons:
       - icon: "nodes-square"
-        style: '{ "color": "#FFFFFF", "textAlign": "center"}'
-        title: |
-          1.3M+
-          TECH JOBS IN US
+        style: '{ "color": "#FFFFFF" }'
+        title: 1.3M+ TECH JOBS IN US
       - icon: "table"
         title: |
           47k+
           NEW JOBS PER YEAR
+        style: '{ "color": "#FFFFFF" }'
       - icon: "programmer-guy"
         title: |
           $108k+
-          AVG. SALARY FOR SOFTWARE ENGINEER
+          AVG. SALARY FOR SOFTWARE ENG.
+        style: '{ "color": "#FFFFFF" }'
 
   - name: name
     position: 3
@@ -128,7 +128,7 @@ components:
       text: "Full stack developer"
     content:
       text: |
-        Desde 0 hasta convertirte en programador fullstack Jr.Trabajaras con HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST API's, etc. para diseñar y crear webs responsive.
+        From zero to becoming a junior full-stack developer. You'll work with HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST APIs, etc., to design and create responsive websites.
     button:
       text: Apply Now
       color: black
@@ -187,27 +187,34 @@ components:
       - image:
           src: "/images/landing/boca/students.jpg"
         heading:
-          text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
+          text: "Learn In-Demand Skills"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
-        section_heading:
-          text: Find Your Career Path
+        content:
+          text: "Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
       - image:
           style: '{ "backgroundSize": "cover",}'
           src: "/images/landing/boca/staff.jpg"
         heading:
-          text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
+          text: "Learn from Experts"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
+        content:
+          text: "Learn from senior-level professionals with successful careers in tech and real industry experience."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
       - image:
           style: '{ "backgroundSize": "cover"}'
           src: "/images/landing/boca/comunify-app.jpg"
         heading:
-          text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
+          text: "Work on Real Projects"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
+        content:
+          text: "Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
 
   - name: two_column_right_end

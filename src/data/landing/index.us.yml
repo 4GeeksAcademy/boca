@@ -27,7 +27,7 @@ form:
   # always the first_name, email and phone will be mandatory if added.
   styles: "{}"
   fields: ["full_name", "phone", "email"]
-  heading: "Ready to Enroll?"
+  heading: "Apply now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
   button_label: Talk to an Advisor
   redirect: "" #you can redirect to another url or entirely diffrent website
@@ -88,6 +88,7 @@ program_details:
   heading: "What you will learn"
   background: "#FFFFFF"
   sub_heading: "Most in-demand in the job market"
+    
 
 # Possible layours: [two_column_left, two_column_right]
 components:
@@ -148,7 +149,7 @@ components:
       text: "Full stack developer"
     content:
       text: |
-        Desde 0 hasta convertirte en programador fullstack Jr.Trabajaras con HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST API's, etc. para diseñar y crear webs responsive.
+        From zero to becoming a junior full-stack developer. You'll work with HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST APIs, etc., to design and create responsive websites.
     button:
       text: Apply Now
       color: "#312E81"

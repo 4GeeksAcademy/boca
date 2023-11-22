@@ -26,7 +26,7 @@ form:
   # always the first_name, email and phone will be mandatory if added.
   styles: "{}"
   fields: ["full_name", "phone", "email"]
-  heading: "Ready to Enroll?"
+  heading: "Enroll Now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
   button_label: Talk to an Advisor
   redirect: "" #you can redirect to another url or entirely diffrent website
@@ -91,18 +91,18 @@ components:
       text: ""
     icons:
       - icon: "nodes-square"
-        style: '{ "color": "#FFFFFF", "textAlign": "center"}'
-        title: |
-          1.3M+
-          TECH JOBS IN US
+        style: '{ "color": "#FFFFFF" }'
+        title: 1.3M+ TECH JOBS IN US
       - icon: "table"
         title: |
           47k+
           NEW JOBS PER YEAR
+        style: '{ "color": "#FFFFFF" }'
       - icon: "programmer-guy"
         title: |
           $108k+
-          AVG. SALARY FOR SOFTWARE ENGINEER
+          AVG. SALARY FOR SOFTWARE ENG.
+        style: '{ "color": "#FFFFFF" }'
 
   - name: name
     position: 2

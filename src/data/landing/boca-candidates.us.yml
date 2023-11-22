@@ -102,18 +102,18 @@ components:
       text: ""
     icons:
       - icon: "nodes-square"
-        style: '{ "color": "#FFFFFF", "textAlign": "center"}'
-        title: |
-          1.3M+
-          TECH JOBS IN US
+        style: '{ "color": "#FFFFFF" }'
+        title: 1.3M+ TECH JOBS IN US
       - icon: "table"
         title: |
           47k+
           NEW JOBS PER YEAR
+        style: '{ "color": "#FFFFFF" }'
       - icon: "programmer-guy"
         title: |
           $108k+
-          AVG. SALARY FOR SOFTWARE ENGINEER
+          AVG. SALARY FOR SOFTWARE ENG.
+        style: '{ "color": "#FFFFFF" }'
 
   - name: elegibility
     position: 5
