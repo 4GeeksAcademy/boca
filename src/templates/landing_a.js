@@ -87,7 +87,7 @@ const Landing = (props) => {
       (l) => l.breathecode_location_slug === yml.meta_info.utm_location
     );
 
-      console.log("yml.form", yml.form)
+  console.log("yml.form", yml.form);
   // console.log("...JSON.parse(yml.form.styles)", ...JSON.parse(yml.form.styles || "{}"))
   return (
     <>
@@ -263,7 +263,10 @@ const Landing = (props) => {
               margin="0"
               formHandler={processFormEntry}
               heading={yml.form.heading}
-              style={{ minHeight: "350px", ...JSON.parse(yml.form.styles || "{}") }}
+              style={{
+                minHeight: "350px",
+                ...JSON.parse(yml.form.styles || "{}"),
+              }}
               motivation={yml.form.motivation}
               sendLabel={yml.form.button_label}
               redirect={yml.form.redirect}
@@ -497,6 +500,7 @@ export const query = graphql`
             width
             filter_indexes
             text_link
+            direction_row
             icons {
               icon
               title
@@ -565,7 +569,7 @@ export const query = graphql`
                 style
                 font_size
               }
-              content{
+              content {
                 text
                 style
               }

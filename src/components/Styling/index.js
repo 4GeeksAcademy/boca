@@ -63,6 +63,7 @@ export const Colors = {
   red: "red",
   lightRed: "#ffcdc9",
   whitePink: "#FFF1D1",
+  bocaBlue: "#312E81",
   shadow: "0px 0px 16px rgba(0, 0, 0, 0.15)",
 };
 

@@ -13,7 +13,7 @@ navbar:
           paragraph: "Learn to build full-stack web, mobile, and cloud-based applications in 10 weeks."
           buttons:
             - text: "View program"
-              link: "/courses"
+              link: "/full-stack"
 
   - name: "Financing"
     link: "/finance"
