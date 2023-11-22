@@ -133,6 +133,7 @@ components:
       text: "Find Your Career Path"
     sub_heading:
       text: "Choose the right training for your career. If you're not sure, schedule a call with an Admissions Advisor here to find out which classes are right for you."
+      style: '{"text-align":"center", "font-family": "Lato", "font-size": "26px"}'
 
   - name: software_engineer
     position: 3
@@ -312,6 +313,7 @@ components:
       text: "Not sure where to start"
     sub_heading:
       text: If you're not sure which class is best for you, our <a href="/get-started">admissions team</a> is ready to help.
+      style: '{"text-align":"center", "font-family": "Lato", "font-size": "26px"}'
 
   - name: divider_three
     position: 10

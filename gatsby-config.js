@@ -5,8 +5,7 @@ require("dotenv").config({
 const robots = process.env.GATSBY_ROBOTS || "show";
 module.exports = {
   siteMetadata: {
-    defaultTitle:
-      "4Geeks Boca - Become a Certified Tech Professional",
+    defaultTitle: "4Geeks Boca - Become a Certified Tech Professional",
     titleTemplate: "%s · 4Geeks Boca",
     siteUrl: `https://boca.4geeksacademy.com`,
     defaultDescription: {
