@@ -120,8 +120,7 @@ const Overlaped = ({
             gridColumn_lg="14 / 35"
             position="relative"
           >
-            <Div width="100%">
-            </Div>
+            <Div width="100%"></Div>
           </Div>
         </Grid>
 

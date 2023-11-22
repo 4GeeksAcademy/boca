@@ -47,7 +47,7 @@ export default ({ icon, title, content, directionRow }) => {
         padding_tablet="0"
         padding_xs="0 10%"
         width="100%"
-        gap={directionRow && '15px'}
+        gap={directionRow && "15px"}
         gap_tablet="0"
       >
         <Icon icon={icon} width="94" height="98" margin="0 0 20px 0" />

@@ -1,8 +1,8 @@
 meta_info:
-  slug: index # <--- URL 4geeksacademy.com/us/landing/example
+  slug: full-stack # <--- URL 4geeksacademy.com/us/landing/example
 
-  title: "Boca Code | Become a Certified Tech Professional" # This will show the browser tab title
-  description: "At Boca Code we teach adults to be successful tech professionals."
+  title: "Become a Skilled Full-Stack Developer"
+  description: "Discover your path to mastering modern technologies and becoming a proficient full-stack developer with our comprehensive training at Boca Code."
   image: "" # description will show on social media when shared
   keywords: "" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
@@ -58,7 +58,7 @@ features:
   button:
     text: "Get Started"
     color: "white"
-    path: "https://www.switchup.org/bootcamps/4geeks-academy"
+    path: "#bottom"
     background: "blue"
     hover_color: "black"
     swipable: false
@@ -84,71 +84,16 @@ follow_bar:
 #
 
 program_details:
-  position: 5
+  position: 1
   heading: "What you will learn"
   background: "#FFFFFF"
   sub_heading: "Most in-demand in the job market"
 
 # Possible layours: [two_column_left, two_column_right]
 components:
-  - name: elegibility
-    position: 1
-    layout: cards_carousel
-    style: '{ "backgroundColor": "#FFFFFF", "border": "none"}'
-    background: "#FFFFFF"
-    heading:
-      text: "Invest in Yourself"
-      font_size: ["30px", "30px", "30px", "30px", "30px"]
-    sub_heading:
-      # text: |
-      #   We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
-      font_size: ["16px", "16px", "16px", "16px", "16px"]
-    cards:
-      - image:
-          src: "/images/landing/Boca/students.jpg"
-        heading:
-          text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
-          style: '{ "fontWeight": "700" }'
-          font_size: "15px"
-        section_heading:
-          text: Find Your Career Path
-
-      - image:
-          style: '{ "backgroundSize": "cover",}'
-          src: "/images/landing/Boca/staff.jpg"
-        heading:
-          text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
-          style: '{ "fontWeight": "700" }'
-          font_size: "15px"
-
-      - image:
-          style: '{ "backgroundSize": "cover"}'
-          src: "/images/landing/Boca/comunify-app.jpg"
-        heading:
-          text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
-          style: '{ "fontWeight": "700" }'
-          font_size: "15px"
-
-  - name: name
-    position: 2
-    layout: overlaped
-    image:
-      src: ""
-    side_content:
-      heading: "Find Your Career Path"
-      sub_heading: "Choose the right training for your career. If you're not sure, schedule a call with an Admissions Advisor here to find out which classes are right for you."
-    heading:
-      text: "Full stack developer"
-    content:
-      text: |
-        Desde 0 hasta convertirte en programador fullstack Jr.Trabajaras con HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST API's, etc. para diseñar y crear webs responsive.
-    button:
-      text: Apply Now
-      color: black
-      path: "#bottom"
 
   - name: how-it-works
-    position: 4
+    position: 2
     layout: iconogram
     direction_row: True
     swipable: True
@@ -170,6 +115,25 @@ components:
         title: |
           $108k+
           AVG. SALARY FOR SOFTWARE ENGINEER
+
+  - name: name
+    position: 3
+    layout: overlaped
+    image:
+      src: ""
+    side_content:
+      heading: "Find Your Career Path"
+      sub_heading: "Choose the right training for your career. If you're not sure, schedule a call with an Admissions Advisor here to find out which classes are right for you."
+    heading:
+      text: "Full stack developer"
+    content:
+      text: |
+        Desde 0 hasta convertirte en programador fullstack Jr.Trabajaras con HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST API's, etc. para diseñar y crear webs responsive.
+    button:
+      text: Apply Now
+      color: black
+      path: "#bottom"
+
 
   - name: divider_one
     position: 6
@@ -207,6 +171,45 @@ components:
           icon: "check"
           text: "Focus on learning to code. Pay upfront."
 
+  - name: elegibility
+    position: 15
+    layout: cards_carousel
+    style: '{ "backgroundColor": "#FFFFFF", "border": "none"}'
+    background: "#FFFFFF"
+    heading:
+      text: "Invest in Yourself"
+      font_size: ["30px", "30px", "30px", "30px", "30px"]
+    sub_heading:
+      # text: |
+      #   We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
+      font_size: ["16px", "16px", "16px", "16px", "16px"]
+    cards:
+      - image:
+          src: "/images/landing/Boca/students.jpg"
+        heading:
+          text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
+          style: '{ "fontWeight": "700" }'
+          font_size: "15px"
+        section_heading:
+          text: Find Your Career Path
+
+      - image:
+          style: '{ "backgroundSize": "cover",}'
+          src: "/images/landing/Boca/staff.jpg"
+        heading:
+          text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
+          style: '{ "fontWeight": "700" }'
+          font_size: "15px"
+
+      - image:
+          style: '{ "backgroundSize": "cover"}'
+          src: "/images/landing/Boca/comunify-app.jpg"
+        heading:
+          text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
+          style: '{ "fontWeight": "700" }'
+          font_size: "15px"
+
+
   - name: two_column_right_end
     position: 20
     layout: two_column_right
@@ -229,6 +232,6 @@ components:
       color: white
       hover_color: "white"
       background: "#e11d48"
-      path: "#top"
+      path: "#buttom"
 
 

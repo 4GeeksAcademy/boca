@@ -24,14 +24,14 @@ navbar:
 form:
   # posible fields: "first_name", "last_name", "full_name", "phone", "email"
   # always the first_name, email and phone will be mandatory if added.
-  styles: '{}'
-  fields: []
-  heading: ""
-  motivation: "" # < -- subtitle ideal to movitate people on filling the form
-  button_label: 
+  styles: "{}"
+  fields: ["full_name", "phone", "email"]
+  heading: "Ready to Enroll?"
+  motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
+  button_label: Talk to an Advisor
   redirect: "" #you can redirect to another url or entirely diffrent website
 
-# jumbotron on the top (cannot be commented out)
+  # jumbotron on the top (cannot be commented out)
 # apply_schollarship: # form that is displayed at the end of the landing
 #   title: ""
 #   imageSide: "right"
@@ -104,150 +104,72 @@ components:
           $108k+
           AVG. SALARY FOR SOFTWARE ENGINEER
 
-  # - name: cards
-  #   position: 10
-  #   layout: cards_carousel
-  #   style: '{ "backgroundColor": "#FFFFFF", "border": "none"}'
-  #   background: "#FFFFFF"
-  #   heading:
-  #     text: "Invest in Yourself"
-  #     font_size: ["30px", "30px", "30px", "30px", "30px"]
-  #   sub_heading:
-  #     text: |
-  #       We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
-  #     font_size: ["16px", "16px", "16px", "16px", "16px"]
-  #   cards:
-  #     - image:
-  #         src: "/images/landing/Boca/students.jpg"
-  #       heading: 
-  #         text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
-  #         style: '{ "fontWeight": "700" }'
-  #         font_size: "15px"
-  #       section_heading:
-  #         text: Find Your Career Path
-        
-  #     - image:
-  #         style: '{ "backgroundSize": "cover",}'
-  #         src: "/images/landing/Boca/staff.jpg"
-  #       heading: 
-  #         text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
-  #         style: '{ "fontWeight": "700" }'
-  #         font_size: "15px"
-        
-  #     - image:
-  #         style: '{ "backgroundSize": "cover"}'
-  #         src: "/images/landing/Boca/comunify-app.jpg"
-  #       heading: 
-  #         text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
-  #         style: '{ "fontWeight": "700" }'
-  #         font_size: "15px"
-        
-  # - name: divider_one
-  #   position: 20
-  #   layout: divider
-  #   height: ["60px", "60px", "60px", "50px", "50px"]
-  #   heading: 
-  #     text: "Find Your Career Path"
-  #   sub_heading:
-  #     text: "Choose the right training for your career. If you're not sure, schedule a call with an Admissions Advisor here to find out which classes are right for you."
+  - name: name
+    position: 2
+    layout: overlaped
+    image:
+      src: ""
+    side_content:
+      heading: "Payment Plans"
+      sub_heading: "We offer several payment plan options to make a career in Software Engineering accessible to all. From low monthly installments to an Income Share Agreement, we want everyone to be able"
+    heading:
+      text: "NEW in-house 0%-interest loans"
+    content:
+      text: "Boca Code offers 6, 12, and 24 month loans with 0% interest. Our loans are managed through our partner Mia-Share. Apply here to see if you qualify."
+    button:
+      text: Schedule a Call
+      color: "#e11d48"
+      path: "#bottom"
 
-  # - name: software_engineer
-  #   position: 30
-  #   layout: two_column_right 
-  #   swipable: False
-  #   background: "#FFFFFF"
-  #   image:
-  #     src: "/images/landing/Boca/price-down.jpg"
-  #     link: "" # take uses somewhere when they click on the image
-  #   heading: 
-  #     text: "Software Engineering Career Track"
-  #   sub_heading:
-  #     text: "Learn to build web, mobile, and desktop apps, as well as backend, database, API, cloud, security, devOps, interview preparation, and project management."
-  #   bullets:
-  #     style: '{"display": "grid", "grid-template-columns": "repeat(2, 1fr)", "grid-template-rows": "repeat(4, 1fr)", "grid-column-gap": "0px", "grid-row-gap": "0px"}'
-  #     items:
-  #     - heading: "Full-Time"
-  #       icon: "check" #string with icon for example ['check', 'cicle', etc]
-  #     - heading: "Beginner-Friendly"
-  #       icon: "check" 
-  #     - heading: "Programming Fundamentals"
-  #       icon: "check" 
-  #     - heading: "Frontend (Web and Mobile)"
-  #       icon: "check" 
-  #     - heading: "In-Person"
-  #       icon: "check" 
-  #     - heading: "10-Week Intensive"
-  #       icon: "check" 
-  #     - heading: "Backend (APIs and Databases)"
-  #       icon: "check" 
-  #     - heading: "Portfolio based"
-  #       icon: "check" 
+  - name: financing
+    position: 3
+    layout: two_column_left
+    swipable: False
+    background: "#FFFFFF"
+    image:
+      src: "/images/landing/Boca/staff.jpg"
+      link: "" # take users somewhere when they click on the image
+    heading: 
+      text: "Financial Options"
+    sub_heading:
+      text: ""
+    bullets:
+      items:
+        - heading: "Loans up to 60 months"
+          text: "Meritize offers loans up to 60 months with no payments for 6 months for as low as 5%. Apply here. Climb offers similar terms up to 60 months with no payments for 6 months. Apply here."
+          icon: "check"
+        - heading: "Income Share Agreements"
+          text: "Our partner, Mia-Share, offers the best-in-class ISA terms. You put $500 down and pay nothing until you get a job making at least $36,000. Then you pay 8% of your salary for a maximum of 68 months. Apply here."
+          icon: "check"
 
-  # - name: data_analytics_python
-  #   position: 40
-  #   layout: two_column_right
-  #   swipable: False
-  #   background: "#FFFFFF"
-  #   image:
-  #     src: "/images/landing/Boca/price-down.jpg"
-  #   heading:
-  #     text: "Data Analytics and Python"
-  #   sub_heading:
-  #     text: "Learn how to slice and dice our data in countless ways and learn a powerful language and tool set that gives us unlimited power to analyze and visualize our data."
-  #   bullets:
-  #     items:
-  #       - heading: "Evenings"
-  #         icon: "check"
-  #       - heading: "In-Person"
-  #         icon: "check"
-  #       - heading: "Beginner-Friendly"
-  #         icon: "check"
-  #       - heading: "Intro to Data Analytics"
-  #         icon: "check"
-  #       - heading: "Intro to Python"
-  #         icon: "check"
-  #       - heading: "Machine Learning Algorithms"
-  #         icon: "check"
-  #       - heading: "CRISP-DM"
-  #         icon: "check"
+  - name: financing-two
+    position: 4
+    layout: two_column_right
+    swipable: False
+    background: "#FFFFFF"
+    image:
+      src: "/images/landing/Boca/trabajando-equipo-cafe.jpg"
+      link: "" # take users somewhere when they click on the image
+    heading: 
+      text: "Scholarship Options"
+    sub_heading:
+      text: "Boca Code offers scholarship options for individuals looking to transform their careers. Find out more by booking a call with an Admissions Advisor."
+    bullets:
+      items:
+        - heading: "Diversity in Tech"
+          text: "Awarded to students that are under-represented in the South Florida Tech community, namely Women, Black, African American, Latino, and Hispanic students."
+          icon: "check"
+        - heading: "Engineer the Change"
+          text: "Our community partner, TechStrong, provide $10,000 to one student each Spring and Fall. To learn more or apply, visit"
+          icon: "check"
 
-  # - name: intro_to_web_development
-  #   position: 50
-  #   layout: two_column_right
-  #   swipable: False
-  #   background: "#FFFFFF"
-  #   image:
-  #     src: "/images/landing/Boca/price-down.jpg"
-  #   heading:
-  #     text: "Intro to Web Development"
-  #   sub_heading:
-  #     text: "Learn Web Development from scratch. Create a portfolio of websites and learn the trade in our valuable 3-week course."
-  #   bullets:
-  #     items:
-  #       - heading: "Evenings"
-  #         icon: "check"
-  #       - heading: "Online"
-  #         icon: "check"
-  #       - heading: "Beginner-Friendly"
-  #         icon: "check"
-  #       - heading: "Build and Deploy Websites"
-  #         icon: "check"
-  #       - heading: "Learn from scratch"
-  #         icon: "check"
-  #       - heading: "HTML, CSS, and JavaScript"
-  #         icon: "check"
-  #       - heading: "Tailwind, Bootstrap, and Flexbox"
-  #         icon: "check"
-
-
-
-  # - name: divider_two
-  #   position: 9
-  #   layout: divider
-  #   height: ["60px", "60px", "60px", "50px", "50px"]
-  #   heading: 
-  #     text: "Not sure where to start"
-  #   sub_heading:
-  #     text: If you're not sure which class is best for you, our <a href="/get-started">admissions team</a> is ready to help.
+  - name: divider_one
+    position: 5
+    layout: divider
+    height: ["60px", "60px", "60px", "50px", "50px"]
+    heading: 
+      text: "Want to learn more?"
+    sub_heading:
+      text: ""
 
 
