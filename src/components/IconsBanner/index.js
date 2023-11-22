@@ -20,7 +20,7 @@ const positions = [
   },
 ];
 
-export default ({ icon, title, content }) => {
+export default ({ icon, title, content, directionRow }) => {
   return (
     <Div
       gridGap="0"
@@ -42,11 +42,13 @@ export default ({ icon, title, content }) => {
     >
       <Div
         display="flex"
-        flexDirection="column"
+        flexDirection={directionRow ? "row" : "column"}
         alignItems="center"
         padding_tablet="0"
         padding_xs="0 10%"
         width="100%"
+        gap={directionRow && '15px'}
+        gap_tablet="0"
       >
         <Icon icon={icon} width="94" height="98" margin="0 0 20px 0" />
         {title && (

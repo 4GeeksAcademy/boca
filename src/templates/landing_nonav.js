@@ -503,6 +503,7 @@ export const query = graphql`
             proportions
             layout
             text_link
+            direction_row
             icons {
               icon
               title

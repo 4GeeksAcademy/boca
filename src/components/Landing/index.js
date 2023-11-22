@@ -83,7 +83,7 @@ export const MultiColumns = ({
           fontSize_md={h_md || "40px"}
           fontSize_sm={h_sm}
           margin="30px 0 20px 0"
-          style={{ textAlign: "center" }}
+          style={{ textAlign: "center", textColor: "#FFFFFF" }}
         >
           {heading.text}
         </H2>
@@ -140,7 +140,6 @@ export const MultiColumns = ({
         <Button
           outline
           // width="250px"
-          colorHoverText={button.hover_color || Colors.blue}
           lineHeight="26px"
           textColor={Colors[button.color] || button.color}
           color={Colors[button.color] || button.color}
@@ -332,7 +331,7 @@ export const landingSections = {
   },
 
   iconogram: ({ session, data, pageContext, yml, index }) => {
-    const { heading, sub_heading, icons, button } = yml;
+    const { heading, sub_heading, icons, button, direction_row } = yml;
     return (
       <Div
         key={index}
@@ -347,7 +346,7 @@ export const landingSections = {
         height="auto"
         width="100%"
         alignItems="center"
-        background={Colors.lightYellow}
+        background={Colors.bocaBlue}
       >
         {heading.text && (
           <H2
@@ -358,7 +357,7 @@ export const landingSections = {
             //margin="30px 0 30px 0"
             maxWidth="1366px"
             margin="30px auto"
-            style={{ textAlign: "center" }}
+            style={{ textAlign: "center", color: "#FFFFFF" }}
           >
             {heading.text}
           </H2>
@@ -410,6 +409,7 @@ export const landingSections = {
                     icon={item.icon}
                     title={item.title}
                     content={item.content}
+                    directionRow={direction_row}
                   />
                 </React.Fragment>
               );
@@ -419,7 +419,6 @@ export const landingSections = {
           <Button
             outline
             borderRadius="0"
-            colorHoverText={button.hover_color || Colors.blue}
             background={Colors[button.background] || button.background}
             lineHeight="26px"
             textColor={Colors.black}
@@ -707,11 +706,11 @@ export const landingSections = {
           id="cards_carousel"
           width="100%"
           flexDirection="column"
-          background_md="linear-gradient(180deg, #C7F3FD 58.6%, #FFFFFF 50%)"
-          background_tablet="linear-gradient(180deg, #C7F3FD 58.1%, #FFFFFF 50%)"
-          background_sm="linear-gradient(180deg, #C7F3FD 61.04%, #FFFFFF 50%)"
-          background_xs="linear-gradient(180deg, #C7F3FD 59.45%, #FFFFFF 50%)"
-          background_xxs="linear-gradient(180deg, #C7F3FD 60%, #FFFFFF 50%)"
+          background_md="#FFFFFF"
+          background_tablet="#FFFFFF"
+          background_sm="#FFFFFF"
+          background_xs="#FFFFFF"
+          background_xxs="#FFFFFF"
           display_xs="flex"
         >
           <CardsCarousel
@@ -943,11 +942,15 @@ export const landingSections = {
             fontSize_md={h_md || "30px"}
             fontSize_sm={h_sm}
             margin="30px 0 0px 0"
-            style={yml.sub_heading && yml.sub_heading.style ? JSON.parse(yml.sub_heading.style) : null}
+            style={
+              yml.sub_heading && yml.sub_heading.style
+                ? JSON.parse(yml.sub_heading.style)
+                : null
+            }
           >
             {yml.sub_heading && yml.sub_heading.text}
           </p>
-      )}
+        )}
       </Div>
     );
   },

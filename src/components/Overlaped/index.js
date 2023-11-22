@@ -8,8 +8,21 @@ import Icon from "../Icon";
 import { DirectiveLocation } from "graphql";
 
 const SideContent = ({ side_content }) => (
-  <Div display="block" width_tablet="33.3em" height="300px" height_tablet="533px">
-    <Div width_tablet="20em" width_md="25em" width_lg="33.3em" position="static" position_tablet="absolute" top="6.5em" display="block">
+  <Div
+    display="block"
+    width_tablet="33.3em"
+    height="300px"
+    height_tablet="533px"
+  >
+    <Div
+      width_tablet="20em"
+      width_md="25em"
+      width_lg="33.3em"
+      position="static"
+      position_tablet="absolute"
+      top="6.5em"
+      display="block"
+    >
       <H2 textAlign="start" lineHeight_xxs="36px" margin="0 0 12px 0">
         {side_content.heading}
       </H2>
@@ -108,49 +121,7 @@ const Overlaped = ({
             position="relative"
           >
             <Div width="100%">
-              <Img
-                src="/images/landing/vector-stroke.png"
-                width="114px"
-                height="162px"
-                style={{
-                  position: "absolute",
-                  right: "0%",
-                  top: "20px",
-                }}
-              />
-              <Img
-                src="/images/landing/vector-stroke1.png"
-                width="70px"
-                height="181px"
-                style={{
-                  position: "absolute",
-                  right: "11.25em",
-                  top: "20px",
-                }}
-              />
-              <Img
-                src="/images/landing/vector-stroke2.png"
-                width="106px"
-                height="151px"
-                style={{
-                  position: "absolute",
-                  left: "0%",
-                  bottom: "0.8em",
-                }}
-              />
             </Div>
-
-            <Img
-              src="/images/landing/group-2.png"
-              width="49px"
-              height="286px"
-              style={{
-                position: "absolute",
-                right: "0%",
-                bottom: "0%",
-                zIndex: "1",
-              }}
-            />
           </Div>
         </Grid>
 
@@ -228,7 +199,7 @@ const Overlaped = ({
             )}
           </>
         )}
-        
+
         <Img
           src="/images/landing/vector-stroke2.png"
           width="106px"
@@ -245,7 +216,7 @@ const Overlaped = ({
           width="49px"
           height="286px"
           style={{
-            display: side_content ? 'none' : 'block',
+            display: side_content ? "none" : "block",
             position: "absolute",
             right: "10%",
             bottom: "5%",
