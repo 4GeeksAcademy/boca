@@ -357,7 +357,7 @@ export const landingSections = {
             //margin="30px 0 30px 0"
             maxWidth="1366px"
             margin="30px auto"
-            style={{ textAlign: "center", color: "#FFFFFF" }}
+            style={{ textAlign: "center" }}
           >
             {heading.text}
           </H2>
@@ -403,11 +403,13 @@ export const landingSections = {
         >
           {Array.isArray(icons) &&
             icons?.map((item, index) => {
+              const style = item.style ? JSON.parse(item.style) : null;
               return (
                 <React.Fragment key={index}>
                   <IconsBanner
                     icon={item.icon}
                     title={item.title}
+                    style={style}
                     content={item.content}
                     directionRow={direction_row}
                   />

@@ -401,9 +401,11 @@ const createEntityPagesfromYml = async (
       ..._extraContext,
       translations: translations[node.fields.defaultTemplate],
     };
-    console.log("context", context);
+
+    const _path = node.fields.slug === "index" ? "/" : node.fields.pagePath
+    console.log(`creating page ${_path}`)
     createPage({
-      path: node.fields.slug === "index" ? "/" : node.fields.pagePath,
+      path: _path,
       component: path.resolve(
         `./src/templates/${
           node.meta_info.template || node.fields.defaultTemplate

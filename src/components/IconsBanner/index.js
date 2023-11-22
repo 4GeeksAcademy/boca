@@ -20,7 +20,9 @@ const positions = [
   },
 ];
 
-export default ({ icon, title, content, directionRow }) => {
+export default ({ icon, title, content, directionRow, style }) => {
+  console.log("iconStyle", style)
+  let color = style && style.color ? style.color : Colors.black;
   return (
     <Div
       gridGap="0"
@@ -58,6 +60,7 @@ export default ({ icon, title, content, directionRow }) => {
             width="140px"
             width_md="auto"
             lineHeight="19px"
+            color={color}
             padding="0"
             padding_tablet="20px 15%"
             textAlign="center"
