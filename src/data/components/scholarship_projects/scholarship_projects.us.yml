@@ -22,7 +22,7 @@ projects:
       - name: MICITT
         logo: "../../../../static/images/micitt-logo.jpg"
       - name: 4Geeks Academy
-        logo: "../../../../static/images/4G_logo_negro.png"
+        logo: "../../../../static/images/logo-boca.png"
     press:
       - name: Revista Summa
         link: https://revistasumma.com/costa-rica-y-bid-lanzan-becas-para-aprender-programacion/
@@ -43,7 +43,7 @@ projects:
       - name: United Way Miami 
         logo: "../../../../static/images/landing/header_united_way.png"  
       - name: 4Geeks Academy
-        logo: "../../../../static/images/4G_logo_negro.png"
+        logo: "../../../../static/images/logo-boca.png"
     press:
       - name: Miami Herald
         link: https://www.miamiherald.com/news/business/article263937731.html
@@ -66,7 +66,7 @@ projects:
       - name: UTEC
         logo: "../../../../static/images/partner/UTEC.png"
       - name: 4Geeks Academy
-        logo: "../../../../static/images/4G_logo_negro.png"
+        logo: "../../../../static/images/logo-boca.png"
     press:
       - name: El País
         link: https://www.elpais.com.uy/vida-actual/utec-organiza-el-primer-bootcamp-para-formar-desarrolladores-en-diez-semanas

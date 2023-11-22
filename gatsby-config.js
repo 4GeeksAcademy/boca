@@ -6,12 +6,12 @@ const robots = process.env.GATSBY_ROBOTS || "show";
 module.exports = {
   siteMetadata: {
     defaultTitle:
-      "4Geeks Academy - Miami Coding Bootcamp, Madrid España, Santiago de Chile and Caracas",
-    titleTemplate: "%s · 4Geeks Academy",
-    siteUrl: `https://4geeksacademy.com`,
+      "4Geeks Boca - Become a Certified Tech Professional",
+    titleTemplate: "%s · 4Geeks Boca",
+    siteUrl: `https://boca.4geeksacademy.com`,
     defaultDescription: {
-      us: "4Geeks Academy is a world-wide leading coding school focused specially in part-time studies, you don't have to quite your job to become a web developer. Career support for life, coding mentoring for life. We have Miami Coding bootcamps; in Madrid, Spain; Santiago de Chile and Caracas, Venezuela. ",
-      es: "4Geeks Academy es un coding bootcamp a nivel mundial que se especializa en la programación e informatica, en estudios principalmente part-time donde no tienes que dejar tu trabajo para aprender a programar.",
+      us: "At 4Geeks Boca we teach adults to be successful tech professionals. We use real projects and senior instructors to best prepare students for their careers.",
+      es: "At 4Geeks Boca we teach adults to be successful tech professionals. We use real projects and senior instructors to best prepare students for their careers.",
     },
     defaultImage: "/images/4geeks-main.jpg",
     social: {
@@ -22,8 +22,8 @@ module.exports = {
       github: "https://github.com/4geeksacademy",
     },
     org: {
-      name: "4Geeks Academy",
-      logo: "/images/4geeksacademy-logo.png",
+      name: "4Geeks Boca",
+      logo: "/images/logo-boca.png",
     },
     siteVerification: {
       google: "",

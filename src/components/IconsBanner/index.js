@@ -21,7 +21,7 @@ const positions = [
 ];
 
 export default ({ icon, title, content, directionRow, style }) => {
-  console.log("iconStyle", style)
+  console.log("iconStyle", style);
   let color = style && style.color ? style.color : Colors.black;
   return (
     <Div
