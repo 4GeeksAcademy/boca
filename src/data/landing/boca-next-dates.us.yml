@@ -1,10 +1,10 @@
 meta_info:
   slug: next-dates # <--- URL 4geeksacademy.com/us/landing/example
 
-  title: "boca Code | Become a Certified Tech Professional" # This will show the browser tab title
-  description: "At boca Code we teach adults to be successful tech professionals use real projects and senior instructors to best prepare students for their careers."
+  title: "Upcoming Course Dates at Boca Code | Prepare for Your Tech Career" # This will show the browser tab title
+  description: "Discover the next set of course dates at Boca Code. Our tailored approach, ensures adults are thoroughly prepared to excel in their tech careers."
   image: "" # description will show on social media when shared
-  keywords: "" # SEO optimized keywords
+  keywords: "boca code" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
   template: "landing_a" # <--- choose your landing template
   redirects: [] # <--- URL redirections to avoid 404 errors
@@ -25,10 +25,10 @@ form:
   # posible fields: "first_name", "last_name", "full_name", "phone", "email"
   # always the first_name, email and phone will be mandatory if added.
   styles: '{}'
-  fields: []
+  fields: ["first_name", "last_name", "phone", "email"]
   heading: ""
-  motivation: "" # < -- subtitle ideal to movitate people on filling the form
-  button_label: 
+  motivation: "Embark on Your Tech Journey: Discover and Enroll in Our Upcoming Sessions!" # < -- subtitle ideal to movitate people on filling the form
+  button_label: Reserve Your Spot!
   redirect: "" #you can redirect to another url or entirely diffrent website
 
 # jumbotron on the top (cannot be commented out)
@@ -38,16 +38,14 @@ form:
 #   image: "static/images/landing/apply.png"
 
 header_data:
-  background: "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%"
-  styles: '{"background-image":" cover", "fontSize": "30px", "fontWeight" : "900", "background" : "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%);" }'
-  tagline: Get the training you need to land the job of your dreams.
+  tagline: Unlock Your Potential with Boca Code's Tech Bootcamp
   tagline_color: "#FFFFFF"
-  sub_heading: "Whether you're a beginner or have years of experience, we have courses to help you learn and be certified in software engineering, web development, mobile development, security, dev-ops, project management, Web3, AI, and more."
-  background_image: "../../../static/images/landing/boca/c10g.jpg"
+  sub_heading: "Connect with Our Advisors and Embrace a Transformative Tech Career Journey"
+  background_image: "../../../static/images/landing/boca/bg-hero-boca.jpg"
   badge: "" #Tmage on the right side of the form
-  image_filter: brightness(1) #0 is dark, 1 is bright
+  image_filter: brightness(.5) #0 is dark, 1 is bright
   button: 
-    text: "ajgsjasgua"
+    text: ""
 
 features:
   marginTop: 20px #<-- separation between tagline and the bullets

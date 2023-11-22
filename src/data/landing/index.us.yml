@@ -4,7 +4,7 @@ meta_info:
   title: "boca Code | Become a Certified Tech Professional" # This will show the browser tab title
   description: "At boca Code we teach adults to be successful tech professionals."
   image: "" # description will show on social media when shared
-  keywords: "" # SEO optimized keywords
+  keywords: "boca code" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
   template: "landing_a" # <--- choose your landing template
   redirects: [] # <--- URL redirections to avoid 404 errors
@@ -112,6 +112,7 @@ components:
           font_size: "15px"
         content:
           text: "Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
       - image:
           style: '{ "backgroundSize": "cover",}'
@@ -122,6 +123,7 @@ components:
           font_size: "15px"
         content:
           text: "Learn from senior-level professionals with successful careers in tech and real industry experience."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
       - image:
           style: '{ "backgroundSize": "cover"}'
@@ -132,6 +134,7 @@ components:
           font_size: "15px"
         content:
           text: "Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
+          style: '{"font-family":"Lato", "padding":"0 10px"}'
 
   - name: name
     position: 2
