@@ -1,8 +1,8 @@
 meta_info:
   slug: index # <--- URL 4geeksacademy.com/us/landing/example
 
-  title: "Boca Code | Become a Certified Tech Professional" # This will show the browser tab title
-  description: "At Boca Code we teach adults to be successful tech professionals."
+  title: "boca Code | Become a Certified Tech Professional" # This will show the browser tab title
+  description: "At boca Code we teach adults to be successful tech professionals."
   image: "" # description will show on social media when shared
   keywords: "" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
@@ -43,7 +43,7 @@ header_data:
   tagline: Get the training you need to land the job of your dreams.
   tagline_color: "#FFFFFF"
   sub_heading: "Whether you're a beginner or have years of experience, we have courses to help you learn and be certified in software engineering, web development, mobile development, security, dev-ops, project management, Web3, AI, and more."
-  background_image: "../../../static/images/landing/Boca/bg-hero-boca.jpg"
+  background_image: "../../../static/images/landing/boca/bg-hero-boca.jpg"
   badge: "" #Tmage on the right side of the form
   image_filter: brightness(1) #0 is dark, 1 is bright
   button:
@@ -105,29 +105,33 @@ components:
       font_size: ["16px", "16px", "16px", "16px", "16px"]
     cards:
       - image:
-          src: "/images/landing/Boca/students.jpg"
+          src: "/images/landing/boca/students.jpg"
         heading:
-          text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
+          text: "Learn In-Demand Skills"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
-        section_heading:
-          text: Find Your Career Path
+        content:
+          text: "Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
 
       - image:
           style: '{ "backgroundSize": "cover",}'
-          src: "/images/landing/Boca/staff.jpg"
+          src: "/images/landing/boca/staff.jpg"
         heading:
-          text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
+          text: "Learn from Experts"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
+        content:
+          text: "Learn from senior-level professionals with successful careers in tech and real industry experience."
 
       - image:
           style: '{ "backgroundSize": "cover"}'
-          src: "/images/landing/Boca/comunify-app.jpg"
+          src: "/images/landing/boca/comunify-app.jpg"
         heading:
-          text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
+          text: "Work on Real Projects"
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
+        content:
+          text: "Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
 
   - name: name
     position: 2
@@ -144,7 +148,7 @@ components:
         Desde 0 hasta convertirte en programador fullstack Jr.Trabajaras con HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST API's, etc. para diseñar y crear webs responsive.
     button:
       text: Apply Now
-      color: black
+      color: "#312E81"
       path: "#bottom"
 
   - name: how-it-works
@@ -186,7 +190,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/trabajando-equipo-cafe.jpg"
+      src: "/images/landing/boca/trabajando-equipo-cafe.jpg"
       link: "" # take uses somewhere when they click on the image
     heading:
       text: ""
@@ -206,6 +210,13 @@ components:
         - heading: "Full Stack Program ONLY - USD $2000"
           icon: "check"
           text: "Focus on learning to code. Pay upfront."
+    button:
+      text: "Apply Now"
+      color: white
+      hover_color: "white"
+      background: "bocaBlue"
+      path: "#bottom"
+
 
   - name: two_column_right_end
     position: 20
@@ -215,7 +226,7 @@ components:
     image:
       style: "{}"
       text: ""
-      src: "/images/landing/Boca/graduation.jpg"
+      src: "/images/landing/boca/graduation.jpg"
       link: "" # take uses somewhere when they click on the image
     section_heading:
       text: ""
@@ -229,6 +240,6 @@ components:
       color: white
       hover_color: "white"
       background: "#e11d48"
-      path: "#top"
+      path: "#bottom"
 
 

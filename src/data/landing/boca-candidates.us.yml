@@ -1,8 +1,8 @@
 meta_info:
   slug: candidates # <--- URL 4geeksacademy.com/us/landing/example
 
-  title: "Boca Code | Become a Certified Tech Professional" # This will show the browser tab title
-  description: "At Boca Code we teach adults to be successful tech professionals We use real projects and senior instructors to best prepare students for their careers."
+  title: "Meet boca Code's Talented Graduates Your Future Tech Team" # This will show the browser tab title
+  description: "Discover Exceptional Tech Talent from boca Code, Ready to Elevate Your Projects and Drive Innovation"
   image: "" # description will show on social media when shared
   keywords: "" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
@@ -40,14 +40,14 @@ form:
 header_data:
   background: "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%"
   styles: '{"background-image":" cover", "fontSize": "30px", "fontWeight" : "900", "background" : "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%);" }'
-  tagline: Get the training you need to land the job of your dreams.
+  tagline: Software Engineering Talent
   tagline_color: "#FFFFFF"
-  sub_heading: "Whether you're a beginner or have years of experience, we have courses to help you learn and be certified in software engineering, web development, mobile development, security, dev-ops, project management, Web3, AI, and more."
-  background_image: "../../../static/images/landing/Boca/c10g.jpg"
+  sub_heading: "Look no further for top-trained and vetted talent to hire"
+  background_image: "../../../static/images/landing/boca/backgroundwhite.jpg"
   badge: "" #Tmage on the right side of the form
   image_filter: brightness(1) #0 is dark, 1 is bright
   button: 
-    text: "ajgsjasgua"
+    text: ""
 
 features:
   marginTop: 20px #<-- separation between tagline and the bullets
@@ -80,6 +80,14 @@ follow_bar:
 #
 # ⬇ FROM HERE ON YOU CAN COMMENT ANYTHING TO HIDE IT ON THE LANDING ⬇ 
 #
+why_4geeks:
+  position: 3
+  heading: "boca"
+  sub_heading: ""
+  footer:
+    text: ""
+    text_link: "#"
+
 
 # Possible layours: [two_column_left, two_column_right]
 components:
@@ -97,7 +105,7 @@ components:
       font_size: ["16px", "16px", "16px", "16px", "16px"]
     cards:
       - image:
-          src: "/images/landing/Boca/students.jpg"
+          src: "/images/landing/boca/students.jpg"
         heading: 
           text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
           style: '{ "fontWeight": "700" }'
@@ -107,7 +115,7 @@ components:
         
       - image:
           style: '{ "backgroundSize": "cover",}'
-          src: "/images/landing/Boca/staff.jpg"
+          src: "/images/landing/boca/staff.jpg"
         heading: 
           text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
           style: '{ "fontWeight": "700" }'
@@ -115,169 +123,14 @@ components:
         
       - image:
           style: '{ "backgroundSize": "cover"}'
-          src: "/images/landing/Boca/comunify-app.jpg"
+          src: "/images/landing/boca/comunify-app.jpg"
         heading: 
           text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
-        
-  - name: divider_one
-    position: 2
-    layout: divider
-    height: ["60px", "60px", "60px", "50px", "50px"]
-    heading: 
-      text: "Find Your Career Path"
-    sub_heading:
-      text: "Choose the right training for your career. If you're not sure, schedule a call with an Admissions Advisor here to find out which classes are right for you."
-
-  - name: software_engineer
-    position: 3
-    layout: two_column_right 
-    swipable: False
-    background: "#FFFFFF"
-    image:
-      src: "/images/landing/Boca/price-down.jpg"
-      link: "" # take uses somewhere when they click on the image
-    heading: 
-      text: "Software Engineering Career Track"
-    sub_heading:
-      text: "Learn to build web, mobile, and desktop apps, as well as backend, database, API, cloud, security, devOps, interview preparation, and project management."
-    bullets:
-      style: '{"display": "grid", "grid-template-columns": "repeat(2, 1fr)", "grid-template-rows": "repeat(4, 1fr)", "grid-column-gap": "0px", "grid-row-gap": "0px"}'
-      items:
-      - heading: "Full-Time"
-        icon: "check" #string with icon for example ['check', 'cicle', etc]
-      - heading: "Beginner-Friendly"
-        icon: "check" 
-      - heading: "Programming Fundamentals"
-        icon: "check" 
-      - heading: "Frontend (Web and Mobile)"
-        icon: "check" 
-      - heading: "In-Person"
-        icon: "check" 
-      - heading: "10-Week Intensive"
-        icon: "check" 
-      - heading: "Backend (APIs and Databases)"
-        icon: "check" 
-      - heading: "Portfolio based"
-        icon: "check" 
-
-  - name: data_analytics_python
-    position: 4
-    layout: two_column_right
-    swipable: False
-    background: "#FFFFFF"
-    image:
-      src: "/images/landing/Boca/price-down.jpg"
-    heading:
-      text: "Data Analytics and Python"
-    sub_heading:
-      text: "Learn how to slice and dice our data in countless ways and learn a powerful language and tool set that gives us unlimited power to analyze and visualize our data."
-    bullets:
-      items:
-        - heading: "Evenings"
-          icon: "check"
-        - heading: "In-Person"
-          icon: "check"
-        - heading: "Beginner-Friendly"
-          icon: "check"
-        - heading: "Intro to Data Analytics"
-          icon: "check"
-        - heading: "Intro to Python"
-          icon: "check"
-        - heading: "Machine Learning Algorithms"
-          icon: "check"
-        - heading: "CRISP-DM"
-          icon: "check"
-
-  - name: intro_to_web_development
-    position: 5
-    layout: two_column_right
-    swipable: False
-    background: "#FFFFFF"
-    image:
-      src: "/images/landing/Boca/price-down.jpg"
-    heading:
-      text: "Intro to Web Development"
-    sub_heading:
-      text: "Learn Web Development from scratch. Create a portfolio of websites and learn the trade in our valuable 3-week course."
-    bullets:
-      items:
-        - heading: "Evenings"
-          icon: "check"
-        - heading: "Online"
-          icon: "check"
-        - heading: "Beginner-Friendly"
-          icon: "check"
-        - heading: "Build and Deploy Websites"
-          icon: "check"
-        - heading: "Learn from scratch"
-          icon: "check"
-        - heading: "HTML, CSS, and JavaScript"
-          icon: "check"
-        - heading: "Tailwind, Bootstrap, and Flexbox"
-          icon: "check"
-
-  - name: intro_to_js_nodejs
-    position: 6
-    layout: two_column_right
-    swipable: False
-    background: "#FFFFFF"
-    image:
-      src: "/images/landing/Boca/price-down.jpg"
-    heading:
-      text: "Intro to JavaScript and Node.js"
-    sub_heading:
-      text: "Learn Backend Development and create REST APIs with JavaScript, Node.js, and Express in 3 weeks."
-    bullets:
-      items:
-        - heading: "Evenings"
-          icon: "check"
-        - heading: "Online"
-          icon: "check"
-        - heading: "Beginner-Friendly"
-          icon: "check"
-        - heading: "Backend development"
-          icon: "check"
-        - heading: "JavaScript and Node.js"
-          icon: "check"
-        - heading: "Express"
-          icon: "check"
-        - heading: "API development"
-          icon: "check"
-
-  - name: react_course
-    position: 7
-    layout: two_column_right
-    swipable: False
-    background: "#FFFFFF"
-    image:
-      src: "/images/landing/Boca/price-down.jpg"
-    heading:
-      text: "React"
-    sub_heading:
-      text: "Learn React in 3 weeks and build your first React apps! This part-time, project-based course will teach you the skills you need to build React applications. You'll learn the fundamentals of React, including components, state, and props, and you'll build a portfolio of projects to showcase your skills. Enroll today and start your journey to becoming a React developer!"
-    bullets:
-      items:
-        - heading: "Evenings"
-          icon: "check"
-        - heading: "Online"
-          icon: "check"
-        - heading: "Requires HTML, CSS, and JavaScript"
-          icon: "check"
-        - heading: "Components"
-          icon: "check"
-        - heading: "State"
-          icon: "check"
-        - heading: "Props"
-          icon: "check"
-        - heading: "Hooks"
-          icon: "check"
-        - heading: "Next.js"
-          icon: "check"
 
   - name: how-it-works
-    position: 8
+    position: 2
     layout: iconogram
     style: '{ "background": "#312E81", "textAlign": "center"}'
     swipable: True
@@ -300,11 +153,11 @@ components:
         AVG. SALARY FOR SOFTWARE ENGINEER
 
   - name: divider_two
-    position: 9
+    position: 10
     layout: divider
     height: ["60px", "60px", "60px", "50px", "50px"]
     heading: 
-      text: "Not sure where to start"
+      text: "chec"
     sub_heading:
       text: If you're not sure which class is best for you, our <a href="/get-started">admissions team</a> is ready to help.
 

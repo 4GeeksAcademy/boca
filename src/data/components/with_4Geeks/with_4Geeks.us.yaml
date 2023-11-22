@@ -3,24 +3,23 @@
 
 ## IF THE video url IS SPECIFIED, THE IMAGE WILL HAVE A PLAY ICON TO PLAY THE VIDEO, OTHERWISE ONLY THE IMAGE IS SHOWN
 header:
-  title: The 4Geeks Way in three stories
+  title: Testimonials
   paragraph: ""
 with:
-  - name: "Hernán García"
-    title: "I got offers from companies I wasn't expecting"
+  - name: "Jennifer Giraldo"
+    title: "Charting Jennifer Giraldo's Evolution into a Software Engineer"
     open_in_modal: true
-    description: "Hernán landed a job in tech within one month of starting his job search."
-    image: ../../../../static/images/staff/hernan.png
+    description: "Explore Jennifer's Showcase, A Catalog of Non-Alcoholic Cocktails"
+    image: "../../../../static/images/landing/boca/testimonials/jeniffer-giraldo.jpg"
     alt: ""
-    video: "https://www.youtube.com/watch?v=ln3bQsV1BaQ" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
+    video: "https://www.youtube.com/watch?v=sDr-MsvOl1w" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
     video_height: 173px
     location: ["all", "downtown-miami"]
-    # video: "https://www.youtube.com/watch?v=_rtJgxuY4i4" # VIDEO URL --- LEAVE EMPTY "" IF YOU HAVEN'T THE VIDEO URL
     icon: address
     footer:
       is_image: true
-      image: "/images/geekforce.png"
-      image_link: "/us/geekforce-career-support"
+      image: ""
+      image_link: ""
       text: ""
       text_link: ""
 

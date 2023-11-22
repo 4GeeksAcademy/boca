@@ -1,8 +1,8 @@
 meta_info:
   slug: next-dates # <--- URL 4geeksacademy.com/us/landing/example
 
-  title: "Boca Code | Become a Certified Tech Professional" # This will show the browser tab title
-  description: "At Boca Code we teach adults to be successful tech professionals use real projects and senior instructors to best prepare students for their careers."
+  title: "boca Code | Become a Certified Tech Professional" # This will show the browser tab title
+  description: "At boca Code we teach adults to be successful tech professionals use real projects and senior instructors to best prepare students for their careers."
   image: "" # description will show on social media when shared
   keywords: "" # SEO optimized keywords
   visibility: "hidden" # visible (default), hidden (not indexed) or unlisted (listed but not in sitemap).
@@ -43,7 +43,7 @@ header_data:
   tagline: Get the training you need to land the job of your dreams.
   tagline_color: "#FFFFFF"
   sub_heading: "Whether you're a beginner or have years of experience, we have courses to help you learn and be certified in software engineering, web development, mobile development, security, dev-ops, project management, Web3, AI, and more."
-  background_image: "../../../static/images/landing/Boca/c10g.jpg"
+  background_image: "../../../static/images/landing/boca/c10g.jpg"
   badge: "" #Tmage on the right side of the form
   image_filter: brightness(1) #0 is dark, 1 is bright
   button: 
@@ -97,7 +97,7 @@ components:
       font_size: ["16px", "16px", "16px", "16px", "16px"]
     cards:
       - image:
-          src: "/images/landing/Boca/students.jpg"
+          src: "/images/landing/boca/students.jpg"
         heading: 
           text: "Learn In-Demand Skills Our relationships with tech companies help us tailor our curriculum to teach you the skills software companies are hiring for."
           style: '{ "fontWeight": "700" }'
@@ -107,7 +107,7 @@ components:
         
       - image:
           style: '{ "backgroundSize": "cover",}'
-          src: "/images/landing/Boca/staff.jpg"
+          src: "/images/landing/boca/staff.jpg"
         heading: 
           text: "Learn from Experts Learn from senior-level professionals with successful careers in tech and real industry experience."
           style: '{ "fontWeight": "700" }'
@@ -115,7 +115,7 @@ components:
         
       - image:
           style: '{ "backgroundSize": "cover"}'
-          src: "/images/landing/Boca/comunify-app.jpg"
+          src: "/images/landing/boca/comunify-app.jpg"
         heading: 
           text: "Work on Real Projects Solve real problems and graduate with real experience. You'll get to work on real projects so you're prepared to solve real-world problems."
           style: '{ "fontWeight": "700" }'
@@ -136,7 +136,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/price-down.jpg"
+      src: "/images/landing/boca/price-down.jpg"
       link: "" # take uses somewhere when they click on the image
     heading: 
       text: "Software Engineering Career Track"
@@ -168,7 +168,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/price-down.jpg"
+      src: "/images/landing/boca/price-down.jpg"
     heading:
       text: "Data Analytics and Python"
     sub_heading:
@@ -196,7 +196,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/price-down.jpg"
+      src: "/images/landing/boca/price-down.jpg"
     heading:
       text: "Intro to Web Development"
     sub_heading:
@@ -224,7 +224,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/price-down.jpg"
+      src: "/images/landing/boca/price-down.jpg"
     heading:
       text: "Intro to JavaScript and Node.js"
     sub_heading:
@@ -252,7 +252,7 @@ components:
     swipable: False
     background: "#FFFFFF"
     image:
-      src: "/images/landing/Boca/price-down.jpg"
+      src: "/images/landing/boca/price-down.jpg"
     heading:
       text: "React"
     sub_heading:
