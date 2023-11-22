@@ -1,6 +1,6 @@
 navbar:
   - name: "Courses"
-    link: "/courses"
+    link: "/full-stack"  # Please create a new section called /courses when there are more courses available for users to browse.
     sub_menu:
       icon: ""
       title: "Courses"

@@ -24,12 +24,11 @@ navbar:
 form:
   # posible fields: "first_name", "last_name", "full_name", "phone", "email"
   # always the first_name, email and phone will be mandatory if added.
-  styles: '{}'
-  fields: []
-  heading: ""
+  fields: ["full_name", "phone", "email"]
+  heading: "Request more info."
   motivation: "" # < -- subtitle ideal to movitate people on filling the form
-  button_label: 
-  redirect: "" #you can redirect to another url or entirely diffrent website
+  button_label: SEND
+  # redirect: "https://google.com" #you can redirect to another url or entirely diffrent website
 
 # jumbotron on the top (cannot be commented out)
 # apply_schollarship: # form that is displayed at the end of the landing
@@ -91,8 +90,33 @@ why_4geeks:
 
 # Possible layours: [two_column_left, two_column_right]
 components:
-  - name: elegibility
+
+  - name: how-it-works
     position: 1
+    layout: iconogram
+    direction_row: True
+    swipable: True
+    heading:
+      text: ""
+    sub_heading:
+      text: ""
+    icons:
+      - icon: "nodes-square"
+        style: '{ "color": "#FFFFFF", "textAlign": "center"}'
+        title: |
+          1.3M+
+          TECH JOBS IN US
+      - icon: "table"
+        title: |
+          47k+
+          NEW JOBS PER YEAR
+      - icon: "programmer-guy"
+        title: |
+          $108k+
+          AVG. SALARY FOR SOFTWARE ENGINEER
+
+  - name: elegibility
+    position: 5
     layout: cards_carousel
     style: '{ "backgroundColor": "#FFFFFF", "border": "none"}'
     background: "#FFFFFF"
@@ -101,7 +125,7 @@ components:
       font_size: ["30px", "30px", "30px", "30px", "30px"]
     sub_heading:
       text: |
-        We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
+        We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast.
       font_size: ["16px", "16px", "16px", "16px", "16px"]
     cards:
       - image:
@@ -129,36 +153,12 @@ components:
           style: '{ "fontWeight": "700" }'
           font_size: "15px"
 
-  - name: how-it-works
-    position: 2
-    layout: iconogram
-    style: '{ "background": "#312E81", "textAlign": "center"}'
-    swipable: True
-    heading:
-      text: ""
-    sub_heading:
-      text: ""
-    icons:
-    - icon: "" 
-      title: |
-        1.3M+
-        TECH JOBS IN US
-    - icon: ""
-      title: |
-        47k+
-        NEW JOBS PER YEAR
-    - icon: ""
-      title: |
-        $108k+
-        AVG. SALARY FOR SOFTWARE ENGINEER
-
   - name: divider_two
     position: 10
     layout: divider
     height: ["60px", "60px", "60px", "50px", "50px"]
     heading: 
-      text: "chec"
-    sub_heading:
-      text: If you're not sure which class is best for you, our <a href="/get-started">admissions team</a> is ready to help.
+      text: "Connect with us and take the first step toward a new career in the tech industry"
+
 
 
