@@ -2,12 +2,13 @@ heading: "81% of our graduates successfully land a job after completing our prog
 button_text: Discover what they have to say
 button_link: "/us/testimonials"
 testimonials:
-  - student_name: Peter Schwarck
+  - student_name: Jennifer Giraldo
     include_in_marquee: true
-    short_content: "Business Systems Analyst at eBay"
+    short_content: "test text"
     linkedin_url: "https://www.linkedin.com/in/peter-schwarck/"
-    student_thumb: "../../../../static/images/testimonials/peter-schwarck.jpeg"
-    linkedin_image: "../../../../static/images/linkedin.png"
+    student_thumb: "../../../../static/images/landing/boca/testimonials/jeniffer-giraldo.jpg"
+    linkedin_image: ""
+
   - student_name: Azam Abdul Malik
     include_in_marquee: true
     short_content: "Lead Wireless Carrier Engineer at Facebook"
