@@ -167,7 +167,6 @@ components:
     height: ["60px", "60px", "60px", "50px", "50px"]
     heading: 
       text: "Connect with us and take the first step toward a new career in the tech industry"
-      style: '{"text-align":"center", "font-family": "Lato", "font-size": "26px"}'
 
 
 
