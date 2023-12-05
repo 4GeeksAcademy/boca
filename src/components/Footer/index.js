@@ -19,16 +19,16 @@ const formIsValid = (formData = null) => {
 };
 const positions = [
   {
-    position: "1 / 5",
+    position: "1 / 3",
   },
   {
-    position: "5 / 8",
+    position: "3 / 6",
   },
   {
-    position: "8 / 11",
+    position: "6 / 9",
   },
   {
-    position: "11 / 13",
+    position: "9 / 11",
   },
 ];
 

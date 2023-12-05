@@ -29,7 +29,7 @@ form:
   fields: ["full_name", "phone", "email"]
   heading: "Apply now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
-  button_label: Talk to an Advisor
+  button_label: Apply now
   redirect: "" #you can redirect to another url or entirely diffrent website
 
   # jumbotron on the top (cannot be commented out)
@@ -101,8 +101,8 @@ components:
       text: "Invest in Yourself"
       font_size: ["30px", "30px", "30px", "30px", "30px"]
     sub_heading:
-      # text: |
-      #   We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
+      text: |
+        <span style="font-size:18px; font-weight: 300; ">We believe that training is the best way to get ahead in life and in<br> our careers. The best training helps accelerate your learning and lets you advance fast."
       font_size: ["16px", "16px", "16px", "16px", "16px"]
     cards:
       - image:
@@ -170,14 +170,10 @@ components:
         style: '{ "color": "#FFFFFF" }'
         title: 1.3M+ TECH JOBS IN US
       - icon: "table"
-        title: |
-          47k+
-          NEW JOBS PER YEAR
+        title: 47k+ NEW JOBS PER YEAR
         style: '{ "color": "#FFFFFF" }'
       - icon: "programmer-guy"
-        title: |
-          $108k+
-          AVG. SALARY FOR SOFTWARE ENG.
+        title: $108k+ AVG. SALARY FOR SOFTWARE ENG.
         style: '{ "color": "#FFFFFF" }'
 
   - name: divider_one
@@ -227,9 +223,9 @@ components:
     position: 20
     layout: two_column_right
     swipable: False
-    background: "#FFFFFF"
+    background: "#c8cde5"
     image:
-      style: "{}"
+      style: '{"background-color": "red", "background-size": "cover", "height": "420px"}'
       text: ""
       src: "/images/landing/boca/graduation.jpg"
       link: "" # take uses somewhere when they click on the image
@@ -244,7 +240,7 @@ components:
       text: "Schedule a Call"
       color: white
       hover_color: "white"
-      background: "#e11d48"
+      background: "#312E81"
       path: "#bottom"
 
 

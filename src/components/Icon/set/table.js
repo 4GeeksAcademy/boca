@@ -1,9 +1,9 @@
 import React from "react";
 export default (props) => (
   <svg
-    width="51"
-    height="67"
-    viewBox="0 0 51 67"
+    width="60"
+    height="60"
+    viewBox="0 0 60 65"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >

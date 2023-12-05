@@ -29,7 +29,7 @@ form:
   fields: ["full_name", "phone", "email"]
   heading: "Enroll Now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
-  button_label: Talk to an Advisor
+  button_label: Apply now
   redirect: "" #you can redirect to another url or entirely diffrent website
 
   # jumbotron on the top (cannot be commented out)
@@ -131,7 +131,7 @@ components:
         From zero to becoming a junior full-stack developer. You'll work with HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST APIs, etc., to design and create responsive websites.
     button:
       text: Apply Now
-      color: black
+      color: "#312E81"
       path: "#bottom"
 
 
@@ -172,7 +172,7 @@ components:
           text: "Focus on learning to code. Pay upfront."
 
   - name: elegibility
-    position: 15
+    position: 5
     layout: cards_carousel
     style: '{ "backgroundColor": "#FFFFFF", "border": "none"}'
     background: "#FFFFFF"
@@ -238,7 +238,7 @@ components:
       text: "Schedule a Call"
       color: white
       hover_color: "white"
-      background: "#e11d48"
+      background: "#312E81"
       path: "#buttom"
 
 
