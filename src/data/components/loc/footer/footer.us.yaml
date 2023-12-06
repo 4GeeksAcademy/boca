@@ -28,14 +28,15 @@ footer:
         link: "/next-dates"
       - name: "Programs & Courses"
         link: "/full-stack"
-      - name: "Contact Us"
-        link: "/next-dates"
+
   - column_five:
     width: 2
     heading: "FOR COMPANIES"
     items:
-      - name: "4GEEKS FOR COMPANIES"
-        link: "/candidates"
+      # - name: "4GEEKS FOR COMPANIES"
+      #   link: "/candidates"
+      - name: "Contact Us"
+        link: "/next-dates"
       - name: "TALENT"
         link: "/candidates"
 

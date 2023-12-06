@@ -32,14 +32,15 @@ form:
   button_label: Apply now
   redirect: "" #you can redirect to another url or entirely diffrent website
   # jumbotron on the top (cannot be commented out)
-  apply_schollarship: # form that is displayed at the end of the landing
-    title: ""
-    imageSide: "right"
-    image: "static/images/landing/apply.png"
+apply_schollarship: # form that is displayed at the end of the landing
+  title: ""
+  imageSide: "left"
+  image: "../../../static/images/landing/apply.png"
 
 header_data:
   styles: '{"background-image": "contain", "fontSize": "30px", "fontWeight" : "900", "background" : "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%);" }'
-  tagline: Get the training you need to land the job of your dreams.
+  tagline: |
+    Get the training you need to land the <br><span style=" color: #fde047;">job of your dreams.</span>
   tagline_color: "#FFFFFF"
   sub_heading: "Whether you're a beginner or have years of experience, we have courses to help you learn and be certified in software engineering, web development, mobile development, security, dev-ops, project management, Web3, AI, and more."
   background_image: "../../../static/images/landing/boca/bg-hero-boca.jpg"
@@ -83,7 +84,7 @@ follow_bar:
 #
 
 program_details:
-  position: 5
+  position: 8
   heading: "What you will learn"
   background: "#FFFFFF"
   sub_heading: "Most in-demand in the job market"
@@ -222,7 +223,7 @@ components:
     position: 20
     layout: two_column_right
     swipable: False
-    background: "#c8cde5"
+    # background: "#c8cde5"
     image:
       style: '{"background-size": "cover", "height": "420px"}'
       text: ""
