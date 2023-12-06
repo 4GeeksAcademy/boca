@@ -32,14 +32,15 @@ form:
   redirect: "" #you can redirect to another url or entirely diffrent website
 
   # jumbotron on the top (cannot be commented out)
-  # apply_schollarship: # form that is displayed at the end of the landing
-  # title: ""
-  # imageSide: "right"
-  # image: "static/images/landing/boca/grupo-estudiantes.jpg"
+apply_schollarship: # form that is displayed at the end of the landing
+  title: ""
+  imageSide: "left"
+  image: "../../../static/images/landing/apply.png"
+
 
 header_data:
   background: "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%"
-  styles: '{"background-image":" cover", "fontSize": "30px", "fontWeight" : "900", "background" : "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%);" }'
+  styles: '{"background-image":" cover", "fontSize": "30px"}'
   tagline: Making quality tech education accessible to all
   tagline_color: "#FFFFFF"
   sub_heading: "There are enough roadblocks in your path while you chase your dreams. Money shouldn't be one of them. boca Code students have a variety of tuition options to choose from, as well as scholarships to aid in developing your career. Explore our tuition options and find the path that works for you."

@@ -128,7 +128,9 @@ const LandingHeader = (props) => {
               fontSize_tablet="52px"
               fontWeight="700"
               textAlign="left"
-              dangerouslySetInnerHTML={{ __html:  `${inLocation}${yml.header_data.tagline}`}}
+              dangerouslySetInnerHTML={{
+                __html: `${inLocation}${yml.header_data.tagline}`,
+              }}
             />
             {yml.header_data.sub_heading !== "" && (
               <H2
