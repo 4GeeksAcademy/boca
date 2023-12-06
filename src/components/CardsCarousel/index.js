@@ -23,7 +23,7 @@ const CardsCarousel = ({
     }
   }
 
-  const newWidth = '30%';
+  const newWidth = "30%";
 
   return (
     <>
@@ -71,11 +71,9 @@ const CardsCarousel = ({
         justifyContent_tablet={cards.length < 3 ? "center" : "flex-start"}
         justifyContent_md={cards.length > 3 ? "flex-start" : "center"}
         justifyContent_lg="center"
-        maxWidth_tablet="1366px"
+        maxWidth_tablet="1530px"
         margin="auto"
         padding="20px 30px;"
-
-
       >
         {cards.map((card, index) => (
           <Div
@@ -87,14 +85,17 @@ const CardsCarousel = ({
             width_sm={`${cardWidth[1]}`}
             width_md={newWidth}
             width_lg={newWidth}
-            border="2px solid #d5d5d5"
             margin="0 12px"
             //margin={card.button ? "0 12px" : "0 12px 24px 12px"}
             background={Colors.white}
             borderRadius="15px"
-            boxShadow="12px 12px 8px 0px rgba(204,204,204,0.3)"
-          >
-            <Img src={card.image.src} height="266px" borderRadius="12px 12px 0 0"/>
+            >
+            <Img
+              src={card.image.src}
+              height="266px"
+              borderRadius="12px 12px 0 0"
+              boxShadow="0px 6px 5px 0px rgba(0,0,0,0.23)"
+            />
             <Div>
               <H1
                 textTransform="uppercase"

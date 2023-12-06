@@ -1022,7 +1022,7 @@ export const landingSections = {
         //padding="40px 0 50px 0"
         margin_tablet="0 auto"
         width_md="100%"
-        padding_xs="30px 0px"
+        // padding_xs="30px 0px"
       >
         {yml.section_heading && yml.section_heading !== "" && (
           <H2

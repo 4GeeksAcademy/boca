@@ -13,38 +13,32 @@ footer:
         link: "/us/why-4geeks"
       - name: "Academy"
         link: "/us/the-academy"
-      - name: "Partners"
-        link: "/us/partners"
       - name: "Pricing"
-        link: "/us/financials"
+        link: "/finance"
       - name: "Events"
-        link: "/us/next-dates"
-      - name: "Upcoming Dates"
-        link: "/us/next-dates"
-      - name: "Programs & Courses"
-        link: "/us/programs"
-      - name: "Blog"
-        link: "/us/blog"
-      #- name: "Privacy"
-      #  link: "/us/privacy-policy"
-      - name: "FAQ"
-        link: "/us/faq"
-      - name: "Contact Us"
-        link: "/us/contact"
+        link: "/next-dates"
+
   - column_two:
     width: 3
     heading: "PROGRAMS"
     items:
       - name: "Full Stack Coding Bootcamp"
-        link: "/us/coding-bootcamps/part-time-full-stack-developer"
+        link: "/full-stack"
+      - name: "Upcoming Dates"
+        link: "/next-dates"
+      - name: "Programs & Courses"
+        link: "/full-stack"
+
   - column_five:
     width: 2
     heading: "FOR COMPANIES"
     items:
-      - name: "4GEEKS FOR COMPANIES"
-        link: "/us/partners"
+      # - name: "4GEEKS FOR COMPANIES"
+      #   link: "/candidates"
+      - name: "Contact Us"
+        link: "/next-dates"
       - name: "TALENT"
-        link: "https://www.notion.so/4geeksacademy/Talent-Pipeline-4Geeks-Academy-ef91aba17f9c4964bf7972396d190bdf"
+        link: "/candidates"
 
 socials:
   - name: "Github"

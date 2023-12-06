@@ -28,22 +28,23 @@ form:
   fields: ["full_name", "phone", "email"]
   heading: "Enroll Now"
   motivation: "Only 24 seats each session. Enroll now to assure your seat." # < -- subtitle ideal to movitate people on filling the form
-  button_label: Talk to an Advisor
+  button_label: Apply now
   redirect: "" #you can redirect to another url or entirely diffrent website
 
   # jumbotron on the top (cannot be commented out)
-# apply_schollarship: # form that is displayed at the end of the landing
-#   title: ""
-#   imageSide: "right"
-#   image: "static/images/landing/apply.png"
+apply_schollarship: # form that is displayed at the end of the landing
+  title: ""
+  imageSide: "left"
+  image: "../../../static/images/landing/apply.png"
+
 
 header_data:
   background: "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%"
-  styles: '{"background-image":" cover", "fontSize": "30px", "fontWeight" : "900", "background" : "radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(30,27,75,1) 100%);" }'
+  styles: '{"background-image":" cover", "fontSize": "30px"}'
   tagline: Making quality tech education accessible to all
   tagline_color: "#FFFFFF"
   sub_heading: "There are enough roadblocks in your path while you chase your dreams. Money shouldn't be one of them. boca Code students have a variety of tuition options to choose from, as well as scholarships to aid in developing your career. Explore our tuition options and find the path that works for you."
-  background_image: "../../../static/images/landing/boca/backgroundwhite.jpg"
+  background_image: "../../../static/images/landing/boca/grupo-estudiantes.jpg"
   badge: "" #Tmage on the right side of the form
   image_filter: brightness(1) #0 is dark, 1 is bright
 
@@ -118,7 +119,7 @@ components:
       text: "boca Code offers 6, 12, and 24 month loans with 0% interest. Our loans are managed through our partner Mia-Share. Apply here to see if you qualify."
     button:
       text: Schedule a Call
-      color: "#e11d48"
+      color: "#312E81"
       path: "#bottom"
 
   - name: financing

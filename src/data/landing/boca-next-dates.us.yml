@@ -123,7 +123,7 @@ components:
         Throughout this course, you'll engage with HTML5, CSS3, Bootstrap, JS, Reactjs, SQL, Python, Flask, REST APIs, and more, enabling you to craft responsive websites.
     button:
       text: Apply Now
-      color: black
+      color: "#312E81"
       path: "#bottom"
 
   - name: software_engineer
@@ -152,6 +152,7 @@ components:
   - name: section icons
     position: 8
     layout: iconogram
+    direction_row: true
     swipable: True
     heading:
       text: ""
